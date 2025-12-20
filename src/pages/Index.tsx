@@ -1,13 +1,30 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import CollectionsPreview from "@/components/CollectionsPreview";
+import AboutPreview from "@/components/AboutPreview";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>AURUM | Luxury Fashion & Garments</title>
+        <meta
+          name="description"
+          content="Discover AURUM's curated collection of premium garments where traditional craftsmanship meets contemporary design. Luxury fashion since 1985."
+        />
+      </Helmet>
+      <div className="min-h-screen bg-background">
+        <Header />
+        <main>
+          <HeroSection />
+          <CollectionsPreview />
+          <AboutPreview />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
