@@ -37,10 +37,10 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img 
-              src={logo} 
-              alt="New Antique Apparels" 
-              className="h-14 md:h-16 w-auto"
+            <img
+              src={logo}
+              alt="New Antique Apparels"
+              className="h-14 md:h-16 w-auto relative top-6"
             />
           </Link>
 
