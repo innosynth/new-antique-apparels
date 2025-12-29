@@ -1,59 +1,19 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ArrowUpRight } from "lucide-react";
-import womenCollection from "@/assets/collection-women.jpg";
-import menCollection from "@/assets/collection-men.jpg";
-import accessoriesCollection from "@/assets/collection-accessories.jpg";
-
-const products = [
-  {
-    id: 1,
-    name: "White Polyester T-Shirt",
-    category: "Polyester",
-    price: "110-120 GSM",
-    image: womenCollection,
-  },
-  {
-    id: 2,
-    name: "Polo Polyester T-Shirt",
-    category: "Polo",
-    price: "Premium Quality",
-    image: menCollection,
-  },
-  {
-    id: 3,
-    name: "Corporate T-Shirt",
-    category: "Corporate",
-    price: "Bulk Orders",
-    image: accessoriesCollection,
-  },
-  {
-    id: 4,
-    name: "Election T-Shirt",
-    category: "Polyester",
-    price: "Custom Print",
-    image: womenCollection,
-  },
-  {
-    id: 5,
-    name: "Sports T-Shirt",
-    category: "Polyester",
-    price: "Breathable Fabric",
-    image: menCollection,
-  },
-  {
-    id: 6,
-    name: "Promotional T-Shirt",
-    category: "Corporate",
-    price: "Brand Ready",
-    image: accessoriesCollection,
-  },
-];
-
-const categories = ["All", "Polyester", "Polo", "Corporate"];
+import { products, categories } from "@/data/products";
+import { cn } from "@/lib/utils";
 
 const Collections = () => {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filteredProducts = activeCategory === "All" 
+    ? products 
+    : products.filter(p => p.category === activeCategory);
+
   return (
     <>
       <Helmet>
@@ -87,7 +47,13 @@ const Collections = () => {
               {categories.map((category) => (
                 <button
                   key={category}
-                  className="text-sm font-body tracking-widest uppercase text-muted-foreground hover:text-primary transition-colors pb-2 border-b border-transparent hover:border-primary"
+                  onClick={() => setActiveCategory(category)}
+                  className={cn(
+                    "text-sm font-body tracking-widest uppercase transition-colors pb-2 border-b",
+                    activeCategory === category
+                      ? "text-primary border-primary"
+                      : "text-muted-foreground border-transparent hover:text-foreground hover:border-foreground"
+                  )}
                 >
                   {category}
                 </button>
@@ -96,8 +62,9 @@ const Collections = () => {
 
             {/* Products Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {products.map((product, index) => (
-                <div
+              {filteredProducts.map((product, index) => (
+                <Link
+                  to={`/product/${product.id}`}
                   key={product.id}
                   className="group cursor-pointer animate-fade-up opacity-0"
                   style={{ animationDelay: `${0.1 + index * 0.1}s` }}
@@ -105,14 +72,27 @@ const Collections = () => {
                   {/* Image Container */}
                   <div className="relative aspect-[3/4] overflow-hidden bg-secondary mb-6">
                     <img
-                      src={product.image}
+                      src={product.images[0]}
                       alt={product.name}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-background/0 group-hover:bg-background/20 transition-colors duration-500" />
-                    <button className="absolute bottom-6 right-6 w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                    
+                    {/* Tags */}
+                    <div className="absolute top-4 left-4 flex gap-2">
+                      {product.tags.map((tag) => (
+                        <span
+                          key={tag}
+                          className="px-2 py-1 bg-primary text-primary-foreground text-xs tracking-wider"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                    
+                    <div className="absolute bottom-6 right-6 w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                       <ArrowUpRight size={20} />
-                    </button>
+                    </div>
                   </div>
 
                   {/* Product Info */}
@@ -125,9 +105,14 @@ const Collections = () => {
                         {product.name}
                       </h3>
                     </div>
-                    <p className="text-foreground font-light text-sm">{product.price}</p>
+                    <div className="text-right">
+                      <p className="text-foreground font-light text-sm">From</p>
+                      <p className="text-primary font-display">
+                        {product.tieredPricing[product.tieredPricing.length - 1].price}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 
