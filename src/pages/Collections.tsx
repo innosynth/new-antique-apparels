@@ -9,59 +9,60 @@ import accessoriesCollection from "@/assets/collection-accessories.jpg";
 const products = [
   {
     id: 1,
-    name: "Silk Evening Gown",
-    category: "Women",
-    price: "$1,890",
+    name: "White Polyester T-Shirt",
+    category: "Polyester",
+    price: "110-120 GSM",
     image: womenCollection,
   },
   {
     id: 2,
-    name: "Tailored Wool Blazer",
-    category: "Men",
-    price: "$1,250",
+    name: "Polo Polyester T-Shirt",
+    category: "Polo",
+    price: "Premium Quality",
     image: menCollection,
   },
   {
     id: 3,
-    name: "Leather Tote Bag",
-    category: "Accessories",
-    price: "$680",
+    name: "Corporate T-Shirt",
+    category: "Corporate",
+    price: "Bulk Orders",
     image: accessoriesCollection,
   },
   {
     id: 4,
-    name: "Cashmere Overcoat",
-    category: "Women",
-    price: "$2,400",
+    name: "Election T-Shirt",
+    category: "Polyester",
+    price: "Custom Print",
     image: womenCollection,
   },
   {
     id: 5,
-    name: "Italian Leather Shoes",
-    category: "Men",
-    price: "$890",
+    name: "Sports T-Shirt",
+    category: "Polyester",
+    price: "Breathable Fabric",
     image: menCollection,
   },
   {
     id: 6,
-    name: "Silk Scarf Collection",
-    category: "Accessories",
-    price: "$320",
+    name: "Promotional T-Shirt",
+    category: "Corporate",
+    price: "Brand Ready",
     image: accessoriesCollection,
   },
 ];
 
-const categories = ["All", "Women", "Men", "Accessories"];
+const categories = ["All", "Polyester", "Polo", "Corporate"];
 
 const Collections = () => {
   return (
     <>
       <Helmet>
-        <title>Collections | AURUM Luxury Fashion</title>
+        <title>Our Products | New Antique Apparels - T-Shirt Manufacturer</title>
         <meta
           name="description"
-          content="Explore AURUM's exclusive collections. Premium women's and men's fashion with luxury accessories. Timeless designs crafted with excellence."
+          content="Explore New Antique Apparels' product range - Premium Polyester T-Shirts, Polo T-Shirts, Corporate Wear. Quality manufacturing from Tiruppur."
         />
+        <meta name="keywords" content="Polyester T-Shirt, Polo T-Shirt, Corporate T-Shirt, White T-Shirt, Election T-Shirt" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -70,14 +71,14 @@ const Collections = () => {
             {/* Page Header */}
             <div className="text-center mb-16">
               <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 animate-fade-up opacity-0 stagger-1">
-                Discover
+                Quality Products
               </p>
               <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground animate-fade-up opacity-0 stagger-2">
-                Our Collections
+                Our Products
               </h1>
               <p className="text-muted-foreground font-light text-lg max-w-2xl mx-auto mt-6 animate-fade-up opacity-0 stagger-3">
-                Each piece in our collection represents the pinnacle of
-                craftsmanship and design excellence.
+                Each product is manufactured with precision and care, ensuring the highest 
+                quality standards for our valued customers.
               </p>
             </div>
 
@@ -124,10 +125,24 @@ const Collections = () => {
                         {product.name}
                       </h3>
                     </div>
-                    <p className="text-foreground font-light">{product.price}</p>
+                    <p className="text-foreground font-light text-sm">{product.price}</p>
                   </div>
                 </div>
               ))}
+            </div>
+
+            {/* CTA Section */}
+            <div className="text-center mt-16 pt-16 border-t border-border">
+              <h2 className="font-display text-3xl text-foreground mb-4">Looking for Custom Orders?</h2>
+              <p className="text-muted-foreground font-light mb-6">
+                Tell us your requirements and get the best quote for your bulk orders.
+              </p>
+              <a 
+                href="tel:08047633835" 
+                className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 font-body tracking-widest uppercase text-sm hover:bg-primary/90 transition-colors"
+              >
+                Get Best Quote
+              </a>
             </div>
           </div>
         </main>

@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Award, Heart, Leaf, Users } from "lucide-react";
+import { Award, Users, Building, CheckCircle } from "lucide-react";
 import craftsmanshipImage from "@/assets/craftsmanship.jpg";
 import heroImage from "@/assets/hero-fashion.jpg";
 
@@ -10,25 +10,25 @@ const values = [
     icon: Award,
     title: "Excellence",
     description:
-      "Every stitch, every cut, every fabric choice reflects our unwavering commitment to perfection.",
-  },
-  {
-    icon: Heart,
-    title: "Passion",
-    description:
-      "Fashion is our art form. We pour our hearts into creating pieces that inspire confidence.",
-  },
-  {
-    icon: Leaf,
-    title: "Sustainability",
-    description:
-      "Responsible fashion is beautiful fashion. We embrace eco-conscious practices at every step.",
+      "Every stitch, every fabric choice reflects our unwavering commitment to delivering premium quality products.",
   },
   {
     icon: Users,
-    title: "Heritage",
+    title: "Skilled Team",
     description:
-      "Nearly four decades of expertise passed down through generations of skilled artisans.",
+      "Our team of 51-100 dedicated professionals ensures prompt sales support and ultimate customer satisfaction.",
+  },
+  {
+    icon: Building,
+    title: "Established",
+    description:
+      "GST registered since January 2018, we are a trusted proprietorship firm with a proven track record.",
+  },
+  {
+    icon: CheckCircle,
+    title: "Verified",
+    description:
+      "IndiaMART Trust Seal verified manufacturer with 90% response rate and excellent customer reviews.",
   },
 ];
 
@@ -36,11 +36,12 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | AURUM - Our Story & Heritage</title>
+        <title>About Us | New Antique Apparels - T-Shirt Manufacturer Tiruppur</title>
         <meta
           name="description"
-          content="Discover AURUM's journey from 1985 to today. Learn about our commitment to craftsmanship, sustainability, and timeless luxury fashion."
+          content="Learn about New Antique Apparels - Leading T-Shirt manufacturer in Tiruppur, Tamil Nadu. 51-100 employees, 5-25 Cr annual turnover. GST: 33AMIPB4062D1ZO"
         />
+        <meta name="keywords" content="New Antique Apparels, T-Shirt Manufacturer, Tiruppur, Tamil Nadu, Proprietorship" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -51,39 +52,61 @@ const About = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                 <div>
                   <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4 animate-fade-up opacity-0 stagger-1">
-                    Our Story
+                    About Us
                   </p>
                   <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground leading-tight animate-fade-up opacity-0 stagger-2">
-                    A Legacy of
-                    <span className="block italic text-primary">Excellence</span>
+                    Welcome to
+                    <span className="block italic text-primary">New Antique Apparels</span>
                   </h1>
                   <p className="text-muted-foreground font-light text-lg leading-relaxed mt-8 animate-fade-up opacity-0 stagger-3">
-                    Founded in 1985, AURUM emerged from a simple yet profound
-                    vision: to create garments that transcend the ephemeral
-                    nature of fashion trends and become timeless companions in
-                    the lives of discerning individuals.
+                    Based in Karuvampalayam, Tiruppur, Tamil Nadu, we are the foremost 
+                    manufacturer of best in class products comprising of Polyester T-Shirt, 
+                    Polo Polyester T-Shirt, Corporate T-Shirt and many more.
                   </p>
                   <p className="text-muted-foreground font-light leading-relaxed mt-6 animate-fade-up opacity-0 stagger-4">
-                    What began as a small atelier in the heart of New York has
-                    grown into a globally recognized symbol of luxury and
-                    craftsmanship, yet we remain true to our founding
-                    principles.
+                    We have a team of dedicated professionals who help us in purveying prompt 
+                    sales support to the client with a professional attitude which has helped 
+                    our company in accomplishing ultimate customer contentment.
                   </p>
                 </div>
                 <div className="relative animate-fade-up opacity-0 stagger-3">
                   <div className="aspect-[4/5] overflow-hidden">
                     <img
                       src={heroImage}
-                      alt="AURUM atelier"
+                      alt="New Antique Apparels Manufacturing"
                       className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-8">
-                    <p className="font-display text-5xl">38</p>
+                    <p className="font-display text-5xl">7+</p>
                     <p className="text-sm tracking-widest uppercase mt-1">
                       Years of Excellence
                     </p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Company Stats */}
+          <section className="py-16 bg-secondary/50">
+            <div className="container mx-auto px-6 lg:px-12">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                  <p className="font-display text-4xl text-primary">51-100</p>
+                  <p className="text-muted-foreground text-sm mt-2">Employees</p>
+                </div>
+                <div>
+                  <p className="font-display text-4xl text-primary">5-25 Cr</p>
+                  <p className="text-muted-foreground text-sm mt-2">Annual Turnover</p>
+                </div>
+                <div>
+                  <p className="font-display text-4xl text-primary">90%</p>
+                  <p className="text-muted-foreground text-sm mt-2">Response Rate</p>
+                </div>
+                <div>
+                  <p className="font-display text-4xl text-primary">80%</p>
+                  <p className="text-muted-foreground text-sm mt-2">User Satisfaction</p>
                 </div>
               </div>
             </div>
@@ -124,49 +147,42 @@ const About = () => {
             </div>
           </section>
 
-          {/* Craftsmanship Section */}
+          {/* Company Details Section */}
           <section className="py-24">
             <div className="container mx-auto px-6 lg:px-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div className="order-2 lg:order-1">
                   <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">
-                    The Art of Making
+                    Company Details
                   </p>
                   <h2 className="font-display text-4xl md:text-5xl text-foreground leading-tight mb-8">
-                    Uncompromising
+                    Quality
                     <span className="block italic text-primary">
-                      Craftsmanship
+                      Manufacturing
                     </span>
                   </h2>
                   <p className="text-muted-foreground font-light leading-relaxed mb-6">
-                    Each AURUM garment passes through the hands of over 30
-                    skilled artisans. From the initial pattern cutting to the
-                    final pressing, every step is executed with precision and
-                    care that machines simply cannot replicate.
+                    Our skilled personnel, technically advanced production unit, a dynamic 
+                    approach to customer affiliations, and an ongoing assurance to product 
+                    innovation are just some of the attributes for our survival in the most 
+                    competitive environment.
                   </p>
-                  <p className="text-muted-foreground font-light leading-relaxed mb-8">
-                    We source only the finest materials—Italian silks, Scottish
-                    cashmere, Japanese denims—and transform them into pieces
-                    that feel as luxurious as they look.
-                  </p>
-                  <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8 border-t border-border">
                     <div>
-                      <p className="font-display text-4xl text-primary">50+</p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Master Artisans
-                      </p>
+                      <p className="text-sm text-muted-foreground">Nature of Business</p>
+                      <p className="font-display text-xl text-foreground mt-1">Manufacturer</p>
                     </div>
                     <div>
-                      <p className="font-display text-4xl text-primary">120+</p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Hours per Piece
-                      </p>
+                      <p className="text-sm text-muted-foreground">Legal Status</p>
+                      <p className="font-display text-xl text-foreground mt-1">Proprietorship</p>
                     </div>
                     <div>
-                      <p className="font-display text-4xl text-primary">15</p>
-                      <p className="text-sm text-muted-foreground mt-1">
-                        Countries Sourced
-                      </p>
+                      <p className="text-sm text-muted-foreground">GST Number</p>
+                      <p className="font-display text-lg text-foreground mt-1">33AMIPB4062D1ZO</p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground">IEC Code</p>
+                      <p className="font-display text-xl text-foreground mt-1">AMIPB4062D</p>
                     </div>
                   </div>
                 </div>
@@ -174,7 +190,7 @@ const About = () => {
                   <div className="aspect-square overflow-hidden">
                     <img
                       src={craftsmanshipImage}
-                      alt="AURUM craftsmanship"
+                      alt="New Antique Apparels craftsmanship"
                       className="w-full h-full object-cover"
                     />
                   </div>

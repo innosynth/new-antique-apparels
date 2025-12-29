@@ -2,12 +2,13 @@ import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/antique-logo.png";
 
 const navItems = [
   { name: "Home", path: "/" },
-  { name: "Collections", path: "/collections" },
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
+  { name: "Our Products", path: "/collections" },
+  { name: "About Us", path: "/about" },
+  { name: "Contact Us", path: "/contact" },
 ];
 
 const Header = () => {
@@ -35,11 +36,12 @@ const Header = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link
-            to="/"
-            className="font-display text-2xl md:text-3xl tracking-widest text-foreground hover:text-primary transition-colors"
-          >
-            AURUM
+          <Link to="/" className="flex items-center">
+            <img 
+              src={logo} 
+              alt="New Antique Apparels" 
+              className="h-14 md:h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

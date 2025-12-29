@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Twitter } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
+import logo from "@/assets/antique-logo.png";
 
 const Footer = () => {
   return (
@@ -8,34 +9,30 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <h3 className="font-display text-3xl tracking-widest text-foreground mb-4">
-              AURUM
-            </h3>
+            <img 
+              src={logo} 
+              alt="New Antique Apparels" 
+              className="h-16 w-auto mb-4"
+            />
             <p className="text-muted-foreground font-light leading-relaxed max-w-md">
-              Crafting timeless elegance since 1985. Each piece tells a story of
-              heritage, artistry, and uncompromising quality.
+              We are the foremost manufacturer of best in class products comprising of 
+              Polyester T-Shirt, Polo Polyester T-Shirt, Corporate T-Shirt and many more. 
+              GST No. 33AMIPB4062D1ZO
             </p>
-            <div className="flex gap-4 mt-6">
+            <div className="flex flex-col gap-3 mt-6">
               <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Instagram"
+                href="tel:08047633835"
+                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
               >
-                <Instagram size={20} />
+                <Phone size={16} />
+                <span>08047633835</span>
               </a>
               <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Facebook"
+                href="mailto:contact@newantiqueapparels.com"
+                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
               >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={20} />
+                <Mail size={16} />
+                <span>Send Email</span>
               </a>
             </div>
           </div>
@@ -46,65 +43,57 @@ const Footer = () => {
               Explore
             </h4>
             <ul className="space-y-3">
-              {["Collections", "About Us", "Contact", "Sustainability"].map(
-                (item) => (
-                  <li key={item}>
-                    <Link
-                      to={`/${item.toLowerCase().replace(" ", "-")}`}
-                      className="text-muted-foreground hover:text-primary transition-colors text-sm font-light tracking-wide"
-                    >
-                      {item}
-                    </Link>
-                  </li>
-                )
-              )}
+              {[
+                { name: "Home", path: "/" },
+                { name: "Our Products", path: "/collections" },
+                { name: "About Us", path: "/about" },
+                { name: "Contact Us", path: "/contact" },
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link
+                    to={item.path}
+                    className="text-muted-foreground hover:text-primary transition-colors text-sm font-light tracking-wide"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
           {/* Contact */}
           <div>
             <h4 className="font-display text-lg tracking-wider text-foreground mb-6">
-              Contact
+              Visit Us
             </h4>
-            <ul className="space-y-3 text-sm text-muted-foreground font-light">
-              <li>123 Fashion Avenue</li>
-              <li>New York, NY 10001</li>
-              <li className="pt-2">
-                <a
-                  href="mailto:hello@aurum.com"
-                  className="hover:text-primary transition-colors"
-                >
-                  hello@aurum.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+1234567890"
-                  className="hover:text-primary transition-colors"
-                >
-                  +1 (234) 567-890
-                </a>
-              </li>
-            </ul>
+            <div className="flex items-start gap-2 text-sm text-muted-foreground font-light">
+              <MapPin size={16} className="text-primary mt-1 flex-shrink-0" />
+              <div>
+                <p>9, Elementary School Street,</p>
+                <p>Karuvampalayam</p>
+                <p>Tiruppur - 641604</p>
+                <p>Tamil Nadu, India</p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground font-light tracking-wider">
-            © 2024 AURUM. All rights reserved.
+            © {new Date().getFullYear()} New Antique Apparels. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link
-              to="/privacy"
+              to="/about"
               className="text-xs text-muted-foreground hover:text-primary transition-colors tracking-wider"
             >
-              Privacy Policy
+              About Us
             </Link>
             <Link
-              to="/terms"
+              to="/contact"
               className="text-xs text-muted-foreground hover:text-primary transition-colors tracking-wider"
             >
-              Terms of Service
+              Contact Us
             </Link>
           </div>
         </div>
