@@ -22,11 +22,11 @@ const HeroSection = () => {
           <p className="animate-fade-up opacity-0 stagger-1 text-primary font-body text-sm tracking-[0.3em] uppercase mb-6">
             Premium Quality Apparel Manufacturer
           </p>
-          <h1 className="animate-fade-up opacity-0 stagger-2 font-display text-5xl md:text-7xl lg:text-8xl text-foreground leading-[1.1] mb-8">
+          <h1 className="animate-fade-up opacity-0 stagger-2 font-display text-5xl md:text-7xl lg:text-8xl text-black leading-[1.1] mb-8">
             New Antique
-            <span className="block italic text-primary">Apparels</span>
+            <span className="block italic text-black">Apparels</span>
           </h1>
-          <p className="animate-fade-up opacity-0 stagger-3 font-body text-lg md:text-xl text-muted-foreground font-light max-w-2xl mx-auto mb-12">
+          <p className="animate-fade-up opacity-0 stagger-3 font-body text-lg md:text-xl text-violet-600 font-light max-w-2xl mx-auto mb-12">
             Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear.
             Where quality meets innovation since 2018.
           </p>

@@ -53,9 +53,9 @@ const Header = () => {
                 className={cn(
                   "text-sm font-body tracking-widest uppercase transition-all duration-300 relative",
                   location.pathname === item.path
-                    ? "text-primary"
-                    : "text-muted-foreground hover:text-foreground",
-                  "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[1px] after:bg-primary after:origin-right after:scale-x-0 hover:after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300"
+                    ? "text-black"
+                    : "text-black hover:text-black",
+                  "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[1px] after:bg-black after:origin-right after:scale-x-0 hover:after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300"
                 )}
               >
                 {item.name}
@@ -92,8 +92,8 @@ const Header = () => {
               className={cn(
                 "text-2xl font-display tracking-widest transition-all duration-300",
                 location.pathname === item.path
-                  ? "text-primary"
-                  : "text-foreground hover:text-primary"
+                  ? "text-black"
+                  : "text-black hover:text-black"
               )}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
