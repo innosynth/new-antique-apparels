@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -10,30 +11,70 @@ import { toast } from "sonner";
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Visit Us",
-    details: ["9, Elementary School Street,", "Karuvampalayam, Tiruppur - 641604", "Tamil Nadu, India"],
+    title: "Main Office",
+    details: ["No.9, Elementary School Street,", "Karuvampalayam, Tiruppur - 641604", "Near Bus Stop, Tamil Nadu, India"],
+  },
+  {
+    icon: MapPin,
+    title: "Branch Office",
+    details: ["Chennai", "Tamil Nadu, India"],
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["08047633835", "Nataraj Balakrishnan (Proprietor)"],
+    details: ["6381379080", "9360308412"],
   },
   {
     icon: Mail,
     title: "Email Us",
-    details: ["Contact via E-mail", "Send Inquiry"],
+    details: ["newantiqueapparels2018@gmail.com"],
   },
   {
     icon: Clock,
     title: "Response Rate",
-    details: ["90% Response Rate", "Prompt Support"],
+    details: ["95% Response Rate", "98% User Satisfaction"],
   },
 ];
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    company: '',
+    email: '',
+    phone: '',
+    productInterest: '',
+    requirement: ''
+  });
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Thank you for your inquiry. We will contact you soon!");
+
+    const message = `
+*New Inquiry - New Antique Apparels*
+
+*Customer Details:*
+• Name: ${formData.name}
+• Company: ${formData.company || 'Not provided'}
+• Email: ${formData.email}
+• Phone: ${formData.phone}
+
+*Product Interest:* ${formData.productInterest || 'Not specified'}
+
+*Requirement:*
+${formData.requirement}
+
+Please respond to this inquiry. Thank you!
+    `.trim();
+
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappUrl = `https://wa.me/919360308412?text=${encodedMessage}`;
+    window.open(whatsappUrl, '_blank');
+    toast.success("Opening WhatsApp to send your inquiry!");
   };
 
   return (
@@ -42,7 +83,7 @@ const Contact = () => {
         <title>Contact Us | New Antique Apparels - Tiruppur T-Shirt Manufacturer</title>
         <meta
           name="description"
-          content="Contact New Antique Apparels - Tiruppur's leading T-Shirt manufacturer. Call 08047633835 or visit us at Karuvampalayam, Tiruppur-641604, Tamil Nadu."
+          content="Contact New Antique Apparels - Tiruppur's leading T-Shirt manufacturer. Call 6381379080 or visit us at Karuvampalayam, Tiruppur-641604, Tamil Nadu."
         />
         <meta name="keywords" content="Contact New Antique Apparels, T-Shirt Manufacturer Tiruppur, Karuvampalayam" />
       </Helmet>
@@ -59,7 +100,7 @@ const Contact = () => {
                 Contact Us
               </h1>
               <p className="text-muted-foreground font-light text-lg max-w-2xl mx-auto mt-6 animate-fade-up opacity-0 stagger-3">
-                Tell us what you are looking for. Describe your requirement and 
+                Tell us what you are looking for. Describe your requirement and
                 get the best quote for your bulk orders.
               </p>
             </div>
@@ -78,6 +119,9 @@ const Contact = () => {
                       </label>
                       <Input
                         type="text"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
                         required
                         className="bg-transparent border-border focus:border-primary h-12"
                         placeholder="Enter your name"
@@ -89,6 +133,9 @@ const Contact = () => {
                       </label>
                       <Input
                         type="text"
+                        name="company"
+                        value={formData.company}
+                        onChange={handleChange}
                         className="bg-transparent border-border focus:border-primary h-12"
                         placeholder="Your company (optional)"
                       />
@@ -101,6 +148,9 @@ const Contact = () => {
                       </label>
                       <Input
                         type="email"
+                        name="email"
+                        value={formData.email}
+                        onChange={handleChange}
                         required
                         className="bg-transparent border-border focus:border-primary h-12"
                         placeholder="your@email.com"
@@ -112,6 +162,9 @@ const Contact = () => {
                       </label>
                       <Input
                         type="tel"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleChange}
                         required
                         className="bg-transparent border-border focus:border-primary h-12"
                         placeholder="Your phone number"
@@ -124,6 +177,9 @@ const Contact = () => {
                     </label>
                     <Input
                       type="text"
+                      name="productInterest"
+                      value={formData.productInterest}
+                      onChange={handleChange}
                       className="bg-transparent border-border focus:border-primary h-12"
                       placeholder="e.g., Polyester T-Shirt, Corporate T-Shirt"
                     />
@@ -133,13 +189,16 @@ const Contact = () => {
                       Describe Your Requirement
                     </label>
                     <Textarea
+                      name="requirement"
+                      value={formData.requirement}
+                      onChange={handleChange}
                       required
                       className="bg-transparent border-border focus:border-primary min-h-[150px] resize-none"
                       placeholder="Tell us about your requirements, quantity, specifications..."
                     />
                   </div>
                   <Button type="submit" variant="hero" size="lg" className="w-full">
-                    Get Best Quote
+                    Get Best Quote via WhatsApp
                   </Button>
                 </form>
               </div>
@@ -178,17 +237,18 @@ const Contact = () => {
                   ))}
                 </div>
 
-                {/* Map Placeholder */}
-                <div className="mt-12 aspect-video bg-secondary border border-border flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin
-                      className="mx-auto text-primary mb-4"
-                      size={32}
-                      strokeWidth={1}
-                    />
-                    <p className="text-foreground font-display text-lg">Karuvampalayam, Tiruppur</p>
-                    <p className="text-muted-foreground font-light text-sm">Tamil Nadu - 641604</p>
-                  </div>
+                {/* Google Maps Embed */}
+                <div className="mt-12 aspect-video bg-secondary border border-border overflow-hidden">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3599.2471736305197!2d77.32508644536617!3d11.08888621093586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9077fcd3391db%3A0x8d0cf70669cd664e!2sNEW%20ANTIQUE%20APPARELS!5e1!3m2!1sen!2sin!4v1767019186893!5m2!1sen!2sin"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="New Antique Apparels Location"
+                  />
                 </div>
 
                 {/* Quick Contact */}
@@ -197,12 +257,12 @@ const Contact = () => {
                   <p className="text-muted-foreground font-light text-sm mb-4">
                     Call us directly for immediate assistance
                   </p>
-                  <a 
-                    href="tel:08047633835" 
+                  <a
+                    href="tel:6381379080"
                     className="inline-flex items-center gap-2 text-primary font-body tracking-widest text-lg hover:underline"
                   >
                     <Phone size={18} />
-                    08047633835
+                    6381379080
                   </a>
                 </div>
               </div>

@@ -6,39 +6,48 @@ const Footer = () => {
   return (
     <footer className="bg-secondary border-t border-border">
       <div className="container mx-auto px-6 lg:px-12 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12 lg:gap-16">
           {/* Brand */}
           <div className="md:col-span-2">
-            <img 
-              src={logo} 
-              alt="New Antique Apparels" 
+            <img
+              src={logo}
+              alt="New Antique Apparels"
               className="h-16 w-auto mb-4"
             />
             <p className="text-muted-foreground font-light leading-relaxed max-w-md">
-              We are the foremost manufacturer of best in class products comprising of 
-              Polyester T-Shirt, Polo Polyester T-Shirt, Corporate T-Shirt and many more. 
-              GST No. 33AMIPB4062D1ZO
+              We are the foremost manufacturer of best in class products comprising of
+              Polyester T-Shirt, Polo Polyester T-Shirt, Corporate T-Shirt and many more.
+            </p>
+            <p className="text-muted-foreground font-light mt-2">
+              <span className="text-foreground">GST No.</span> 33AMIPB4062D1ZO
             </p>
             <div className="flex flex-col gap-3 mt-6">
               <a
-                href="tel:08047633835"
+                href="tel:6381379080"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
               >
                 <Phone size={16} />
-                <span>08047633835</span>
+                <span>6381379080</span>
               </a>
               <a
-                href="mailto:contact@newantiqueapparels.com"
+                href="tel:9360308412"
+                className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
+              >
+                <Phone size={16} />
+                <span>9360308412</span>
+              </a>
+              <a
+                href="mailto:newantiqueapparels2018@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
               >
                 <Mail size={16} />
-                <span>Send Email</span>
+                <span>newantiqueapparels2018@gmail.com</span>
               </a>
             </div>
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="md:pl-8">
             <h4 className="font-display text-lg tracking-wider text-foreground mb-6">
               Explore
             </h4>
@@ -61,18 +70,35 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
-          <div>
+          {/* Offices - Main & Branch side by side */}
+          <div className="md:col-span-2">
             <h4 className="font-display text-lg tracking-wider text-foreground mb-6">
-              Visit Us
+              Our Offices
             </h4>
-            <div className="flex items-start gap-2 text-sm text-muted-foreground font-light">
-              <MapPin size={16} className="text-primary mt-1 flex-shrink-0" />
+            <div className="grid grid-cols-2 gap-8">
+              {/* Main Office */}
               <div>
-                <p>9, Elementary School Street,</p>
-                <p>Karuvampalayam</p>
-                <p>Tiruppur - 641604</p>
-                <p>Tamil Nadu, India</p>
+                <p className="text-primary font-medium text-sm mb-3">Main Office</p>
+                <div className="flex items-start gap-2 text-sm text-muted-foreground font-light">
+                  <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
+                  <div className="leading-relaxed">
+                    <p>No.9, Elementary School Street,</p>
+                    <p>Karuvampalayam, Tiruppur - 641604</p>
+                    <p>Near Bus Stop</p>
+                    <p>Tamil Nadu, India</p>
+                  </div>
+                </div>
+              </div>
+              {/* Branch Office */}
+              <div>
+                <p className="text-primary font-medium text-sm mb-3">Branch Office</p>
+                <div className="flex items-start gap-2 text-sm text-muted-foreground font-light">
+                  <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
+                  <div className="leading-relaxed">
+                    <p>Chennai</p>
+                    <p>Tamil Nadu, India</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

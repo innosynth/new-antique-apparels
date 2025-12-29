@@ -27,7 +27,7 @@ const HeroSection = () => {
             <span className="block italic text-primary">Apparels</span>
           </h1>
           <p className="animate-fade-up opacity-0 stagger-3 font-body text-lg md:text-xl text-muted-foreground font-light max-w-2xl mx-auto mb-12">
-            Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear. 
+            Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear.
             Where quality meets innovation since 2018.
           </p>
           <div className="animate-fade-up opacity-0 stagger-4 flex flex-col sm:flex-row gap-4 justify-center">
@@ -38,7 +38,7 @@ const HeroSection = () => {
               </Link>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <a href="tel:08047633835">
+              <a href="tel:6381379080">
                 <Phone className="mr-2" size={18} />
                 Call Us Now
               </a>
@@ -50,7 +50,7 @@ const HeroSection = () => {
       {/* Trust Badge */}
       <div className="absolute bottom-12 left-1/2 -translate-x-1/2 text-center animate-fade-up opacity-0 stagger-5">
         <p className="text-primary font-body text-sm tracking-widest uppercase mb-2">Trusted Manufacturer</p>
-        <p className="text-muted-foreground text-xs">90% Response Rate • 51-100 Employees</p>
+        <p className="text-muted-foreground text-xs">95% Response Rate • 98% User Satisfaction</p>
       </div>
     </section>
   );

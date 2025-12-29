@@ -28,7 +28,7 @@ const values = [
     icon: CheckCircle,
     title: "Verified",
     description:
-      "IndiaMART Trust Seal verified manufacturer with 90% response rate and excellent customer reviews.",
+      "IndiaMART Trust Seal verified manufacturer with 95% response rate and excellent customer reviews.",
   },
 ];
 
@@ -59,13 +59,13 @@ const About = () => {
                     <span className="block italic text-primary">New Antique Apparels</span>
                   </h1>
                   <p className="text-muted-foreground font-light text-lg leading-relaxed mt-8 animate-fade-up opacity-0 stagger-3">
-                    Based in Karuvampalayam, Tiruppur, Tamil Nadu, we are the foremost 
-                    manufacturer of best in class products comprising of Polyester T-Shirt, 
+                    Based in Karuvampalayam, Tiruppur, Tamil Nadu, we are the foremost
+                    manufacturer of best in class products comprising of Polyester T-Shirt,
                     Polo Polyester T-Shirt, Corporate T-Shirt and many more.
                   </p>
                   <p className="text-muted-foreground font-light leading-relaxed mt-6 animate-fade-up opacity-0 stagger-4">
-                    We have a team of dedicated professionals who help us in purveying prompt 
-                    sales support to the client with a professional attitude which has helped 
+                    We have a team of dedicated professionals who help us in purveying prompt
+                    sales support to the client with a professional attitude which has helped
                     our company in accomplishing ultimate customer contentment.
                   </p>
                 </div>
@@ -101,11 +101,11 @@ const About = () => {
                   <p className="text-muted-foreground text-sm mt-2">Annual Turnover</p>
                 </div>
                 <div>
-                  <p className="font-display text-4xl text-primary">90%</p>
+                  <p className="font-display text-4xl text-primary">95%</p>
                   <p className="text-muted-foreground text-sm mt-2">Response Rate</p>
                 </div>
                 <div>
-                  <p className="font-display text-4xl text-primary">80%</p>
+                  <p className="font-display text-4xl text-primary">98%</p>
                   <p className="text-muted-foreground text-sm mt-2">User Satisfaction</p>
                 </div>
               </div>
@@ -162,9 +162,9 @@ const About = () => {
                     </span>
                   </h2>
                   <p className="text-muted-foreground font-light leading-relaxed mb-6">
-                    Our skilled personnel, technically advanced production unit, a dynamic 
-                    approach to customer affiliations, and an ongoing assurance to product 
-                    innovation are just some of the attributes for our survival in the most 
+                    Our skilled personnel, technically advanced production unit, a dynamic
+                    approach to customer affiliations, and an ongoing assurance to product
+                    innovation are just some of the attributes for our survival in the most
                     competitive environment.
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-8 border-t border-border">

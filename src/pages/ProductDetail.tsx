@@ -53,12 +53,46 @@ const ProductDetail = () => {
     }
   };
 
+  const generateWhatsAppMessage = (requestType: string) => {
+    const selectedWeightInfo = product.fabricWeights[selectedWeight];
+    const selectedColorInfo = product.colors[selectedColor];
+    const selectedSizeInfo = product.sizes[selectedSize];
+    const selectedPriceInfo = product.tieredPricing[selectedPriceTier];
+
+    const message = `
+*${requestType} - New Antique Apparels*
+
+*Product:* ${product.name}
+*SKU:* ${product.sku}
+*Category:* ${product.category}
+
+*Selected Options:*
+• Fabric Weight: ${selectedWeightInfo.label} (${selectedWeightInfo.description})
+• Color: ${selectedColorInfo.name}
+• Size: ${selectedSizeInfo}
+• Quantity: ${quantity} pcs
+• Price Tier: ${selectedPriceInfo.quantity} @ ${selectedPriceInfo.price}
+
+${selectedCustomizations.length > 0 ? `*Customizations:*\n${selectedCustomizations.map(c => `• ${c}`).join('\n')}` : ''}
+
+Please provide a quote for this order. Thank you!
+    `.trim();
+
+    return encodeURIComponent(message);
+  };
+
   const handleRequestQuote = () => {
-    toast.success("Quote request submitted! We'll contact you shortly.");
+    const message = generateWhatsAppMessage("Quote Request");
+    const whatsappUrl = `https://wa.me/919360308412?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+    toast.success("Opening WhatsApp to send your quote request!");
   };
 
   const handleRequestSample = () => {
-    toast.success("Sample request submitted! We'll get back to you soon.");
+    const message = generateWhatsAppMessage("Sample Request");
+    const whatsappUrl = `https://wa.me/919360308412?text=${message}`;
+    window.open(whatsappUrl, '_blank');
+    toast.success("Opening WhatsApp to request your sample!");
   };
 
   return (
@@ -279,13 +313,7 @@ const ProductDetail = () => {
 
                 {/* Bottom Actions */}
                 <div className="pt-6 border-t border-border space-y-4">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <p className="text-muted-foreground text-sm">Unit Price</p>
-                      <p className="font-display text-3xl text-primary">
-                        {product.tieredPricing[selectedPriceTier].price}
-                      </p>
-                    </div>
+                  <div className="flex items-center justify-center">
                     <div className="flex items-center gap-3">
                       <button
                         onClick={() => handleQuantityChange(-50)}
@@ -316,7 +344,7 @@ const ProductDetail = () => {
                   </div>
 
                   <a
-                    href="tel:08047633835"
+                    href="tel:6381379080"
                     className="flex items-center justify-center gap-2 text-primary hover:underline"
                   >
                     <Phone size={16} />

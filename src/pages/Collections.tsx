@@ -10,8 +10,8 @@ import { cn } from "@/lib/utils";
 const Collections = () => {
   const [activeCategory, setActiveCategory] = useState("All");
 
-  const filteredProducts = activeCategory === "All" 
-    ? products 
+  const filteredProducts = activeCategory === "All"
+    ? products
     : products.filter(p => p.category === activeCategory);
 
   return (
@@ -37,7 +37,7 @@ const Collections = () => {
                 Our Products
               </h1>
               <p className="text-muted-foreground font-light text-lg max-w-2xl mx-auto mt-6 animate-fade-up opacity-0 stagger-3">
-                Each product is manufactured with precision and care, ensuring the highest 
+                Each product is manufactured with precision and care, ensuring the highest
                 quality standards for our valued customers.
               </p>
             </div>
@@ -77,7 +77,7 @@ const Collections = () => {
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-background/0 group-hover:bg-background/20 transition-colors duration-500" />
-                    
+
                     {/* Tags */}
                     <div className="absolute top-4 left-4 flex gap-2">
                       {product.tags.map((tag) => (
@@ -89,7 +89,7 @@ const Collections = () => {
                         </span>
                       ))}
                     </div>
-                    
+
                     <div className="absolute bottom-6 right-6 w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
                       <ArrowUpRight size={20} />
                     </div>
@@ -122,8 +122,8 @@ const Collections = () => {
               <p className="text-muted-foreground font-light mb-6">
                 Tell us your requirements and get the best quote for your bulk orders.
               </p>
-              <a 
-                href="tel:08047633835" 
+              <a
+                href="tel:6381379080"
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-4 font-body tracking-widest uppercase text-sm hover:bg-primary/90 transition-colors"
               >
                 Get Best Quote
