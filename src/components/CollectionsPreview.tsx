@@ -1,26 +1,24 @@
 import { Link } from "react-router-dom";
 import { ArrowUpRight } from "lucide-react";
-import womenCollection from "@/assets/collection-women.jpg";
-import menCollection from "@/assets/collection-men.jpg";
-import accessoriesCollection from "@/assets/collection-accessories.jpg";
+import { products } from "@/data/products";
 
 const collections = [
   {
     title: "Polyester T-Shirts",
     subtitle: "Premium Quality",
-    image: womenCollection,
+    image: products[0]?.images[0],
     link: "/collections?category=polyester",
   },
   {
     title: "Polo T-Shirts",
     subtitle: "Corporate Style",
-    image: menCollection,
+    image: products[1]?.images[0],
     link: "/collections?category=polo",
   },
   {
     title: "Corporate Wear",
     subtitle: "Professional Range",
-    image: accessoriesCollection,
+    image: products[2]?.images[0],
     link: "/collections?category=corporate",
   },
 ];
