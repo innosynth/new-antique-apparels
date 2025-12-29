@@ -11,39 +11,40 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["123 Fashion Avenue", "New York, NY 10001"],
+    details: ["9, Elementary School Street,", "Karuvampalayam, Tiruppur - 641604", "Tamil Nadu, India"],
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+1 (234) 567-890", "+1 (234) 567-891"],
+    details: ["08047633835", "Nataraj Balakrishnan (Proprietor)"],
   },
   {
     icon: Mail,
     title: "Email Us",
-    details: ["hello@aurum.com", "press@aurum.com"],
+    details: ["Contact via E-mail", "Send Inquiry"],
   },
   {
     icon: Clock,
-    title: "Hours",
-    details: ["Mon - Sat: 10AM - 8PM", "Sunday: 12PM - 6PM"],
+    title: "Response Rate",
+    details: ["90% Response Rate", "Prompt Support"],
   },
 ];
 
 const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success("Thank you for your message. We'll be in touch soon.");
+    toast.success("Thank you for your inquiry. We will contact you soon!");
   };
 
   return (
     <>
       <Helmet>
-        <title>Contact Us | AURUM Luxury Fashion</title>
+        <title>Contact Us | New Antique Apparels - Tiruppur T-Shirt Manufacturer</title>
         <meta
           name="description"
-          content="Get in touch with AURUM. Visit our flagship store in New York or reach out for inquiries about our luxury collections and services."
+          content="Contact New Antique Apparels - Tiruppur's leading T-Shirt manufacturer. Call 08047633835 or visit us at Karuvampalayam, Tiruppur-641604, Tamil Nadu."
         />
+        <meta name="keywords" content="Contact New Antique Apparels, T-Shirt Manufacturer Tiruppur, Karuvampalayam" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -58,9 +59,8 @@ const Contact = () => {
                 Contact Us
               </h1>
               <p className="text-muted-foreground font-light text-lg max-w-2xl mx-auto mt-6 animate-fade-up opacity-0 stagger-3">
-                We'd love to hear from you. Whether you have a question about
-                our collections, need styling advice, or want to schedule a
-                private appointment.
+                Tell us what you are looking for. Describe your requirement and 
+                get the best quote for your bulk orders.
               </p>
             </div>
 
@@ -68,67 +68,78 @@ const Contact = () => {
               {/* Contact Form */}
               <div className="animate-fade-up opacity-0 stagger-3">
                 <h2 className="font-display text-3xl text-foreground mb-8">
-                  Send a Message
+                  Send Inquiry
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                       <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
-                        First Name
+                        Your Name
                       </label>
                       <Input
                         type="text"
                         required
                         className="bg-transparent border-border focus:border-primary h-12"
-                        placeholder="Your first name"
+                        placeholder="Enter your name"
                       />
                     </div>
                     <div>
                       <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
-                        Last Name
+                        Company Name
                       </label>
                       <Input
                         type="text"
+                        className="bg-transparent border-border focus:border-primary h-12"
+                        placeholder="Your company (optional)"
+                      />
+                    </div>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                      <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
+                        Email
+                      </label>
+                      <Input
+                        type="email"
                         required
                         className="bg-transparent border-border focus:border-primary h-12"
-                        placeholder="Your last name"
+                        placeholder="your@email.com"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
+                        Phone Number
+                      </label>
+                      <Input
+                        type="tel"
+                        required
+                        className="bg-transparent border-border focus:border-primary h-12"
+                        placeholder="Your phone number"
                       />
                     </div>
                   </div>
                   <div>
                     <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
-                      Email
-                    </label>
-                    <Input
-                      type="email"
-                      required
-                      className="bg-transparent border-border focus:border-primary h-12"
-                      placeholder="your@email.com"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
-                      Subject
+                      Product Interest
                     </label>
                     <Input
                       type="text"
-                      required
                       className="bg-transparent border-border focus:border-primary h-12"
-                      placeholder="How can we help?"
+                      placeholder="e.g., Polyester T-Shirt, Corporate T-Shirt"
                     />
                   </div>
                   <div>
                     <label className="block text-sm text-muted-foreground tracking-wider uppercase mb-2">
-                      Message
+                      Describe Your Requirement
                     </label>
                     <Textarea
                       required
                       className="bg-transparent border-border focus:border-primary min-h-[150px] resize-none"
-                      placeholder="Your message..."
+                      placeholder="Tell us about your requirements, quantity, specifications..."
                     />
                   </div>
                   <Button type="submit" variant="hero" size="lg" className="w-full">
-                    Send Message
+                    Get Best Quote
                   </Button>
                 </form>
               </div>
@@ -175,10 +186,24 @@ const Contact = () => {
                       size={32}
                       strokeWidth={1}
                     />
-                    <p className="text-muted-foreground font-light">
-                      123 Fashion Avenue, New York
-                    </p>
+                    <p className="text-foreground font-display text-lg">Karuvampalayam, Tiruppur</p>
+                    <p className="text-muted-foreground font-light text-sm">Tamil Nadu - 641604</p>
                   </div>
+                </div>
+
+                {/* Quick Contact */}
+                <div className="mt-8 p-6 bg-primary/10 border border-primary/30">
+                  <p className="text-foreground font-display text-xl mb-2">Need Quick Response?</p>
+                  <p className="text-muted-foreground font-light text-sm mb-4">
+                    Call us directly for immediate assistance
+                  </p>
+                  <a 
+                    href="tel:08047633835" 
+                    className="inline-flex items-center gap-2 text-primary font-body tracking-widest text-lg hover:underline"
+                  >
+                    <Phone size={18} />
+                    08047633835
+                  </a>
                 </div>
               </div>
             </div>

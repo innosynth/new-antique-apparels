@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
 import heroImage from "@/assets/hero-fashion.jpg";
 
 const HeroSection = () => {
@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="Luxury fashion hero"
+          alt="Premium T-Shirts and Corporate Wear"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-overlay" />
@@ -20,33 +20,37 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
         <div className="max-w-4xl mx-auto">
           <p className="animate-fade-up opacity-0 stagger-1 text-primary font-body text-sm tracking-[0.3em] uppercase mb-6">
-            New Collection 2024
+            Premium Quality Apparel Manufacturer
           </p>
           <h1 className="animate-fade-up opacity-0 stagger-2 font-display text-5xl md:text-7xl lg:text-8xl text-foreground leading-[1.1] mb-8">
-            Timeless
-            <span className="block italic text-primary">Elegance</span>
+            New Antique
+            <span className="block italic text-primary">Apparels</span>
           </h1>
           <p className="animate-fade-up opacity-0 stagger-3 font-body text-lg md:text-xl text-muted-foreground font-light max-w-2xl mx-auto mb-12">
-            Discover our curated collection of premium garments, where
-            traditional craftsmanship meets contemporary design.
+            Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear. 
+            Where quality meets innovation since 2018.
           </p>
           <div className="animate-fade-up opacity-0 stagger-4 flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="xl" asChild>
               <Link to="/collections">
-                Explore Collection
+                Explore Products
                 <ArrowRight className="ml-2" size={18} />
               </Link>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
-              <Link to="/about">Our Story</Link>
+              <a href="tel:08047633835">
+                <Phone className="mr-2" size={18} />
+                Call Us Now
+              </a>
             </Button>
           </div>
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-[1px] h-16 bg-gradient-to-b from-transparent via-primary to-transparent" />
+      {/* Trust Badge */}
+      <div className="absolute bottom-12 left-1/2 -translate-x-1/2 text-center animate-fade-up opacity-0 stagger-5">
+        <p className="text-primary font-body text-sm tracking-widest uppercase mb-2">Trusted Manufacturer</p>
+        <p className="text-muted-foreground text-xs">90% Response Rate • 51-100 Employees</p>
       </div>
     </section>
   );

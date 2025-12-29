@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import craftsmanshipImage from "@/assets/craftsmanship.jpg";
+
+const features = [
+  "Premium quality materials",
+  "Skilled workforce of 51-100 employees",
+  "Annual turnover of 5-25 Cr",
+  "GST registered & verified manufacturer",
+];
 
 const AboutPreview = () => {
   return (
@@ -12,7 +19,7 @@ const AboutPreview = () => {
           <div className="relative aspect-square lg:aspect-[4/5] overflow-hidden">
             <img
               src={craftsmanshipImage}
-              alt="Artisan craftsmanship"
+              alt="Manufacturing excellence"
               className="w-full h-full object-cover"
             />
             {/* Decorative Frame */}
@@ -22,26 +29,35 @@ const AboutPreview = () => {
           {/* Content */}
           <div className="lg:pl-8">
             <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">
-              Our Heritage
+              About Our Company
             </p>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground leading-tight mb-8">
-              Crafted with
-              <span className="block italic text-primary">Passion</span>
+              Trusted
+              <span className="block italic text-primary">Manufacturer</span>
             </h2>
             <p className="text-muted-foreground font-light leading-relaxed text-lg mb-6">
-              Since 1985, AURUM has been at the forefront of luxury fashion,
-              blending traditional craftsmanship with contemporary innovation.
-              Each piece is meticulously crafted by skilled artisans who share
-              our commitment to excellence.
+              Based in Karuvampalayam, Tiruppur, Tamil Nadu, New Antique Apparels is a 
+              leading proprietorship firm specializing in premium quality apparel manufacturing.
             </p>
-            <p className="text-muted-foreground font-light leading-relaxed mb-10">
-              We believe in the art of slow fashion—creating garments that
-              transcend seasons and trends, becoming cherished pieces in your
-              wardrobe for years to come.
+            <p className="text-muted-foreground font-light leading-relaxed mb-8">
+              We have a team of dedicated professionals who help us in purveying prompt 
+              sales support to the client with a professional attitude which has helped 
+              our company in accomplishing ultimate customer contentment.
             </p>
+            
+            {/* Features */}
+            <ul className="space-y-3 mb-10">
+              {features.map((feature) => (
+                <li key={feature} className="flex items-center gap-3 text-muted-foreground">
+                  <CheckCircle className="text-primary flex-shrink-0" size={18} />
+                  <span className="font-light">{feature}</span>
+                </li>
+              ))}
+            </ul>
+            
             <Button variant="elegant" size="lg" asChild>
               <Link to="/about">
-                Discover Our Story
+                Learn More About Us
                 <ArrowRight className="ml-3" size={16} />
               </Link>
             </Button>

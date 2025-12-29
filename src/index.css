@@ -6,57 +6,58 @@
 
 @layer base {
   :root {
-    --background: 20 10% 5%;
+    --background: 280 35% 12%;
     --foreground: 40 30% 95%;
 
-    --card: 20 10% 8%;
+    --card: 280 35% 15%;
     --card-foreground: 40 30% 95%;
 
-    --popover: 20 10% 8%;
+    --popover: 280 35% 15%;
     --popover-foreground: 40 30% 95%;
 
-    --primary: 38 70% 50%;
-    --primary-foreground: 20 10% 5%;
+    --primary: 42 85% 55%;
+    --primary-foreground: 280 35% 12%;
 
-    --secondary: 20 10% 12%;
+    --secondary: 280 30% 18%;
     --secondary-foreground: 40 30% 90%;
 
-    --muted: 20 10% 15%;
-    --muted-foreground: 40 10% 60%;
+    --muted: 280 25% 22%;
+    --muted-foreground: 40 15% 70%;
 
-    --accent: 38 70% 50%;
-    --accent-foreground: 20 10% 5%;
+    --accent: 42 85% 55%;
+    --accent-foreground: 280 35% 12%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 40 10% 20%;
-    --input: 40 10% 20%;
-    --ring: 38 70% 50%;
+    --border: 280 20% 25%;
+    --input: 280 20% 25%;
+    --ring: 42 85% 55%;
 
     --radius: 0.25rem;
 
     /* Custom tokens */
-    --gold: 38 70% 50%;
-    --gold-light: 38 60% 65%;
-    --gold-dark: 38 80% 35%;
+    --gold: 42 85% 55%;
+    --gold-light: 42 75% 65%;
+    --gold-dark: 42 90% 40%;
     --cream: 40 30% 95%;
     --cream-muted: 40 20% 85%;
-    --charcoal: 20 10% 10%;
-    --charcoal-light: 20 10% 15%;
+    --purple: 280 35% 15%;
+    --purple-light: 280 30% 25%;
+    --purple-dark: 280 40% 10%;
 
     /* Typography */
     --font-display: 'Playfair Display', serif;
     --font-body: 'DM Sans', sans-serif;
 
     /* Gradients */
-    --gradient-gold: linear-gradient(135deg, hsl(38, 70%, 50%) 0%, hsl(38, 60%, 65%) 100%);
-    --gradient-dark: linear-gradient(180deg, hsl(20, 10%, 5%) 0%, hsl(20, 10%, 10%) 100%);
-    --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(20, 10%, 5% / 0.8) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(42, 85%, 55%) 0%, hsl(42, 75%, 65%) 100%);
+    --gradient-dark: linear-gradient(180deg, hsl(280, 35%, 12%) 0%, hsl(280, 35%, 18%) 100%);
+    --gradient-overlay: linear-gradient(180deg, transparent 0%, hsl(280, 35%, 12% / 0.8) 100%);
 
     /* Shadows */
-    --shadow-elegant: 0 20px 60px -10px hsl(20 10% 0% / 0.5);
-    --shadow-gold: 0 10px 40px -10px hsl(38 70% 50% / 0.3);
+    --shadow-elegant: 0 20px 60px -10px hsl(280 35% 5% / 0.5);
+    --shadow-gold: 0 10px 40px -10px hsl(42 85% 55% / 0.3);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -69,25 +70,25 @@
   }
 
   .dark {
-    --background: 20 10% 5%;
+    --background: 280 35% 12%;
     --foreground: 40 30% 95%;
-    --card: 20 10% 8%;
+    --card: 280 35% 15%;
     --card-foreground: 40 30% 95%;
-    --popover: 20 10% 8%;
+    --popover: 280 35% 15%;
     --popover-foreground: 40 30% 95%;
-    --primary: 38 70% 50%;
-    --primary-foreground: 20 10% 5%;
-    --secondary: 20 10% 12%;
+    --primary: 42 85% 55%;
+    --primary-foreground: 280 35% 12%;
+    --secondary: 280 30% 18%;
     --secondary-foreground: 40 30% 90%;
-    --muted: 20 10% 15%;
-    --muted-foreground: 40 10% 60%;
-    --accent: 38 70% 50%;
-    --accent-foreground: 20 10% 5%;
+    --muted: 280 25% 22%;
+    --muted-foreground: 40 15% 70%;
+    --accent: 42 85% 55%;
+    --accent-foreground: 280 35% 12%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-    --border: 40 10% 20%;
-    --input: 40 10% 20%;
-    --ring: 38 70% 50%;
+    --border: 280 20% 25%;
+    --input: 280 20% 25%;
+    --ring: 42 85% 55%;
   }
 }
 

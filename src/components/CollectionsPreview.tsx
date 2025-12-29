@@ -6,22 +6,22 @@ import accessoriesCollection from "@/assets/collection-accessories.jpg";
 
 const collections = [
   {
-    title: "Women",
-    subtitle: "Effortless Grace",
+    title: "Polyester T-Shirts",
+    subtitle: "Premium Quality",
     image: womenCollection,
-    link: "/collections?category=women",
+    link: "/collections?category=polyester",
   },
   {
-    title: "Men",
-    subtitle: "Refined Masculinity",
+    title: "Polo T-Shirts",
+    subtitle: "Corporate Style",
     image: menCollection,
-    link: "/collections?category=men",
+    link: "/collections?category=polo",
   },
   {
-    title: "Accessories",
-    subtitle: "Finishing Touches",
+    title: "Corporate Wear",
+    subtitle: "Professional Range",
     image: accessoriesCollection,
-    link: "/collections?category=accessories",
+    link: "/collections?category=corporate",
   },
 ];
 
@@ -32,10 +32,10 @@ const CollectionsPreview = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="text-primary font-body text-sm tracking-[0.3em] uppercase mb-4">
-            Featured
+            Our Specialization
           </p>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground">
-            Our Collections
+            Our Products
           </h2>
         </div>
 

@@ -9,11 +9,13 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>AURUM | Luxury Fashion & Garments</title>
+        <title>New Antique Apparels | Premium T-Shirt Manufacturer in Tiruppur</title>
         <meta
           name="description"
-          content="Discover AURUM's curated collection of premium garments where traditional craftsmanship meets contemporary design. Luxury fashion since 1985."
+          content="New Antique Apparels - Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear in Tiruppur, Tamil Nadu. Quality apparel since 2018."
         />
+        <meta name="keywords" content="Polyester T-Shirt, Polo T-Shirt, Corporate T-Shirt, T-Shirt Manufacturer, Tiruppur, Tamil Nadu" />
+        <link rel="canonical" href="https://newantiqueapparels.com" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
