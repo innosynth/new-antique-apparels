@@ -17,12 +17,20 @@ const Collections = () => {
   return (
     <>
       <Helmet>
-        <title>Our Products | New Antique Apparels - T-Shirt Manufacturer</title>
+        <title>Our Collections | New Antique Apparels - Tiruppur T-Shirt Manufacturer</title>
         <meta
           name="description"
-          content="Explore New Antique Apparels' product range - Premium Polyester T-Shirts, Polo T-Shirts, Corporate Wear. Quality manufacturing from Tiruppur."
+          content="Explore our extensive range of premium apparel including Polyester, Polo, and Corporate T-Shirts. High-quality manufacturing from the heart of Tiruppur."
         />
-        <meta name="keywords" content="Polyester T-Shirt, Polo T-Shirt, Corporate T-Shirt, White T-Shirt, Election T-Shirt" />
+        <meta name="keywords" content="Polyester T-Shirt, Polo T-Shirt, Corporate T-Shirt, Tiruppur Manufacturer, Bulk Apparel, Custom T-Shirts India" />
+        <link rel="canonical" href="https://newantiqueapparel.com/collections" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://newantiqueapparel.com/collections" />
+        <meta property="og:title" content="Our Collections | New Antique Apparels" />
+        <meta property="og:description" content="Browse our premium quality Polyester and Polo T-Shirts. Large-scale manufacturing for corporate and retail needs." />
+        <meta property="og:image" content="https://newantiqueapparel.com/og-image.png" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -42,78 +50,85 @@ const Collections = () => {
               </p>
             </div>
 
-            {/* Category Filter */}
-            <div className="flex justify-center gap-4 md:gap-8 mb-16 flex-wrap">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setActiveCategory(category)}
-                  className={cn(
-                    "text-sm font-body tracking-widest uppercase transition-colors pb-2 border-b",
-                    activeCategory === category
-                      ? "text-primary border-primary"
-                      : "text-muted-foreground border-transparent hover:text-foreground hover:border-foreground"
-                  )}
-                >
-                  {category}
-                </button>
-              ))}
-            </div>
-
-            {/* Products Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {filteredProducts.map((product, index) => (
-                <Link
-                  to={`/product/${product.id}`}
-                  key={product.id}
-                  className="group cursor-pointer animate-fade-up opacity-0"
-                  style={{ animationDelay: `${0.1 + index * 0.1}s` }}
-                >
-                  {/* Image Container */}
-                  <div className="relative aspect-[3/4] overflow-hidden bg-secondary mb-6">
-                    <img
-                      src={product.images[0]}
-                      alt={product.name}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-background/0 group-hover:bg-background/20 transition-colors duration-500" />
-
-                    {/* Tags */}
-                    <div className="absolute top-4 left-4 flex gap-2">
-                      {product.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="px-2 py-1 bg-primary text-primary-foreground text-xs tracking-wider"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-
-                    <div className="absolute bottom-6 right-6 w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
-                      <ArrowUpRight size={20} />
-                    </div>
+            <div className="flex flex-col lg:flex-row gap-12">
+              {/* Sidebar: Category Filter */}
+              <aside className="lg:w-64 flex-shrink-0">
+                <div className="sticky top-32">
+                  <h2 className="font-display text-xl mb-6 flex items-center gap-2">
+                    Categories
+                    <span className="text-xs font-body text-muted-foreground font-normal">({filteredProducts.length} items)</span>
+                  </h2>
+                  <div className="flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 scrollbar-hide">
+                    {categories.map((category) => (
+                      <button
+                        key={category}
+                        onClick={() => setActiveCategory(category)}
+                        className={cn(
+                          "text-sm font-body tracking-widest uppercase transition-all px-4 py-3 text-left whitespace-nowrap lg:whitespace-normal border-l-2",
+                          activeCategory === category
+                            ? "text-primary border-primary bg-primary/5 font-bold"
+                            : "text-muted-foreground border-transparent hover:text-foreground hover:border-foreground"
+                        )}
+                      >
+                        {category}
+                      </button>
+                    ))}
                   </div>
+                </div>
+              </aside>
 
-                  {/* Product Info */}
-                  <div className="flex justify-between items-start">
-                    <div>
-                      <p className="text-xs text-muted-foreground tracking-widest uppercase mb-1">
-                        {product.category}
-                      </p>
-                      <h3 className="font-display text-xl text-foreground group-hover:text-primary transition-colors">
-                        {product.name}
-                      </h3>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-foreground font-light text-sm">From</p>
-                      <p className="text-primary font-display">
-                        {product.tieredPricing[product.tieredPricing.length - 1].price}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
+              {/* Main: Products Grid */}
+              <div className="flex-1">
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+                  {filteredProducts.map((product, index) => (
+                    <Link
+                      to={`/product/${product.id}`}
+                      key={product.id}
+                      className="group cursor-pointer animate-fade-up opacity-0"
+                      style={{ animationDelay: `${0.1 + (index % 10) * 0.05}s` }}
+                    >
+                      {/* Image Container */}
+                      <div className="relative aspect-[3/4] overflow-hidden bg-secondary mb-6 shadow-sm group-hover:shadow-md transition-shadow duration-500">
+                        <img
+                          src={product.images[0]}
+                          alt={product.name}
+                          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                          loading="lazy"
+                        />
+                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500" />
+
+                        {/* Tags */}
+                        <div className="absolute top-4 left-4 flex gap-2">
+                          {product.tags.map((tag) => (
+                            <span
+                              key={tag}
+                              className="px-2 py-1 bg-white/90 backdrop-blur-sm text-black text-[10px] font-bold tracking-wider uppercase border border-black/10"
+                            >
+                              {tag}
+                            </span>
+                          ))}
+                        </div>
+
+                        <div className="absolute bottom-6 right-6 w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 shadow-xl">
+                          <ArrowUpRight size={20} />
+                        </div>
+                      </div>
+
+                      {/* Product Info */}
+                      <div className="flex justify-between items-start px-1">
+                        <div>
+                          <p className="text-[10px] text-primary font-bold tracking-[0.2em] uppercase mb-1">
+                            {product.category}
+                          </p>
+                          <h3 className="font-display text-lg text-foreground group-hover:text-primary transition-colors leading-tight">
+                            {product.name}
+                          </h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
             </div>
 
             {/* CTA Section */}

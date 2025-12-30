@@ -39,9 +39,17 @@ const About = () => {
         <title>About Us | New Antique Apparels - T-Shirt Manufacturer Tiruppur</title>
         <meta
           name="description"
-          content="Learn about New Antique Apparels - Leading T-Shirt manufacturer in Tiruppur, Tamil Nadu. 51-100 employees, 5-25 Cr annual turnover. GST: 33AMIPB4062D1Z0"
+          content="Learn about New Antique Apparels - Premium T-Shirt manufacturer based in Tiruppur. Over a decade of excellence in quality apparel manufacturing."
         />
-        <meta name="keywords" content="New Antique Apparels, T-Shirt Manufacturer, Tiruppur, Tamil Nadu, Proprietorship" />
+        <meta name="keywords" content="New Antique Apparels, T-Shirt Manufacturer Tiruppur, Tamil Nadu Apparel, Premium Quality Manufacturer" />
+        <link rel="canonical" href="https://newantiqueapparel.com/about" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://newantiqueapparel.com/about" />
+        <meta property="og:title" content="About Us | New Antique Apparels" />
+        <meta property="og:description" content="Discover our journey, values, and commitment to manufacturing the best-in-class apparel in Tiruppur." />
+        <meta property="og:image" content="https://newantiqueapparel.com/og-image.png" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />

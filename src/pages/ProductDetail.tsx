@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Star, Minus, Plus, Phone, ChevronRight } from "lucide-react";
+import { Star, Minus, Plus, Phone, ChevronRight, X } from "lucide-react";
 import { getProductById } from "@/data/products";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
@@ -19,8 +19,8 @@ const ProductDetail = () => {
   const [selectedColor, setSelectedColor] = useState(0);
   const [selectedSize, setSelectedSize] = useState(0);
   const [selectedCustomizations, setSelectedCustomizations] = useState<string[]>([]);
-  const [selectedPriceTier, setSelectedPriceTier] = useState(1);
   const [quantity, setQuantity] = useState(250);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   if (!product) {
     return (
@@ -57,7 +57,6 @@ const ProductDetail = () => {
     const selectedWeightInfo = product.fabricWeights[selectedWeight];
     const selectedColorInfo = product.colors[selectedColor];
     const selectedSizeInfo = product.sizes[selectedSize];
-    const selectedPriceInfo = product.tieredPricing[selectedPriceTier];
 
     const message = `
 *${requestType} - New Antique Apparels*
@@ -71,7 +70,6 @@ const ProductDetail = () => {
 • Color: ${selectedColorInfo.name}
 • Size: ${selectedSizeInfo}
 • Quantity: ${quantity} pcs
-• Price Tier: ${selectedPriceInfo.quantity} @ ${selectedPriceInfo.price}
 
 ${selectedCustomizations.length > 0 ? `*Customizations:*\n${selectedCustomizations.map(c => `• ${c}`).join('\n')}` : ''}
 
@@ -98,11 +96,46 @@ Please provide a quote for this order. Thank you!
   return (
     <>
       <Helmet>
-        <title>{product.name} | New Antique Apparels</title>
-        <meta
-          name="description"
-          content={`${product.name} - ${product.description.slice(0, 150)}...`}
-        />
+        <title>{`${product.name} | New Antique Apparels - Tiruppur`}</title>
+        <meta name="description" content={product.description} />
+        <meta name="keywords" content={`${product.category}, ${product.name}, T-Shirt Manufacturer, Tiruppur, Bulk Order`} />
+        <link rel="canonical" href={`https://newantiqueapparel.com/product/${product.id}`} />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="product" />
+        <meta property="og:url" content={`https://newantiqueapparel.com/product/${product.id}`} />
+        <meta property="og:title" content={`${product.name} | New Antique Apparels`} />
+        <meta property="og:description" content={product.description} />
+        <meta property="og:image" content={`https://newantiqueapparel.com${product.images[0]}`} />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content={`${product.name} | New Antique Apparels`} />
+        <meta property="twitter:description" content={product.description} />
+        <meta property="twitter:image" content={`https://newantiqueapparel.com${product.images[0]}`} />
+
+        {/* Product Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            "name": product.name,
+            "image": product.images.map(img => `https://newantiqueapparel.com${img}`),
+            "description": product.description,
+            "sku": product.sku,
+            "brand": {
+              "@type": "Brand",
+              "name": "New Antique Apparels"
+            },
+            "offers": {
+              "@type": "AggregateOffer",
+              "offerCount": "1",
+              "lowPrice": "0",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock"
+            }
+          })}
+        </script>
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -120,20 +153,24 @@ Please provide a quote for this order. Thank you!
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
               {/* Image Gallery */}
               <div className="space-y-4">
-                <div className="aspect-square overflow-hidden bg-secondary">
+                <div
+                  className="aspect-[3/4] overflow-hidden bg-secondary cursor-zoom-in group/img relative"
+                  onClick={() => setIsModalOpen(true)}
+                >
                   <img
                     src={product.images[selectedImage]}
                     alt={product.name}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover/img:scale-105"
                   />
+                  <div className="absolute inset-0 bg-black/0 group-hover/img:bg-black/5 transition-colors" />
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-hide">
                   {product.images.map((img, idx) => (
                     <button
                       key={idx}
                       onClick={() => setSelectedImage(idx)}
                       className={cn(
-                        "w-20 h-20 overflow-hidden border-2 transition-colors",
+                        "w-20 h-20 flex-shrink-0 overflow-hidden border-2 transition-colors",
                         selectedImage === idx ? "border-primary" : "border-border hover:border-muted-foreground"
                       )}
                     >
@@ -270,46 +307,12 @@ Please provide a quote for this order. Thank you!
                           />
                           <span className="text-foreground">{option.name}</span>
                         </div>
-                        <span className="text-primary">{option.price}</span>
                       </label>
                     ))}
                   </div>
                 </div>
 
-                {/* Tiered Pricing */}
-                <div>
-                  <h3 className="text-foreground font-body text-sm tracking-wider uppercase mb-3">
-                    Tiered Pricing (per unit)
-                  </h3>
-                  <div className="border border-border overflow-hidden">
-                    <div className="flex bg-secondary">
-                      <div className="flex-1 p-3 text-sm text-foreground font-medium">Quantity</div>
-                      <div className="w-24 p-3 text-sm text-foreground font-medium text-right">Price</div>
-                    </div>
-                    {product.tieredPricing.map((tier, idx) => (
-                      <button
-                        key={tier.quantity}
-                        onClick={() => setSelectedPriceTier(idx)}
-                        className={cn(
-                          "flex w-full border-t border-border transition-colors",
-                          selectedPriceTier === idx ? "bg-primary/10" : "hover:bg-secondary/50"
-                        )}
-                      >
-                        <div className="flex-1 p-3 text-sm text-muted-foreground text-left flex items-center gap-2">
-                          {tier.quantity}
-                          {selectedPriceTier === idx && (
-                            <span className="px-2 py-0.5 bg-primary text-primary-foreground text-xs rounded">
-                              Selected
-                            </span>
-                          )}
-                        </div>
-                        <div className="w-24 p-3 text-sm text-foreground text-right font-medium">
-                          {tier.price}
-                        </div>
-                      </button>
-                    ))}
-                  </div>
-                </div>
+
 
                 {/* Bottom Actions */}
                 <div className="pt-6 border-t border-border space-y-4">
@@ -357,6 +360,31 @@ Please provide a quote for this order. Thank you!
         </main>
         <Footer />
       </div>
+
+      {/* Image Modal */}
+      {isModalOpen && (
+        <div
+          className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 backdrop-blur-sm animate-in fade-in duration-300"
+          onClick={() => setIsModalOpen(false)}
+        >
+          <button
+            className="absolute top-6 right-6 text-white hover:text-primary transition-colors p-2"
+            onClick={() => setIsModalOpen(false)}
+          >
+            <X size={40} />
+          </button>
+          <div
+            className="relative w-full h-full max-w-5xl max-h-[90vh] p-6 flex items-center justify-center"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src={product.images[selectedImage]}
+              alt={product.name}
+              className="max-w-full max-h-full object-contain animate-in zoom-in-95 duration-300"
+            />
+          </div>
+        </div>
+      )}
     </>
   );
 };

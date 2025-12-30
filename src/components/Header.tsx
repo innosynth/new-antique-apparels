@@ -15,6 +15,8 @@ const Header = () => {
   const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const isHomePage = location.pathname === "/";
+  const shouldShowBg = isScrolled || !isHomePage;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,8 +30,8 @@ const Header = () => {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
-        isScrolled
-          ? "bg-background/95 backdrop-blur-md border-b border-border"
+        shouldShowBg
+          ? "bg-background/95 backdrop-blur-md border-b border-white/10 shadow-lg"
           : "bg-transparent"
       )}
     >
@@ -40,7 +42,7 @@ const Header = () => {
             <img
               src={logo}
               alt="New Antique Apparels"
-              className="h-14 md:h-16 w-auto relative top-6"
+              className="h-12 md:h-14 w-auto"
             />
           </Link>
 
@@ -51,12 +53,12 @@ const Header = () => {
                 key={item.path}
                 to={item.path}
                 className={cn(
-                  "text-sm font-body tracking-widest uppercase transition-all duration-300 relative",
+                  "text-base font-bold font-body tracking-widest uppercase transition-all duration-300 relative",
                   location.pathname === item.path
-                    ? (isScrolled ? "text-primary" : "text-black")
-                    : (isScrolled ? "text-muted-foreground hover:text-foreground" : "text-black/80 hover:text-black"),
+                    ? (shouldShowBg ? "text-primary" : "text-black")
+                    : (shouldShowBg ? "text-white/80 hover:text-white" : "text-black/80 hover:text-black"),
                   "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[1px] transition-colors duration-300",
-                  isScrolled ? "after:bg-primary" : "after:bg-black",
+                  shouldShowBg ? "after:bg-primary" : "after:bg-black",
                   "after:origin-right after:scale-x-0 hover:after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300"
                 )}
               >
@@ -68,7 +70,10 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-foreground p-2"
+            className={cn(
+              "md:hidden p-2 transition-colors",
+              shouldShowBg ? "text-white" : "text-black"
+            )}
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -92,10 +97,10 @@ const Header = () => {
               to={item.path}
               onClick={() => setIsMobileMenuOpen(false)}
               className={cn(
-                "text-2xl font-display tracking-widest transition-all duration-300",
+                "text-3xl font-bold font-display tracking-widest transition-all duration-300",
                 location.pathname === item.path
-                  ? "text-black"
-                  : "text-black/70 hover:text-black"
+                  ? "text-primary"
+                  : "text-white/70 hover:text-white"
               )}
               style={{ animationDelay: `${index * 0.1}s` }}
             >

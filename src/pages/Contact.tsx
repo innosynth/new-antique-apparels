@@ -83,9 +83,17 @@ Please respond to this inquiry. Thank you!
         <title>Contact Us | New Antique Apparels - Tiruppur T-Shirt Manufacturer</title>
         <meta
           name="description"
-          content="Contact New Antique Apparels - Tiruppur's leading T-Shirt manufacturer. Call 6381379080 or visit our factory at Mangalam Road, Tiruppur."
+          content="Get in touch with New Antique Apparels for bulk orders, custom T-shirt manufacturing, and corporate wear inquiries. Located in Tiruppur, India."
         />
-        <meta name="keywords" content="Contact New Antique Apparels, T-Shirt Manufacturer Tiruppur, Mangalam Road" />
+        <meta name="keywords" content="Contact New Antique Apparels, T-Shirt Manufacturer Contact, Tiruppur Factory Address, Bulk Inquiry" />
+        <link rel="canonical" href="https://newantiqueapparel.com/contact" />
+
+        {/* Open Graph */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://newantiqueapparel.com/contact" />
+        <meta property="og:title" content="Contact Us | New Antique Apparels" />
+        <meta property="og:description" content="Reach out to us for premium quality apparel manufacturing. Bulk quotes and professional support available." />
+        <meta property="og:image" content="https://newantiqueapparel.com/og-image.png" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
