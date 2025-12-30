@@ -1,10 +1,13 @@
-import { defineConfig } from "vite";
+import { defineConfig, ConfigEnv } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
+import { fileURLToPath } from "url";
 import { VitePWA } from "vite-plugin-pwa";
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(({ mode }: ConfigEnv) => ({
   server: {
     host: "::",
     port: 8080,
@@ -13,7 +16,7 @@ export default defineConfig(({ mode }) => ({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["favicon.ico", "robots.txt"],
+      includeAssets: ["og-image.png", "robots.txt"],
       manifest: {
         name: "New Antique Apparels",
         short_name: "NA Apparels",
@@ -37,7 +40,7 @@ export default defineConfig(({ mode }) => ({
         maximumFileSizeToCacheInBytes: 5 * 1024 * 1024,
         runtimeCaching: [
           {
-            urlPattern: ({ url }) => url.pathname.startsWith("/product-images/"),
+            urlPattern: ({ url }: { url: URL }) => url.pathname.startsWith("/product-images/"),
             handler: "CacheFirst",
             options: {
               cacheName: "product-images-cache",
