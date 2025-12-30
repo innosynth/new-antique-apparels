@@ -22,13 +22,13 @@ const values = [
     icon: Building,
     title: "Established",
     description:
-      "GST registered since January 2018, we are a trusted proprietorship firm with a proven track record.",
+      "GST registered since January 2017, we are a trusted proprietorship firm with a proven track record.",
   },
   {
     icon: CheckCircle,
-    title: "Verified",
+    title: "Provenance",
     description:
-      "IndiaMART Trust Seal verified manufacturer with 95% response rate and excellent customer reviews.",
+      "Traceable origins and proven reliability — 500+ customer reviews and 98% on-time, accurate deliveries.",
   },
 ];
 
@@ -39,7 +39,7 @@ const About = () => {
         <title>About Us | New Antique Apparels - T-Shirt Manufacturer Tiruppur</title>
         <meta
           name="description"
-          content="Learn about New Antique Apparels - Leading T-Shirt manufacturer in Tiruppur, Tamil Nadu. 51-100 employees, 5-25 Cr annual turnover. GST: 33AMIPB4062D1ZO"
+          content="Learn about New Antique Apparels - Leading T-Shirt manufacturer in Tiruppur, Tamil Nadu. 51-100 employees, 5-25 Cr annual turnover. GST: 33AMIPB4062D1Z0"
         />
         <meta name="keywords" content="New Antique Apparels, T-Shirt Manufacturer, Tiruppur, Tamil Nadu, Proprietorship" />
       </Helmet>
@@ -59,7 +59,7 @@ const About = () => {
                     <span className="block italic text-primary">New Antique Apparels</span>
                   </h1>
                   <p className="text-muted-foreground font-light text-lg leading-relaxed mt-8 animate-fade-up opacity-0 stagger-3">
-                    Based in Karuvampalayam, Tiruppur, Tamil Nadu, we are the foremost
+                    Based in Tiruppur, Tamil Nadu, we are the foremost
                     manufacturer of best in class products comprising of Polyester T-Shirt,
                     Polo Polyester T-Shirt, Corporate T-Shirt and many more.
                   </p>
@@ -78,7 +78,7 @@ const About = () => {
                     />
                   </div>
                   <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-8">
-                    <p className="font-display text-5xl">7+</p>
+                    <p className="font-display text-5xl">10+</p>
                     <p className="text-sm tracking-widest uppercase mt-1">
                       Years of Excellence
                     </p>
@@ -178,7 +178,7 @@ const About = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">GST Number</p>
-                      <p className="font-display text-lg text-foreground mt-1">33AMIPB4062D1ZO</p>
+                      <p className="font-display text-lg text-foreground mt-1">33AMIPB4062D1Z0</p>
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">IEC Code</p>

@@ -12,7 +12,7 @@ const Index = () => {
         <title>New Antique Apparels | Premium T-Shirt Manufacturer in Tiruppur</title>
         <meta
           name="description"
-          content="New Antique Apparels - Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear in Tiruppur, Tamil Nadu. Quality apparel since 2018."
+          content="New Antique Apparels - Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear in Tiruppur, Tamil Nadu. Quality apparel since 2017."
         />
         <meta name="keywords" content="Polyester T-Shirt, Polo T-Shirt, Corporate T-Shirt, T-Shirt Manufacturer, Tiruppur, Tamil Nadu" />
         <link rel="canonical" href="https://newantiqueapparels.com" />

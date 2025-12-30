@@ -11,13 +11,13 @@ import { toast } from "sonner";
 const contactInfo = [
   {
     icon: MapPin,
-    title: "Main Office",
-    details: ["No.9, Elementary School Street,", "Karuvampalayam, Tiruppur - 641604", "Near Bus Stop, Tamil Nadu, India"],
+    title: "Factory Address",
+    details: ["26/2A, N.V.B.LAYOUT,", "CHELLAM NAGAR EXTN.,", "MANGALAM ROAD,", "TIRUPUR - 641687"],
   },
   {
     icon: MapPin,
     title: "Branch Office",
-    details: ["Chennai", "Tamil Nadu, India"],
+    details: ["No.9, Elementary School Street,", "Karuvampalayam, Tiruppur - 641604", "Near Bus Stop, Tamil Nadu, India"],
   },
   {
     icon: Phone,
@@ -83,9 +83,9 @@ Please respond to this inquiry. Thank you!
         <title>Contact Us | New Antique Apparels - Tiruppur T-Shirt Manufacturer</title>
         <meta
           name="description"
-          content="Contact New Antique Apparels - Tiruppur's leading T-Shirt manufacturer. Call 6381379080 or visit us at Karuvampalayam, Tiruppur-641604, Tamil Nadu."
+          content="Contact New Antique Apparels - Tiruppur's leading T-Shirt manufacturer. Call 6381379080 or visit our factory at Mangalam Road, Tiruppur."
         />
-        <meta name="keywords" content="Contact New Antique Apparels, T-Shirt Manufacturer Tiruppur, Karuvampalayam" />
+        <meta name="keywords" content="Contact New Antique Apparels, T-Shirt Manufacturer Tiruppur, Mangalam Road" />
       </Helmet>
       <div className="min-h-screen bg-background">
         <Header />
@@ -262,7 +262,7 @@ Please respond to this inquiry. Thank you!
                     className="inline-flex items-center gap-2 text-primary font-body tracking-widest text-lg hover:underline"
                   >
                     <Phone size={18} />
-                    6381379080
+                    9360308412
                   </a>
                 </div>
               </div>

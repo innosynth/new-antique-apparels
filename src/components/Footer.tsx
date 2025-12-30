@@ -15,11 +15,10 @@ const Footer = () => {
               className="h-16 w-auto mb-4"
             />
             <p className="text-muted-foreground font-light leading-relaxed max-w-md">
-              We are the foremost manufacturer of best in class products comprising of
-              Polyester T-Shirt, Polo Polyester T-Shirt, Corporate T-Shirt and many more.
+              As a trusted name in garment manufacturing, we design and produce best-in-class polyester T-shirts, polo tees, and corporate apparel. <br />Our commitment to quality, consistency, and timely delivery makes us the preferred choice for businesses and brands.
             </p>
             <p className="text-muted-foreground font-light mt-2">
-              <span className="text-foreground">GST No.</span> 33AMIPB4062D1ZO
+              <span className="text-foreground">GST No.</span> 33AMIPB4062D1Z0
             </p>
             <div className="flex flex-col gap-3 mt-6">
               <a
@@ -75,17 +74,17 @@ const Footer = () => {
             <h4 className="font-display text-lg tracking-wider text-foreground mb-6">
               Our Offices
             </h4>
-            <div className="grid grid-cols-2 gap-8">
-              {/* Main Office */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+              {/* Factory Address */}
               <div>
-                <p className="text-primary font-medium text-sm mb-3">Main Office</p>
+                <p className="text-primary font-medium text-sm mb-3">Factory Address</p>
                 <div className="flex items-start gap-2 text-sm text-muted-foreground font-light">
                   <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
                   <div className="leading-relaxed">
-                    <p>No.9, Elementary School Street,</p>
-                    <p>Karuvampalayam, Tiruppur - 641604</p>
-                    <p>Near Bus Stop</p>
-                    <p>Tamil Nadu, India</p>
+                    <p>26/2A, N.V.B. LAYOUT,</p>
+                    <p>CHELLAM NAGAR EXTN.,</p>
+                    <p>MANGALAM ROAD,</p>
+                    <p>TIRUPUR - 641687</p>
                   </div>
                 </div>
               </div>
@@ -95,7 +94,9 @@ const Footer = () => {
                 <div className="flex items-start gap-2 text-sm text-muted-foreground font-light">
                   <MapPin size={16} className="text-primary mt-0.5 flex-shrink-0" />
                   <div className="leading-relaxed">
-                    <p>Chennai</p>
+                    <p>No.9, Elementary School Street,</p>
+                    <p>Karuvampalayam, Tiruppur - 641604</p>
+                    <p>Near Bus Stop</p>
                     <p>Tamil Nadu, India</p>
                   </div>
                 </div>

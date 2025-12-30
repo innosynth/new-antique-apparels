@@ -36,15 +36,15 @@ const AboutPreview = () => {
               <span className="block italic text-primary">Manufacturer</span>
             </h2>
             <p className="text-muted-foreground font-light leading-relaxed text-lg mb-6">
-              Based in Karuvampalayam, Tiruppur, Tamil Nadu, New Antique Apparels is a 
+              Based in Tiruppur, Tamil Nadu, New Antique Apparels is a
               leading proprietorship firm specializing in premium quality apparel manufacturing.
             </p>
             <p className="text-muted-foreground font-light leading-relaxed mb-8">
-              We have a team of dedicated professionals who help us in purveying prompt 
-              sales support to the client with a professional attitude which has helped 
+              We have a team of dedicated professionals who help us in purveying prompt
+              sales support to the client with a professional attitude which has helped
               our company in accomplishing ultimate customer contentment.
             </p>
-            
+
             {/* Features */}
             <ul className="space-y-3 mb-10">
               {features.map((feature) => (
@@ -54,7 +54,7 @@ const AboutPreview = () => {
                 </li>
               ))}
             </ul>
-            
+
             <Button variant="elegant" size="lg" asChild>
               <Link to="/about">
                 Learn More About Us

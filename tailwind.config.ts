@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         display: ['Playfair Display', 'serif'],
         body: ['DM Sans', 'sans-serif'],
+        cooper: ['Caprasimo', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",

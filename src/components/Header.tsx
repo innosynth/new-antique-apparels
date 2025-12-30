@@ -53,9 +53,11 @@ const Header = () => {
                 className={cn(
                   "text-sm font-body tracking-widest uppercase transition-all duration-300 relative",
                   location.pathname === item.path
-                    ? "text-black"
-                    : "text-black hover:text-black",
-                  "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[1px] after:bg-black after:origin-right after:scale-x-0 hover:after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300"
+                    ? (isScrolled ? "text-primary" : "text-black")
+                    : (isScrolled ? "text-muted-foreground hover:text-foreground" : "text-black/80 hover:text-black"),
+                  "after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[1px] transition-colors duration-300",
+                  isScrolled ? "after:bg-primary" : "after:bg-black",
+                  "after:origin-right after:scale-x-0 hover:after:origin-left hover:after:scale-x-100 after:transition-transform after:duration-300"
                 )}
               >
                 {item.name}
@@ -93,7 +95,7 @@ const Header = () => {
                 "text-2xl font-display tracking-widest transition-all duration-300",
                 location.pathname === item.path
                   ? "text-black"
-                  : "text-black hover:text-black"
+                  : "text-black/70 hover:text-black"
               )}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
