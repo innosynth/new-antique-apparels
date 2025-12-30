@@ -12,6 +12,8 @@ const HeroSection = () => {
           src={heroImage}
           alt="Premium T-Shirts and Corporate Wear"
           className="w-full h-full object-cover object-center opacity-35"
+          decoding="async"
+          fetchPriority="high"
         />
         <div className="absolute inset-0 bg-white/20" />
       </div>

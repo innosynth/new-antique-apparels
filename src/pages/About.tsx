@@ -55,7 +55,7 @@ const About = () => {
         <Header />
         <main>
           {/* Hero Section */}
-          <section className="relative pt-32 pb-24 lg:py-40">
+          <section className="relative pt-32 pb-24 lg:pt-3 lg:pb-4">
             <div className="container mx-auto px-6 lg:px-12">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                 <div>
@@ -77,8 +77,8 @@ const About = () => {
                     our company in accomplishing ultimate customer contentment.
                   </p>
                 </div>
-                <div className="relative animate-fade-up opacity-0 stagger-3">
-                  <div className="aspect-[4/5] overflow-hidden">
+                <div className="relative animate-fade-up opacity-0 stagger-3 lg:mt-20">
+                  <div className="aspect-[4/3] overflow-hidden">
                     <img
                       src={heroImage}
                       alt="New Antique Apparels Manufacturing"
