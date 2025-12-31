@@ -26,7 +26,7 @@ const HeroSection = () => {
           </p>
           <h1 className="animate-fade-up opacity-0 stagger-2 font-cooper text-5xl md:text-7xl lg:text-8xl leading-[1.1] mb-8">
             <span className="text-brand-purple">New Antique</span>
-            <span className="block italic text-brand-tan">Apparels</span>
+            <span className="block italic text-brand-purple">Apparels</span>
           </h1>
           <p className="animate-fade-up opacity-0 stagger-3 font-body text-xl md:text-2xl text-black font-bold max-w-2xl mx-auto mb-12">
             Leading manufacturer of premium Polyester T-Shirts, Polo T-Shirts, and Corporate Wear.

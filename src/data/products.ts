@@ -26,7 +26,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
@@ -90,7 +90,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
@@ -154,7 +154,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0610.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
@@ -218,7 +218,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0610.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
@@ -282,7 +282,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0610.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
@@ -334,70 +334,7 @@ export const products: Product[] = [
       "Premium Quality"
     ]
   },
-  {
-    "id": "collar-cut-and-sew-5",
-    "name": " Ery0636",
-    "sku": "ANT-COL-005",
-    "category": "COLLAR CUT AND SEW",
-    "description": "Premium collar cut and sew apparel manufactured with high quality fabric and precision stitching. Ideal for corporate wear, events, and promotions.",
-    "images": [
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0609.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0610.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Navy",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Logo Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
+
   {
     "id": "collar-cut-and-sew-6",
     "name": " Ery0648",
@@ -411,7 +348,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
     ],
@@ -475,7 +412,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
     ],
@@ -539,7 +476,7 @@ export const products: Product[] = [
       "/product-images/COLLAR CUT AND SEW/_ERY0612.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0636.webp",
+
       "/product-images/COLLAR CUT AND SEW/_ERY0648.webp",
       "/product-images/COLLAR CUT AND SEW/_ERY0649.webp"
     ],
