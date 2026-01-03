@@ -2862,8 +2862,118 @@ export const products: Product[] = [
   },
   {
     "id": "full-sublimation-0",
-    "name": "Ery8981",
+    "name": "Ery0563",
     "sku": "ANT-FUL-027",
+    "category": "FULL SUBLIMATION",
+    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "images": [
+      "/product-images/FULL SUBLIMATION/_ERY0563.webp",
+      "/product-images/FULL SUBLIMATION/_ERY0564.webp",
+      "/product-images/FULL SUBLIMATION/_ERY0566.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "SUBLIMATION",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "full-sublimation-1",
+    "name": "Ery8981",
+    "sku": "ANT-FUL-028",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -2971,9 +3081,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-1",
+    "id": "full-sublimation-2",
     "name": "Ery8985",
-    "sku": "ANT-FUL-028",
+    "sku": "ANT-FUL-029",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3081,9 +3191,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-2",
+    "id": "full-sublimation-3",
     "name": "Ery8989",
-    "sku": "ANT-FUL-029",
+    "sku": "ANT-FUL-030",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3191,9 +3301,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-3",
+    "id": "full-sublimation-4",
     "name": "Ery8994",
-    "sku": "ANT-FUL-030",
+    "sku": "ANT-FUL-031",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3301,9 +3411,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-4",
+    "id": "full-sublimation-5",
     "name": "Ery9002",
-    "sku": "ANT-FUL-031",
+    "sku": "ANT-FUL-032",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3411,9 +3521,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-5",
+    "id": "full-sublimation-6",
     "name": "Ery9006",
-    "sku": "ANT-FUL-032",
+    "sku": "ANT-FUL-033",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3521,9 +3631,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-6",
+    "id": "full-sublimation-7",
     "name": "Ery9011",
-    "sku": "ANT-FUL-033",
+    "sku": "ANT-FUL-034",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3631,9 +3741,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-7",
+    "id": "full-sublimation-8",
     "name": "Ery9029",
-    "sku": "ANT-FUL-034",
+    "sku": "ANT-FUL-035",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3741,9 +3851,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-8",
+    "id": "full-sublimation-9",
     "name": "Ery9033",
-    "sku": "ANT-FUL-035",
+    "sku": "ANT-FUL-036",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3851,9 +3961,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-9",
+    "id": "full-sublimation-10",
     "name": "Ery9054",
-    "sku": "ANT-FUL-036",
+    "sku": "ANT-FUL-037",
     "category": "FULL SUBLIMATION",
     "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
     "images": [
@@ -3961,895 +4071,13 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-round-neck-0",
-    "name": "Ery0424",
-    "sku": "ANT-FUL-037",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0424.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0425.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0428.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-1",
-    "name": "Ery0482",
-    "sku": "ANT-FUL-038",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0482.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0483.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0485.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-2",
-    "name": "Ery0531",
-    "sku": "ANT-FUL-039",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0531.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0532.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0534.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-3",
-    "name": "Ery0537",
-    "sku": "ANT-FUL-040",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0537.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0538.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0541.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-4",
-    "name": "Ery0542",
-    "sku": "ANT-FUL-041",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0542.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0543.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0545.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-5",
-    "name": "Ery0563",
-    "sku": "ANT-FUL-042",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0563.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0564.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0566.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-6",
-    "name": "Ery0571",
-    "sku": "ANT-FUL-043",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0571.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0572.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0574.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
-    "id": "full-sublimation-round-neck-7",
-    "name": "Ery0598",
-    "sku": "ANT-FUL-044",
-    "category": "FULL SUBLIMATION ROUND NECK",
-    "description": "Round neck t-shirts with full sublimation printing. Stunning designs with superior color retention.",
-    "images": [
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0598.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0599.webp",
-      "/product-images/FULL SUBLIMATION ROUND NECK/_ERY0602.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "SUBLIMATION",
-      "ROUND NECK"
-    ]
-  },
-  {
     "id": "ganesha-t-shirt-0",
     "name": "Ery9015",
-    "sku": "ANT-GAN-045",
+    "sku": "ANT-GAN-038",
     "category": "GANESHA T-SHIRT",
     "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
     "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9015.webp",
-      "/product-images/GANESHA T-SHIRT/_ERY9018.webp",
-      "/product-images/GANESHA T-SHIRT/_ERY9020.webp"
+      "/product-images/GANESHA T-SHIRT/_ERY9015.webp"
     ],
     "fabricWeights": [
       {
@@ -4952,13 +4180,443 @@ export const products: Product[] = [
   },
   {
     "id": "ganesha-t-shirt-1",
-    "name": "Ery9021",
-    "sku": "ANT-GAN-046",
+    "name": "Ery9018",
+    "sku": "ANT-GAN-039",
     "category": "GANESHA T-SHIRT",
     "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
     "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9021.webp",
-      "/product-images/GANESHA T-SHIRT/_ERY9022.webp",
+      "/product-images/GANESHA T-SHIRT/_ERY9018.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-2",
+    "name": "Ery9020",
+    "sku": "ANT-GAN-040",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_ERY9020.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-3",
+    "name": "Ery9021",
+    "sku": "ANT-GAN-041",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_ERY9021.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-4",
+    "name": "Ery9022",
+    "sku": "ANT-GAN-042",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_ERY9022.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-5",
+    "name": "Ery9024",
+    "sku": "ANT-GAN-043",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
       "/product-images/GANESHA T-SHIRT/_ERY9024.webp"
     ],
     "fabricWeights": [
@@ -5061,9 +4719,3376 @@ export const products: Product[] = [
     ]
   },
   {
+    "id": "ganesha-t-shirt-6",
+    "name": "Gans001",
+    "sku": "ANT-GAN-044",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS001.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-7",
+    "name": "Gans002",
+    "sku": "ANT-GAN-045",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS002.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-8",
+    "name": "Gans003",
+    "sku": "ANT-GAN-046",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS003.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-9",
+    "name": "Gans004",
+    "sku": "ANT-GAN-047",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS004.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-10",
+    "name": "Gans005",
+    "sku": "ANT-GAN-048",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS005.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-11",
+    "name": "Gans006",
+    "sku": "ANT-GAN-049",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS006.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-12",
+    "name": "Gans007",
+    "sku": "ANT-GAN-050",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS007.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-13",
+    "name": "Gans008",
+    "sku": "ANT-GAN-051",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS008.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-14",
+    "name": "Gans009",
+    "sku": "ANT-GAN-052",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS009.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-15",
+    "name": "Gans010",
+    "sku": "ANT-GAN-053",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS010.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-16",
+    "name": "Gans011",
+    "sku": "ANT-GAN-054",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS011.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "ganesha-t-shirt-17",
+    "name": "Gans012",
+    "sku": "ANT-GAN-055",
+    "category": "GANESHA T-SHIRT",
+    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
+    "images": [
+      "/product-images/GANESHA T-SHIRT/_GANS012.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-0",
+    "name": "Indy001",
+    "sku": "ANT-IND-056",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY001.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-1",
+    "name": "Indy002",
+    "sku": "ANT-IND-057",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY002.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-2",
+    "name": "Indy003",
+    "sku": "ANT-IND-058",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY003.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-3",
+    "name": "Indy004",
+    "sku": "ANT-IND-059",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY004.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-4",
+    "name": "Indy005",
+    "sku": "ANT-IND-060",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY005.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-5",
+    "name": "Indy006",
+    "sku": "ANT-IND-061",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY006.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-6",
+    "name": "Indy007",
+    "sku": "ANT-IND-062",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY007.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-7",
+    "name": "Indy008",
+    "sku": "ANT-IND-063",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY008.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-8",
+    "name": "Indy009",
+    "sku": "ANT-IND-064",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY009.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-9",
+    "name": "Indy010",
+    "sku": "ANT-IND-065",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY010.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-10",
+    "name": "Indy011",
+    "sku": "ANT-IND-066",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY011.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-11",
+    "name": "Indy012",
+    "sku": "ANT-IND-067",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY012.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-12",
+    "name": "Indy013",
+    "sku": "ANT-IND-068",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY013.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-13",
+    "name": "Indy014",
+    "sku": "ANT-IND-069",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY014.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-14",
+    "name": "Indy015",
+    "sku": "ANT-IND-070",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY015.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-15",
+    "name": "Indy016",
+    "sku": "ANT-IND-071",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY016.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-16",
+    "name": "Indy017",
+    "sku": "ANT-IND-072",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY017.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-17",
+    "name": "Indy018",
+    "sku": "ANT-IND-073",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY018.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "independence-day-18",
+    "name": "Indy019",
+    "sku": "ANT-IND-074",
+    "category": "INDEPENDENCE DAY",
+    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "images": [
+      "/product-images/INDEPENDENCE DAY/_INDY019.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "INDEPENDENCE DAY",
+      "Premium Quality"
+    ]
+  },
+  {
     "id": "kids-printed-t-shirt-0",
     "name": "Ery0220",
-    "sku": "ANT-KID-047",
+    "sku": "ANT-KID-075",
     "category": "KIDS PRINTED T-SHIRT",
     "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
     "images": [
@@ -5173,7 +8198,7 @@ export const products: Product[] = [
   {
     "id": "kids-printed-t-shirt-1",
     "name": "Ery0232",
-    "sku": "ANT-KID-048",
+    "sku": "ANT-KID-076",
     "category": "KIDS PRINTED T-SHIRT",
     "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
     "images": [
@@ -5283,7 +8308,7 @@ export const products: Product[] = [
   {
     "id": "kids-printed-t-shirt-2",
     "name": "Ery0236",
-    "sku": "ANT-KID-049",
+    "sku": "ANT-KID-077",
     "category": "KIDS PRINTED T-SHIRT",
     "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
     "images": [
@@ -5393,7 +8418,7 @@ export const products: Product[] = [
   {
     "id": "kids-printed-t-shirt-3",
     "name": "Ery0247",
-    "sku": "ANT-KID-050",
+    "sku": "ANT-KID-078",
     "category": "KIDS PRINTED T-SHIRT",
     "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
     "images": [
@@ -5503,7 +8528,7 @@ export const products: Product[] = [
   {
     "id": "kids-printed-t-shirt-4",
     "name": "Ery0256",
-    "sku": "ANT-KID-051",
+    "sku": "ANT-KID-079",
     "category": "KIDS PRINTED T-SHIRT",
     "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
     "images": [
@@ -5611,7 +8636,7 @@ export const products: Product[] = [
   {
     "id": "ls-printed-0",
     "name": "Ery0387",
-    "sku": "ANT-LS -052",
+    "sku": "ANT-LS -080",
     "category": "LS PRINTED",
     "description": "Long sleeve printed t-shirts with premium quality prints. Perfect for cooler weather and outdoor activities.",
     "images": [
@@ -5721,7 +8746,7 @@ export const products: Product[] = [
   {
     "id": "ls-printed-1",
     "name": "Ery0506",
-    "sku": "ANT-LS -053",
+    "sku": "ANT-LS -081",
     "category": "LS PRINTED",
     "description": "Long sleeve printed t-shirts with premium quality prints. Perfect for cooler weather and outdoor activities.",
     "images": [
@@ -5831,7 +8856,7 @@ export const products: Product[] = [
   {
     "id": "ls-printed-2",
     "name": "Ery0521",
-    "sku": "ANT-LS -054",
+    "sku": "ANT-LS -082",
     "category": "LS PRINTED",
     "description": "Long sleeve printed t-shirts with premium quality prints. Perfect for cooler weather and outdoor activities.",
     "images": [
@@ -5941,7 +8966,7 @@ export const products: Product[] = [
   {
     "id": "nirmalknit-round-neck-0",
     "name": "Ery0431",
-    "sku": "ANT-NIR-055",
+    "sku": "ANT-NIR-083",
     "category": "NIRMALKNIT ROUND NECK",
     "description": "Premium Nirmalknit round neck t-shirts with superior fabric quality. Comfortable and durable for daily wear.",
     "images": [
@@ -6051,7 +9076,7 @@ export const products: Product[] = [
   {
     "id": "nirmalknit-round-neck-1",
     "name": "Ery0442",
-    "sku": "ANT-NIR-056",
+    "sku": "ANT-NIR-084",
     "category": "NIRMALKNIT ROUND NECK",
     "description": "Premium Nirmalknit round neck t-shirts with superior fabric quality. Comfortable and durable for daily wear.",
     "images": [
@@ -6161,7 +9186,7 @@ export const products: Product[] = [
   {
     "id": "nirmalknit-round-neck-2",
     "name": "Ery0495",
-    "sku": "ANT-NIR-057",
+    "sku": "ANT-NIR-085",
     "category": "NIRMALKNIT ROUND NECK",
     "description": "Premium Nirmalknit round neck t-shirts with superior fabric quality. Comfortable and durable for daily wear.",
     "images": [
@@ -6271,7 +9296,7 @@ export const products: Product[] = [
   {
     "id": "nirmalknit-v-neck-0",
     "name": "Ery0511",
-    "sku": "ANT-NIR-058",
+    "sku": "ANT-NIR-086",
     "category": "NIRMALKNIT V NECK",
     "description": "Elegant Nirmalknit V-neck t-shirts with premium finish. Stylish design for modern fashion.",
     "images": [
@@ -6381,7 +9406,7 @@ export const products: Product[] = [
   {
     "id": "nirmalknit-v-neck-1",
     "name": "Ery0512",
-    "sku": "ANT-NIR-059",
+    "sku": "ANT-NIR-087",
     "category": "NIRMALKNIT V NECK",
     "description": "Elegant Nirmalknit V-neck t-shirts with premium finish. Stylish design for modern fashion.",
     "images": [
@@ -6491,7 +9516,7 @@ export const products: Product[] = [
   {
     "id": "nirmalknit-v-neck-2",
     "name": "Ery0516",
-    "sku": "ANT-NIR-060",
+    "sku": "ANT-NIR-088",
     "category": "NIRMALKNIT V NECK",
     "description": "Elegant Nirmalknit V-neck t-shirts with premium finish. Stylish design for modern fashion.",
     "images": [
@@ -6599,9 +9624,120 @@ export const products: Product[] = [
     ]
   },
   {
+    "id": "plain-polyster-0",
+    "name": "Ery0358",
+    "sku": "ANT-PLA-089",
+    "category": "PLAIN POLYSTER",
+    "description": "Premium plain polyester apparel. High quality 110 GSM and 140 GSM options. Customizable for your needs.",
+    "images": [
+      "/product-images/PLAIN POLYSTER/_ERY0358.webp",
+      "/product-images/PLAIN POLYSTER/_ERY0359.webp",
+      "/product-images/PLAIN POLYSTER/_ERY0360.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "110",
+        "label": "110 GSM",
+        "description": "Light weight"
+      },
+      {
+        "value": "140",
+        "label": "140 GSM",
+        "description": "Medium weight"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PLAIN",
+      "POLYESTER",
+      "Premium Quality"
+    ]
+  },
+  {
     "id": "printed-fabric-t-shirt-0",
     "name": "Ery0268",
-    "sku": "ANT-PRI-061",
+    "sku": "ANT-PRI-090",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -6711,7 +9847,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-1",
     "name": "Ery0272",
-    "sku": "ANT-PRI-062",
+    "sku": "ANT-PRI-091",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -6821,7 +9957,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-2",
     "name": "Ery0284",
-    "sku": "ANT-PRI-063",
+    "sku": "ANT-PRI-092",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -6931,7 +10067,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-3",
     "name": "Ery0293",
-    "sku": "ANT-PRI-064",
+    "sku": "ANT-PRI-093",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7041,7 +10177,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-4",
     "name": "Ery0300",
-    "sku": "ANT-PRI-065",
+    "sku": "ANT-PRI-094",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7151,7 +10287,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-5",
     "name": "Ery0305",
-    "sku": "ANT-PRI-066",
+    "sku": "ANT-PRI-095",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7261,7 +10397,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-6",
     "name": "Ery0318",
-    "sku": "ANT-PRI-067",
+    "sku": "ANT-PRI-096",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7371,7 +10507,7 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-7",
     "name": "Ery0369",
-    "sku": "ANT-PRI-068",
+    "sku": "ANT-PRI-097",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7481,11 +10617,121 @@ export const products: Product[] = [
   {
     "id": "printed-fabric-t-shirt-8",
     "name": "Ery0372",
-    "sku": "ANT-PRI-069",
+    "sku": "ANT-PRI-098",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0372.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0424.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0425.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "printed-fabric-t-shirt-9",
+    "name": "Ery0428",
+    "sku": "ANT-PRI-099",
+    "category": "PRINTED FABRIC T-SHIRT",
+    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "images": [
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0428.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0438.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0439.webp"
     ],
@@ -7589,9 +10835,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-9",
+    "id": "printed-fabric-t-shirt-10",
     "name": "Ery0441",
-    "sku": "ANT-PRI-070",
+    "sku": "ANT-PRI-100",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7699,13 +10945,123 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-10",
+    "id": "printed-fabric-t-shirt-11",
     "name": "Ery0471",
-    "sku": "ANT-PRI-071",
+    "sku": "ANT-PRI-101",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0471.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0482.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0483.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "printed-fabric-t-shirt-12",
+    "name": "Ery0485",
+    "sku": "ANT-PRI-102",
+    "category": "PRINTED FABRIC T-SHIRT",
+    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "images": [
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0485.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0500.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0501.webp"
     ],
@@ -7809,9 +11165,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-11",
+    "id": "printed-fabric-t-shirt-13",
     "name": "Ery0504",
-    "sku": "ANT-PRI-072",
+    "sku": "ANT-PRI-103",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -7919,13 +11275,233 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-12",
+    "id": "printed-fabric-t-shirt-14",
     "name": "Ery0520",
-    "sku": "ANT-PRI-073",
+    "sku": "ANT-PRI-104",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0520.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0531.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0532.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "printed-fabric-t-shirt-15",
+    "name": "Ery0534",
+    "sku": "ANT-PRI-105",
+    "category": "PRINTED FABRIC T-SHIRT",
+    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "images": [
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0534.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0542.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0543.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "printed-fabric-t-shirt-16",
+    "name": "Ery0545",
+    "sku": "ANT-PRI-106",
+    "category": "PRINTED FABRIC T-SHIRT",
+    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "images": [
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0545.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0549.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0550.webp"
     ],
@@ -8029,9 +11605,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-13",
+    "id": "printed-fabric-t-shirt-17",
     "name": "Ery0552",
-    "sku": "ANT-PRI-074",
+    "sku": "ANT-PRI-107",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -8139,13 +11715,123 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-14",
+    "id": "printed-fabric-t-shirt-18",
     "name": "Ery0570",
-    "sku": "ANT-PRI-075",
+    "sku": "ANT-PRI-108",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0570.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0571.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0572.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "printed-fabric-t-shirt-19",
+    "name": "Ery0574",
+    "sku": "ANT-PRI-109",
+    "category": "PRINTED FABRIC T-SHIRT",
+    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "images": [
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0574.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0582.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0583.webp"
     ],
@@ -8249,13 +11935,123 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-15",
+    "id": "printed-fabric-t-shirt-20",
     "name": "Ery0585",
-    "sku": "ANT-PRI-076",
+    "sku": "ANT-PRI-110",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0585.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0598.webp",
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0599.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "PRINTED",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "printed-fabric-t-shirt-21",
+    "name": "Ery0602",
+    "sku": "ANT-PRI-111",
+    "category": "PRINTED FABRIC T-SHIRT",
+    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "images": [
+      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0602.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0614.webp",
       "/product-images/PRINTED FABRIC T-SHIRT/_ERY0615.webp"
     ],
@@ -8359,9 +12155,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-16",
+    "id": "printed-fabric-t-shirt-22",
     "name": "Ery0617",
-    "sku": "ANT-PRI-077",
+    "sku": "ANT-PRI-112",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -8469,9 +12265,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-17",
+    "id": "printed-fabric-t-shirt-23",
     "name": "Ery0621",
-    "sku": "ANT-PRI-078",
+    "sku": "ANT-PRI-113",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -8579,9 +12375,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-18",
+    "id": "printed-fabric-t-shirt-24",
     "name": "Ery0631",
-    "sku": "ANT-PRI-079",
+    "sku": "ANT-PRI-114",
     "category": "PRINTED FABRIC T-SHIRT",
     "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
     "images": [
@@ -8689,7 +12485,7 @@ export const products: Product[] = [
   {
     "id": "promotional-collar-0",
     "name": "Ery0330",
-    "sku": "ANT-PRO-080",
+    "sku": "ANT-PRO-115",
     "category": "PROMOTIONAL COLLAR",
     "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
     "images": [
@@ -8799,7 +12595,7 @@ export const products: Product[] = [
   {
     "id": "promotional-collar-1",
     "name": "Ery0334",
-    "sku": "ANT-PRO-081",
+    "sku": "ANT-PRO-116",
     "category": "PROMOTIONAL COLLAR",
     "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
     "images": [
@@ -8909,7 +12705,7 @@ export const products: Product[] = [
   {
     "id": "promotional-collar-2",
     "name": "Ery0658",
-    "sku": "ANT-PRO-082",
+    "sku": "ANT-PRO-117",
     "category": "PROMOTIONAL COLLAR",
     "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
     "images": [
@@ -9019,7 +12815,7 @@ export const products: Product[] = [
   {
     "id": "promotional-collar-3",
     "name": "Ery9051",
-    "sku": "ANT-PRO-083",
+    "sku": "ANT-PRO-118",
     "category": "PROMOTIONAL COLLAR",
     "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
     "images": [
@@ -9127,7 +12923,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-0",
     "name": "Ery0350",
-    "sku": "ANT-PRO-084",
+    "sku": "ANT-PRO-119",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9237,7 +13033,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-1",
     "name": "Ery0353",
-    "sku": "ANT-PRO-085",
+    "sku": "ANT-PRO-120",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9347,7 +13143,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-2",
     "name": "Ery0357",
-    "sku": "ANT-PRO-086",
+    "sku": "ANT-PRO-121",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9457,7 +13253,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-3",
     "name": "Ery0376",
-    "sku": "ANT-PRO-087",
+    "sku": "ANT-PRO-122",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9567,7 +13363,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-4",
     "name": "Ery0384",
-    "sku": "ANT-PRO-088",
+    "sku": "ANT-PRO-123",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9677,7 +13473,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-5",
     "name": "Ery0409",
-    "sku": "ANT-PRO-089",
+    "sku": "ANT-PRO-124",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9787,7 +13583,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-6",
     "name": "Ery0558",
-    "sku": "ANT-PRO-090",
+    "sku": "ANT-PRO-125",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -9897,7 +13693,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-7",
     "name": "Ery0578",
-    "sku": "ANT-PRO-091",
+    "sku": "ANT-PRO-126",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -10007,7 +13803,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-8",
     "name": "Ery0594",
-    "sku": "ANT-PRO-092",
+    "sku": "ANT-PRO-127",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -10117,7 +13913,7 @@ export const products: Product[] = [
   {
     "id": "promotional-round-t-shirt-9",
     "name": "Ery9026",
-    "sku": "ANT-PRO-093",
+    "sku": "ANT-PRO-128",
     "category": "PROMOTIONAL ROUND T-SHIRT",
     "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
     "images": [
@@ -10226,7 +14022,7 @@ export const products: Product[] = [
   {
     "id": "round-cut-and-sew-0",
     "name": "Ery0399",
-    "sku": "ANT-ROU-094",
+    "sku": "ANT-ROU-129",
     "category": "ROUND CUT AND SEW",
     "description": "Premium round cut and sew t-shirts with precision tailoring. Comfortable fit and durable stitching.",
     "images": [
@@ -10336,7 +14132,7 @@ export const products: Product[] = [
   {
     "id": "round-cut-and-sew-1",
     "name": "Ery0400",
-    "sku": "ANT-ROU-095",
+    "sku": "ANT-ROU-130",
     "category": "ROUND CUT AND SEW",
     "description": "Premium round cut and sew t-shirts with precision tailoring. Comfortable fit and durable stitching.",
     "images": [
@@ -10446,7 +14242,7 @@ export const products: Product[] = [
   {
     "id": "round-cut-and-sew-2",
     "name": "Ery0402",
-    "sku": "ANT-ROU-096",
+    "sku": "ANT-ROU-131",
     "category": "ROUND CUT AND SEW",
     "description": "Premium round cut and sew t-shirts with precision tailoring. Comfortable fit and durable stitching.",
     "images": [
@@ -10555,118 +14351,8 @@ export const products: Product[] = [
   },
   {
     "id": "salina-round-neck-0",
-    "name": "Ery0358",
-    "sku": "ANT-SAL-097",
-    "category": "SALINA ROUND NECK",
-    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
-    "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0358.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0359.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0360.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "salina-round-neck-1",
     "name": "Ery0404",
-    "sku": "ANT-SAL-098",
+    "sku": "ANT-SAL-132",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
@@ -10774,9 +14460,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "salina-round-neck-2",
+    "id": "salina-round-neck-1",
     "name": "Ery0420",
-    "sku": "ANT-SAL-099",
+    "sku": "ANT-SAL-133",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
@@ -10884,9 +14570,9 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "salina-round-neck-3",
+    "id": "salina-round-neck-2",
     "name": "Ery0526",
-    "sku": "ANT-SAL-100",
+    "sku": "ANT-SAL-134",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
@@ -10994,9 +14680,119 @@ export const products: Product[] = [
     ]
   },
   {
+    "id": "salina-round-neck-3",
+    "name": "Ery0537",
+    "sku": "ANT-SAL-135",
+    "category": "SALINA ROUND NECK",
+    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
+    "images": [
+      "/product-images/SALINA ROUND NECK/_ERY0537.webp",
+      "/product-images/SALINA ROUND NECK/_ERY0538.webp",
+      "/product-images/SALINA ROUND NECK/_ERY0541.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "ROUND NECK",
+      "Premium Quality"
+    ]
+  },
+  {
     "id": "salina-round-neck-4",
     "name": "Ery0587",
-    "sku": "ANT-SAL-101",
+    "sku": "ANT-SAL-136",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
@@ -11106,7 +14902,7 @@ export const products: Product[] = [
   {
     "id": "salina-round-neck-5",
     "name": "Ery0660",
-    "sku": "ANT-SAL-102",
+    "sku": "ANT-SAL-137",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
@@ -11216,7 +15012,7 @@ export const products: Product[] = [
   {
     "id": "slub-t-shirt-0",
     "name": "Ery0416",
-    "sku": "ANT-SLU-103",
+    "sku": "ANT-SLU-138",
     "category": "SLUB T-SHIRT",
     "description": "Slub t-shirts with unique textured fabric. Modern look with comfortable fit.",
     "images": [
@@ -11326,7 +15122,7 @@ export const products: Product[] = [
   {
     "id": "slub-t-shirt-1",
     "name": "Ery0448",
-    "sku": "ANT-SLU-104",
+    "sku": "ANT-SLU-139",
     "category": "SLUB T-SHIRT",
     "description": "Slub t-shirts with unique textured fabric. Modern look with comfortable fit.",
     "images": [
@@ -11436,7 +15232,7 @@ export const products: Product[] = [
   {
     "id": "slub-t-shirt-2",
     "name": "Ery0454",
-    "sku": "ANT-SLU-105",
+    "sku": "ANT-SLU-140",
     "category": "SLUB T-SHIRT",
     "description": "Slub t-shirts with unique textured fabric. Modern look with comfortable fit.",
     "images": [
@@ -11545,7 +15341,7 @@ export const products: Product[] = [
   }
 ];
 
-export const categories = ["All", "COLLAR CUT AND SEW", "COLLAR PRINT POCK", "COLLAR SHOW PATTI", "COLLAR T-SHIRT", "COLLAR WITH POCK", "CREW COLLAR T-SHIRT", "FULL SUBLIMATION", "FULL SUBLIMATION ROUND NECK", "GANESHA T-SHIRT", "KIDS PRINTED T-SHIRT", "LS PRINTED", "NIRMALKNIT ROUND NECK", "NIRMALKNIT V NECK", "PRINTED FABRIC T-SHIRT", "PROMOTIONAL COLLAR", "PROMOTIONAL ROUND T-SHIRT", "ROUND CUT AND SEW", "SALINA ROUND NECK", "SLUB T-SHIRT"];
+export const categories = ["All", "COLLAR CUT AND SEW", "COLLAR PRINT POCK", "COLLAR SHOW PATTI", "COLLAR T-SHIRT", "COLLAR WITH POCK", "CREW COLLAR T-SHIRT", "FULL SUBLIMATION", "GANESHA T-SHIRT", "INDEPENDENCE DAY", "KIDS PRINTED T-SHIRT", "LS PRINTED", "NIRMALKNIT ROUND NECK", "NIRMALKNIT V NECK", "PLAIN POLYSTER", "PRINTED FABRIC T-SHIRT", "PROMOTIONAL COLLAR", "PROMOTIONAL ROUND T-SHIRT", "ROUND CUT AND SEW", "SALINA ROUND NECK", "SLUB T-SHIRT"];
 
 export const getProductById = (id: string): Product | undefined => {
   return products.find((p) => p.id === id);
