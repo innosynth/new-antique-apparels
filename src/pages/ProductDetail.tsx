@@ -21,6 +21,7 @@ const ProductDetail = () => {
   const [selectedCustomizations, setSelectedCustomizations] = useState<string[]>([]);
   const [quantity, setQuantity] = useState(250);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [customGsmValue, setCustomGsmValue] = useState("");
 
   if (!product) {
     return (
@@ -58,6 +59,12 @@ const ProductDetail = () => {
     const selectedColorInfo = product.colors[selectedColor];
     const selectedSizeInfo = product.sizes[selectedSize];
 
+    // Determine fabric weight display text
+    const isCustomGsm = selectedWeightInfo.value === 'custom';
+    const fabricWeightText = isCustomGsm && customGsmValue
+      ? `Custom GSM: ${customGsmValue} GSM`
+      : `${selectedWeightInfo.label} (${selectedWeightInfo.description})`;
+
     const message = `
 *${requestType} - New Antique Apparels*
 
@@ -66,7 +73,7 @@ const ProductDetail = () => {
 *Category:* ${product.category}
 
 *Selected Options:*
-• Fabric Weight: ${selectedWeightInfo.label} (${selectedWeightInfo.description})
+• Fabric Weight: ${fabricWeightText}
 • Color: ${selectedColorInfo.name}
 • Size: ${selectedSizeInfo}
 • Quantity: ${quantity} pcs
@@ -236,6 +243,22 @@ Please provide a quote for this order. Thank you!
                       </button>
                     ))}
                   </div>
+                  {/* Custom GSM Input */}
+                  {product.fabricWeights[selectedWeight]?.value === 'custom' && (
+                    <div className="mt-3">
+                      <div className="flex items-center gap-3">
+                        <input
+                          type="number"
+                          placeholder="Enter your preferred GSM (e.g., 150)"
+                          value={customGsmValue}
+                          onChange={(e) => setCustomGsmValue(e.target.value)}
+                          className="flex-1 px-4 py-3 border border-border bg-secondary text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary transition-colors"
+                        />
+                        <span className="text-muted-foreground text-sm">GSM</span>
+                      </div>
+                      <p className="text-muted-foreground text-xs mt-2">Specify your custom fabric weight in GSM (grams per square meter)</p>
+                    </div>
+                  )}
                 </div>
 
                 {/* Colors */}

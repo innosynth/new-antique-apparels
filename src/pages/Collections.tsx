@@ -1,22 +1,43 @@
-import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, X } from "lucide-react";
 import { products, categories } from "@/data/products";
 import { cn } from "@/lib/utils";
 
 const Collections = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const productsGridRef = useRef<HTMLDivElement>(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeCategory = searchParams.get("category") || "All";
 
+  const setActiveCategory = (category: string) => {
+    if (category === "All") {
+      setSearchParams({});
+    } else {
+      setSearchParams({ category });
+    }
+    // Scroll products grid to top so user sees the filtered products
+    productsGridRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const clearCategorySelection = () => {
+    setSearchParams({});
+    // Scroll products grid to top
+    productsGridRef.current?.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Scroll to top only on initial page load, not on category change
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [activeCategory]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const filteredProducts = activeCategory === "All"
     ? products
     : products.filter(p => p.category === activeCategory);
+
 
   return (
     <>
@@ -54,15 +75,38 @@ const Collections = () => {
               </p>
             </div>
 
-            <div className="flex flex-col lg:flex-row gap-12">
-              {/* Sidebar: Category Filter */}
-              <aside className="lg:w-64 flex-shrink-0 pointer-events-none">
-                <div className="sticky top-32 pointer-events-auto">
-                  <h2 className="font-display text-xl mb-6 flex items-center gap-2">
-                    Categories
-                    <span className="text-xs font-body text-muted-foreground font-normal">({filteredProducts.length} items)</span>
-                  </h2>
-                  <div className="flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 scrollbar-hide">
+            {/* Main Content Area - Fixed viewport with independent scrolling */}
+            <div className="flex flex-col lg:flex-row gap-8 lg:gap-12" style={{ height: 'calc(100vh - 280px)' }}>
+              {/* Sidebar: Category Filter - Independent scroll */}
+              <aside className="lg:w-64 flex-shrink-0 flex flex-col">
+                <h2 className="font-display text-xl mb-4 flex items-center gap-2">
+                  Categories
+                  <span className="text-xs font-body text-muted-foreground font-normal">({filteredProducts.length} items)</span>
+                </h2>
+
+                {/* Selected Category Indicator */}
+                {activeCategory !== "All" && (
+                  <div className="mb-4 pb-4 border-b border-border">
+                    <p className="text-xs text-muted-foreground uppercase tracking-widest mb-2">Selected</p>
+                    <div className="flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-lg px-3 py-2">
+                      <span className="text-xs font-bold text-primary flex-1 uppercase tracking-wider">
+                        {activeCategory}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={clearCategorySelection}
+                        className="w-5 h-5 flex items-center justify-center rounded-full bg-primary/20 hover:bg-primary/30 text-primary transition-colors"
+                        title="Clear selection"
+                      >
+                        <X size={12} />
+                      </button>
+                    </div>
+                  </div>
+                )}
+
+                {/* Scrollable Categories List */}
+                <div className="flex-1 overflow-y-auto overflow-x-hidden pr-2 scrollbar-thin scrollbar-thumb-border scrollbar-track-transparent hover:scrollbar-thumb-muted-foreground/50">
+                  <div className="flex flex-row lg:flex-col gap-2 pb-4">
                     {categories.map((category) => (
                       <button
                         type="button"
@@ -82,9 +126,9 @@ const Collections = () => {
                 </div>
               </aside>
 
-              {/* Main: Products Grid */}
-              <div className="flex-1">
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+              {/* Main: Products Grid - Independent scroll */}
+              <div className="flex-1 overflow-y-auto overflow-x-hidden pr-2 scrollbar-thin scrollbar-thumb-border scrollbar-track-transparent hover:scrollbar-thumb-muted-foreground/50" ref={productsGridRef}>
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 pb-8">
                   {filteredProducts.map((product, index) => (
                     <Link
                       to={`/product/${product.id}`}
