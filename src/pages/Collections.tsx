@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
@@ -9,6 +9,10 @@ import { cn } from "@/lib/utils";
 
 const Collections = () => {
   const [activeCategory, setActiveCategory] = useState("All");
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [activeCategory]);
 
   const filteredProducts = activeCategory === "All"
     ? products
@@ -52,8 +56,8 @@ const Collections = () => {
 
             <div className="flex flex-col lg:flex-row gap-12">
               {/* Sidebar: Category Filter */}
-              <aside className="lg:w-64 flex-shrink-0">
-                <div className="sticky top-32">
+              <aside className="lg:w-64 flex-shrink-0 pointer-events-none">
+                <div className="sticky top-32 pointer-events-auto">
                   <h2 className="font-display text-xl mb-6 flex items-center gap-2">
                     Categories
                     <span className="text-xs font-body text-muted-foreground font-normal">({filteredProducts.length} items)</span>
@@ -61,6 +65,7 @@ const Collections = () => {
                   <div className="flex flex-row lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-4 lg:pb-0 scrollbar-hide">
                     {categories.map((category) => (
                       <button
+                        type="button"
                         key={category}
                         onClick={() => setActiveCategory(category)}
                         className={cn(
