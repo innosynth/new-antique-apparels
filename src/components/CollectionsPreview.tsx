@@ -28,15 +28,17 @@ const CollectionsPreview = () => {
   }, [emblaApi]);
 
   // Prepare collection data from all real categories
-  const collectionData = categoryNames.map((name) => {
-    const firstProduct = products.find((p) => p.category === name);
-    return {
-      title: name,
-      subtitle: "Premium Range",
-      image: firstProduct?.images[0] || "",
-      link: `/collections?category=${encodeURIComponent(name)}`,
-    };
-  });
+  const collectionData = categoryNames
+    .filter((name) => name !== "All")
+    .map((name) => {
+      const firstProduct = products.find((p) => p.category === name);
+      return {
+        title: name,
+        subtitle: "Premium Range",
+        image: firstProduct?.images[0] || "",
+        link: `/collections?category=${encodeURIComponent(name)}`,
+      };
+    });
 
   return (
     <section className="py-24 lg:py-32 bg-background overflow-hidden">
