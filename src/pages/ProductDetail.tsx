@@ -13,6 +13,7 @@ import { cn } from "@/lib/utils";
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
   const product = getProductById(id || "");
+  const displayName = product ? (/^\d+(\.\d+)?$/.test(product.name) ? product.category : product.name) : "";
 
   const [selectedImage, setSelectedImage] = useState(0);
   const [selectedWeight, setSelectedWeight] = useState(0);
@@ -68,7 +69,7 @@ const ProductDetail = () => {
     const message = `
 *${requestType} - New Antique Apparels*
 
-*Product:* ${product.name}
+*Product:* ${displayName}
 *SKU:* ${product.sku}
 *Category:* ${product.category}
 
@@ -103,21 +104,21 @@ Please provide a quote for this order. Thank you!
   return (
     <>
       <Helmet>
-        <title>{`${product.name} | New Antique Apparels - Tiruppur`}</title>
+        <title>{`${displayName} | New Antique Apparels - Tiruppur`}</title>
         <meta name="description" content={product.description} />
-        <meta name="keywords" content={`${product.category}, ${product.name}, T-Shirt Manufacturer, Tiruppur, Bulk Order`} />
+        <meta name="keywords" content={`${product.category}, ${displayName}, T-Shirt Manufacturer, Tiruppur, Bulk Order`} />
         <link rel="canonical" href={`https://newantiqueapparel.com/product/${product.id}`} />
 
         {/* Open Graph */}
         <meta property="og:type" content="product" />
         <meta property="og:url" content={`https://newantiqueapparel.com/product/${product.id}`} />
-        <meta property="og:title" content={`${product.name} | New Antique Apparels`} />
+        <meta property="og:title" content={`${displayName} | New Antique Apparels`} />
         <meta property="og:description" content={product.description} />
         <meta property="og:image" content={`https://newantiqueapparel.com${product.images[0]}`} />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content={`${product.name} | New Antique Apparels`} />
+        <meta property="twitter:title" content={`${displayName} | New Antique Apparels`} />
         <meta property="twitter:description" content={product.description} />
         <meta property="twitter:image" content={`https://newantiqueapparel.com${product.images[0]}`} />
 
@@ -126,7 +127,7 @@ Please provide a quote for this order. Thank you!
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": product.name,
+            "name": displayName,
             "image": product.images.map(img => `https://newantiqueapparel.com${img}`),
             "description": product.description,
             "sku": product.sku,
@@ -154,7 +155,7 @@ Please provide a quote for this order. Thank you!
               <ChevronRight size={14} />
               <Link to="/collections" className="hover:text-primary transition-colors">Products</Link>
               <ChevronRight size={14} />
-              <span className="text-foreground">{product.name}</span>
+              <span className="text-foreground">{displayName}</span>
             </nav>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
@@ -166,7 +167,7 @@ Please provide a quote for this order. Thank you!
                 >
                   <img
                     src={product.images[selectedImage]}
-                    alt={product.name}
+                    alt={displayName}
                     className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover/img:scale-105"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover/img:bg-black/5 transition-colors" />
@@ -181,7 +182,7 @@ Please provide a quote for this order. Thank you!
                         selectedImage === idx ? "border-primary" : "border-border hover:border-muted-foreground"
                       )}
                     >
-                      <img src={img} alt={`${product.name} view ${idx + 1}`} className="w-full h-full object-cover" />
+                      <img src={img} alt={`${displayName} view ${idx + 1}`} className="w-full h-full object-cover" />
                     </button>
                   ))}
                 </div>
@@ -203,7 +204,7 @@ Please provide a quote for this order. Thank you!
 
                 {/* Title & SKU */}
                 <div>
-                  <h1 className="font-display text-3xl md:text-4xl text-foreground">{product.name}</h1>
+                  <h1 className="font-display text-3xl md:text-4xl text-foreground">{displayName}</h1>
                   <p className="text-muted-foreground text-sm mt-1">SKU: {product.sku}</p>
                 </div>
 
@@ -402,7 +403,7 @@ Please provide a quote for this order. Thank you!
           >
             <img
               src={product.images[selectedImage]}
-              alt={product.name}
+              alt={displayName}
               className="max-w-full max-h-full object-contain animate-in zoom-in-95 duration-300"
             />
           </div>

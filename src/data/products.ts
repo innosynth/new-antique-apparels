@@ -15,17 +15,22 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    "id": "collar-cut-and-sew-0",
-    "name": "Ery0609",
+    "id": "collar-240-gsm-0",
+    "name": "1.1",
     "sku": "ANT-COL-000",
-    "category": "COLLAR CUT AND SEW",
-    "description": "Premium collar cut and sew apparel manufactured with high quality 180 GSM fabric and precision stitching. Ideal for corporate wear, events, and promotions. Custom GSM available on request.",
+    "category": "COLLAR 240 GSM",
+    "description": "Premium collar 240 gsm apparel.",
     "images": [
-      "/product-images/COLLAR CUT AND SEW/_ERY0609.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0610.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0612.webp"
+      "/product-images/COLLAR 240 GSM/1.1.webp",
+      "/product-images/COLLAR 240 GSM/1.2.webp",
+      "/product-images/COLLAR 240 GSM/1.3.webp"
     ],
     "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
       {
         "value": "180",
         "label": "180 GSM",
@@ -115,22 +120,27 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "COLLAR",
       "Premium Quality"
     ]
   },
   {
-    "id": "collar-cut-and-sew-1",
-    "name": "Ery0633",
+    "id": "collar-240-gsm-1",
+    "name": "2.1",
     "sku": "ANT-COL-001",
-    "category": "COLLAR CUT AND SEW",
-    "description": "Premium collar cut and sew apparel manufactured with high quality 180 GSM fabric and precision stitching. Ideal for corporate wear, events, and promotions. Custom GSM available on request.",
+    "category": "COLLAR 240 GSM",
+    "description": "Premium collar 240 gsm apparel.",
     "images": [
-      "/product-images/COLLAR CUT AND SEW/_ERY0633.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0634.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0648.webp"
+      "/product-images/COLLAR 240 GSM/2.1.webp",
+      "/product-images/COLLAR 240 GSM/2.2.webp",
+      "/product-images/COLLAR 240 GSM/2.3.webp",
+      "/product-images/COLLAR 240 GSM/2.4.webp"
     ],
     "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
       {
         "value": "180",
         "label": "180 GSM",
@@ -220,21 +230,26 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "COLLAR",
       "Premium Quality"
     ]
   },
   {
-    "id": "collar-cut-and-sew-2",
-    "name": "Ery0649",
+    "id": "collar-budgeted-0",
+    "name": "1.1",
     "sku": "ANT-COL-002",
-    "category": "COLLAR CUT AND SEW",
-    "description": "Premium collar cut and sew apparel manufactured with high quality 180 GSM fabric and precision stitching. Ideal for corporate wear, events, and promotions. Custom GSM available on request.",
+    "category": "COLLAR BUDGETED",
+    "description": "Premium collar budgeted apparel.",
     "images": [
-      "/product-images/COLLAR CUT AND SEW/_ERY0649.webp",
-      "/product-images/COLLAR CUT AND SEW/_ERY0653.webp"
+      "/product-images/COLLAR BUDGETED/1.1.webp",
+      "/product-images/COLLAR BUDGETED/1.2.webp",
+      "/product-images/COLLAR BUDGETED/1.3.webp"
     ],
     "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
       {
         "value": "180",
         "label": "180 GSM",
@@ -324,20 +339,235 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "COLLAR",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "collar-budgeted-1",
+    "name": "2.1",
+    "sku": "ANT-COL-003",
+    "category": "COLLAR BUDGETED",
+    "description": "Premium collar budgeted apparel.",
+    "images": [
+      "/product-images/COLLAR BUDGETED/2.1.webp",
+      "/product-images/COLLAR BUDGETED/2.2.webp",
+      "/product-images/COLLAR BUDGETED/2.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "collar-budgeted-2",
+    "name": "3.1",
+    "sku": "ANT-COL-004",
+    "category": "COLLAR BUDGETED",
+    "description": "Premium collar budgeted apparel.",
+    "images": [
+      "/product-images/COLLAR BUDGETED/3.1.webp",
+      "/product-images/COLLAR BUDGETED/3.2.webp",
+      "/product-images/COLLAR BUDGETED/3.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
       "Premium Quality"
     ]
   },
   {
     "id": "collar-print-pock-0",
-    "name": "Ery9037",
-    "sku": "ANT-COL-003",
+    "name": "1",
+    "sku": "ANT-COL-005",
     "category": "COLLAR PRINT POCK",
     "description": "Stylish collar t-shirts with print pocket design. Made with 180 GSM high quality fabric for comfortable fit and durability. Custom GSM available on request.",
     "images": [
-      "/product-images/COLLAR PRINT POCK/_ERY9037.webp",
-      "/product-images/COLLAR PRINT POCK/_ERY9039.webp",
-      "/product-images/COLLAR PRINT POCK/_ERY9041.webp"
+      "/product-images/COLLAR PRINT POCK/1.webp"
     ],
     "fabricWeights": [
       {
@@ -435,14 +665,12 @@ export const products: Product[] = [
   },
   {
     "id": "collar-print-pock-1",
-    "name": "Ery9039",
-    "sku": "ANT-COL-004",
+    "name": "2",
+    "sku": "ANT-COL-006",
     "category": "COLLAR PRINT POCK",
     "description": "Stylish collar t-shirts with print pocket design. Made with 180 GSM high quality fabric for comfortable fit and durability. Custom GSM available on request.",
     "images": [
-      "/product-images/COLLAR PRINT POCK/_ERY9037.webp",
-      "/product-images/COLLAR PRINT POCK/_ERY9039.webp",
-      "/product-images/COLLAR PRINT POCK/_ERY9041.webp"
+      "/product-images/COLLAR PRINT POCK/2.webp"
     ],
     "fabricWeights": [
       {
@@ -540,1498 +768,12 @@ export const products: Product[] = [
   },
   {
     "id": "collar-print-pock-2",
-    "name": "Ery9041",
-    "sku": "ANT-COL-005",
+    "name": "3",
+    "sku": "ANT-COL-007",
     "category": "COLLAR PRINT POCK",
     "description": "Stylish collar t-shirts with print pocket design. Made with 180 GSM high quality fabric for comfortable fit and durability. Custom GSM available on request.",
     "images": [
-      "/product-images/COLLAR PRINT POCK/_ERY9037.webp",
-      "/product-images/COLLAR PRINT POCK/_ERY9039.webp",
-      "/product-images/COLLAR PRINT POCK/_ERY9041.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-show-patti-0",
-    "name": "Ery0478",
-    "sku": "ANT-COL-006",
-    "category": "COLLAR SHOW PATTI",
-    "description": "Elegant collar t-shirts with show patti design. Available in 110 GSM and 140 GSM fabric options. Perfect for casual and semi-formal occasions. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR SHOW PATTI/_ERY0478.webp",
-      "/product-images/COLLAR SHOW PATTI/_ERY0479.webp",
-      "/product-images/COLLAR SHOW PATTI/_ERY0481.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "110",
-        "label": "110 GSM",
-        "description": "Light weight"
-      },
-      {
-        "value": "140",
-        "label": "140 GSM",
-        "description": "Medium weight"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-show-patti-1",
-    "name": "Ery0479",
-    "sku": "ANT-COL-007",
-    "category": "COLLAR SHOW PATTI",
-    "description": "Elegant collar t-shirts with show patti design. Available in 110 GSM and 140 GSM fabric options. Perfect for casual and semi-formal occasions. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR SHOW PATTI/_ERY0478.webp",
-      "/product-images/COLLAR SHOW PATTI/_ERY0479.webp",
-      "/product-images/COLLAR SHOW PATTI/_ERY0481.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "110",
-        "label": "110 GSM",
-        "description": "Light weight"
-      },
-      {
-        "value": "140",
-        "label": "140 GSM",
-        "description": "Medium weight"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-show-patti-2",
-    "name": "Ery0481",
-    "sku": "ANT-COL-008",
-    "category": "COLLAR SHOW PATTI",
-    "description": "Elegant collar t-shirts with show patti design. Available in 110 GSM and 140 GSM fabric options. Perfect for casual and semi-formal occasions. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR SHOW PATTI/_ERY0478.webp",
-      "/product-images/COLLAR SHOW PATTI/_ERY0479.webp",
-      "/product-images/COLLAR SHOW PATTI/_ERY0481.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "110",
-        "label": "110 GSM",
-        "description": "Light weight"
-      },
-      {
-        "value": "140",
-        "label": "140 GSM",
-        "description": "Medium weight"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-0",
-    "name": "Ery0336",
-    "sku": "ANT-COL-009",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0336.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0338.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0340.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-1",
-    "name": "Ery0341",
-    "sku": "ANT-COL-010",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0341.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0344.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0346.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-2",
-    "name": "Ery0347",
-    "sku": "ANT-COL-011",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0347.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0348.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0463.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-3",
-    "name": "Ery0464",
-    "sku": "ANT-COL-012",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0464.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0466.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0473.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-4",
-    "name": "Ery0474",
-    "sku": "ANT-COL-013",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0474.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0476.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0604.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-5",
-    "name": "Ery0605",
-    "sku": "ANT-COL-014",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0605.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0607.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0622.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-6",
-    "name": "Ery0623",
-    "sku": "ANT-COL-015",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0623.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0625.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0643.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-7",
-    "name": "Ery0644",
-    "sku": "ANT-COL-016",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0644.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0646.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0664.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-8",
-    "name": "Ery0666",
-    "sku": "ANT-COL-017",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0666.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0669.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0670.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-9",
-    "name": "Ery0671",
-    "sku": "ANT-COL-018",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY0671.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY0673.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY9043.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "collar-t-shirt-10",
-    "name": "Ery9044",
-    "sku": "ANT-COL-019",
-    "category": "COLLAR T-SHIRT",
-    "description": "Classic collar t-shirts crafted with premium 180 GSM materials. Ideal for corporate uniforms, promotions, and events. Custom GSM available on request.",
-    "images": [
-      "/product-images/COLLAR T-SHIRT/_ERY9044.webp",
-      "/product-images/COLLAR T-SHIRT/_ERY9047.webp"
+      "/product-images/COLLAR PRINT POCK/3.webp"
     ],
     "fabricWeights": [
       {
@@ -2129,14 +871,15 @@ export const products: Product[] = [
   },
   {
     "id": "collar-with-pock-0",
-    "name": "Ery0325",
-    "sku": "ANT-COL-020",
+    "name": "1.1",
+    "sku": "ANT-COL-008",
     "category": "COLLAR WITH POCK",
     "description": "Comfortable collar t-shirts with pocket. Made with 180 GSM premium fabric. Practical and stylish design for daily wear. Custom GSM available on request.",
     "images": [
-      "/product-images/COLLAR WITH POCK/_ERY0325.webp",
-      "/product-images/COLLAR WITH POCK/_ERY0326.webp",
-      "/product-images/COLLAR WITH POCK/_ERY0327.webp"
+      "/product-images/COLLAR WITH POCK/1.1.webp",
+      "/product-images/COLLAR WITH POCK/1.2.webp",
+      "/product-images/COLLAR WITH POCK/1.3.webp",
+      "/product-images/COLLAR WITH POCK/1.4.webp"
     ],
     "fabricWeights": [
       {
@@ -2234,14 +977,14 @@ export const products: Product[] = [
   },
   {
     "id": "collar-with-pock-1",
-    "name": "Ery0329",
-    "sku": "ANT-COL-021",
+    "name": "2.1",
+    "sku": "ANT-COL-009",
     "category": "COLLAR WITH POCK",
     "description": "Comfortable collar t-shirts with pocket. Made with 180 GSM premium fabric. Practical and stylish design for daily wear. Custom GSM available on request.",
     "images": [
-      "/product-images/COLLAR WITH POCK/_ERY0329.webp",
-      "/product-images/COLLAR WITH POCK/_ERY0459.webp",
-      "/product-images/COLLAR WITH POCK/_ERY0460.webp"
+      "/product-images/COLLAR WITH POCK/2.1.webp",
+      "/product-images/COLLAR WITH POCK/2.2.webp",
+      "/product-images/COLLAR WITH POCK/2.3.webp"
     ],
     "fabricWeights": [
       {
@@ -2339,14 +1082,14 @@ export const products: Product[] = [
   },
   {
     "id": "collar-with-pock-2",
-    "name": "Ery0462",
-    "sku": "ANT-COL-022",
+    "name": "3.1",
+    "sku": "ANT-COL-010",
     "category": "COLLAR WITH POCK",
     "description": "Comfortable collar t-shirts with pocket. Made with 180 GSM premium fabric. Practical and stylish design for daily wear. Custom GSM available on request.",
     "images": [
-      "/product-images/COLLAR WITH POCK/_ERY0462.webp",
-      "/product-images/COLLAR WITH POCK/_ERY0638.webp",
-      "/product-images/COLLAR WITH POCK/_ERY0639.webp"
+      "/product-images/COLLAR WITH POCK/3.1.webp",
+      "/product-images/COLLAR WITH POCK/3.2.webp",
+      "/product-images/COLLAR WITH POCK/3.3.webp"
     ],
     "fabricWeights": [
       {
@@ -2443,15 +1186,23 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "collar-with-pock-3",
-    "name": "Ery0641",
-    "sku": "ANT-COL-023",
-    "category": "COLLAR WITH POCK",
-    "description": "Comfortable collar t-shirts with pocket. Made with 180 GSM premium fabric. Practical and stylish design for daily wear. Custom GSM available on request.",
+    "id": "contrast-collar-t-shirt-0",
+    "name": "1.1",
+    "sku": "ANT-CON-011",
+    "category": "CONTRAST COLLAR T-SHIRT",
+    "description": "Premium contrast collar t-shirt apparel.",
     "images": [
-      "/product-images/COLLAR WITH POCK/_ERY0641.webp"
+      "/product-images/CONTRAST COLLAR T-SHIRT/1.1.webp",
+      "/product-images/CONTRAST COLLAR T-SHIRT/1.2.webp",
+      "/product-images/CONTRAST COLLAR T-SHIRT/1.3.webp",
+      "/product-images/CONTRAST COLLAR T-SHIRT/1.4.webp"
     ],
     "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
       {
         "value": "180",
         "label": "180 GSM",
@@ -2541,20 +1292,126 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "COLLAR",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "contrast-collar-t-shirt-1",
+    "name": "2.1",
+    "sku": "ANT-CON-012",
+    "category": "CONTRAST COLLAR T-SHIRT",
+    "description": "Premium contrast collar t-shirt apparel.",
+    "images": [
+      "/product-images/CONTRAST COLLAR T-SHIRT/2.1.webp",
+      "/product-images/CONTRAST COLLAR T-SHIRT/2.2.webp",
+      "/product-images/CONTRAST COLLAR T-SHIRT/2.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
       "Premium Quality"
     ]
   },
   {
     "id": "crew-collar-t-shirt-0",
-    "name": "Ery0395",
-    "sku": "ANT-CRE-024",
+    "name": "1",
+    "sku": "ANT-CRE-013",
     "category": "CREW COLLAR T-SHIRT",
     "description": "Crew collar t-shirts with modern design. Made with 180 GSM soft fabric for comfortable all-day wear. Custom GSM available on request.",
     "images": [
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0395.webp",
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0396.webp",
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0398.webp"
+      "/product-images/CREW COLLAR T-SHIRT/1.webp"
     ],
     "fabricWeights": [
       {
@@ -2652,14 +1509,12 @@ export const products: Product[] = [
   },
   {
     "id": "crew-collar-t-shirt-1",
-    "name": "Ery0396",
-    "sku": "ANT-CRE-025",
+    "name": "2",
+    "sku": "ANT-CRE-014",
     "category": "CREW COLLAR T-SHIRT",
     "description": "Crew collar t-shirts with modern design. Made with 180 GSM soft fabric for comfortable all-day wear. Custom GSM available on request.",
     "images": [
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0395.webp",
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0396.webp",
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0398.webp"
+      "/product-images/CREW COLLAR T-SHIRT/2.webp"
     ],
     "fabricWeights": [
       {
@@ -2757,14 +1612,12 @@ export const products: Product[] = [
   },
   {
     "id": "crew-collar-t-shirt-2",
-    "name": "Ery0398",
-    "sku": "ANT-CRE-026",
+    "name": "3",
+    "sku": "ANT-CRE-015",
     "category": "CREW COLLAR T-SHIRT",
     "description": "Crew collar t-shirts with modern design. Made with 180 GSM soft fabric for comfortable all-day wear. Custom GSM available on request.",
     "images": [
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0395.webp",
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0396.webp",
-      "/product-images/CREW COLLAR T-SHIRT/_ERY0398.webp"
+      "/product-images/CREW COLLAR T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -2861,15 +1714,15 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "full-sublimation-0",
-    "name": "Ery0563",
-    "sku": "ANT-FUL-027",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-collar-cut-and-sew-0",
+    "name": "1.1",
+    "sku": "ANT-CUS-016",
+    "category": "CUSTOMIZED COLLAR CUT AND SEW",
+    "description": "Premium customized collar cut and sew apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY0563.webp",
-      "/product-images/FULL SUBLIMATION/_ERY0564.webp",
-      "/product-images/FULL SUBLIMATION/_ERY0566.webp"
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/1.1.webp",
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/1.2.webp",
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/1.3.webp"
     ],
     "fabricWeights": [
       {
@@ -2966,20 +1819,19 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-1",
-    "name": "Ery8981",
-    "sku": "ANT-FUL-028",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-collar-cut-and-sew-1",
+    "name": "2.1",
+    "sku": "ANT-CUS-017",
+    "category": "CUSTOMIZED COLLAR CUT AND SEW",
+    "description": "Premium customized collar cut and sew apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY8981.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8982.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8984.webp"
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/2.1.webp",
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/2.2.webp",
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/2.3.webp"
     ],
     "fabricWeights": [
       {
@@ -3076,20 +1928,19 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-2",
-    "name": "Ery8985",
-    "sku": "ANT-FUL-029",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-collar-cut-and-sew-2",
+    "name": "3.1",
+    "sku": "ANT-CUS-018",
+    "category": "CUSTOMIZED COLLAR CUT AND SEW",
+    "description": "Premium customized collar cut and sew apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY8985.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8986.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8988.webp"
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/3.1.webp",
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/3.2.webp",
+      "/product-images/CUSTOMIZED COLLAR CUT AND SEW/3.3.webp"
     ],
     "fabricWeights": [
       {
@@ -3186,20 +2037,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-3",
-    "name": "Ery8989",
-    "sku": "ANT-FUL-030",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-cut-and-sew-t-shirt-0",
+    "name": "1",
+    "sku": "ANT-CUS-019",
+    "category": "CUSTOMIZED CUT AND SEW T-SHIRT",
+    "description": "Premium customized cut and sew t-shirt apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY8989.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8990.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8992.webp"
+      "/product-images/CUSTOMIZED CUT AND SEW T-SHIRT/1.webp"
     ],
     "fabricWeights": [
       {
@@ -3296,20 +2144,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-4",
-    "name": "Ery8994",
-    "sku": "ANT-FUL-031",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-cut-and-sew-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-CUS-020",
+    "category": "CUSTOMIZED CUT AND SEW T-SHIRT",
+    "description": "Premium customized cut and sew t-shirt apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY8994.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8996.webp",
-      "/product-images/FULL SUBLIMATION/_ERY8998.webp"
+      "/product-images/CUSTOMIZED CUT AND SEW T-SHIRT/2.webp"
     ],
     "fabricWeights": [
       {
@@ -3406,20 +2251,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-5",
-    "name": "Ery9002",
-    "sku": "ANT-FUL-032",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-cut-and-sew-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-CUS-021",
+    "category": "CUSTOMIZED CUT AND SEW T-SHIRT",
+    "description": "Premium customized cut and sew t-shirt apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY9002.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9003.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9005.webp"
+      "/product-images/CUSTOMIZED CUT AND SEW T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -3516,20 +2358,19 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-6",
-    "name": "Ery9006",
-    "sku": "ANT-FUL-033",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-ganesha-0",
+    "name": "1.1",
+    "sku": "ANT-CUS-022",
+    "category": "CUSTOMIZED GANESHA",
+    "description": "Premium customized ganesha apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY9006.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9008.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9010.webp"
+      "/product-images/CUSTOMIZED GANESHA/1.1.webp",
+      "/product-images/CUSTOMIZED GANESHA/1.2.webp",
+      "/product-images/CUSTOMIZED GANESHA/1.3.webp"
     ],
     "fabricWeights": [
       {
@@ -3626,20 +2467,19 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-7",
-    "name": "Ery9011",
-    "sku": "ANT-FUL-034",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-ganesha-1",
+    "name": "2.1",
+    "sku": "ANT-CUS-023",
+    "category": "CUSTOMIZED GANESHA",
+    "description": "Premium customized ganesha apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY9011.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9012.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9014.webp"
+      "/product-images/CUSTOMIZED GANESHA/2.1.webp",
+      "/product-images/CUSTOMIZED GANESHA/2.2.webp",
+      "/product-images/CUSTOMIZED GANESHA/2.3.webp"
     ],
     "fabricWeights": [
       {
@@ -3736,20 +2576,21 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-8",
-    "name": "Ery9029",
-    "sku": "ANT-FUL-035",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-promo-collar-t-shirt-0",
+    "name": "1.1",
+    "sku": "ANT-CUS-024",
+    "category": "CUSTOMIZED PROMO COLLAR T-SHIRT",
+    "description": "Premium customized promo collar t-shirt apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY9029.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9030.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9032.webp"
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/1.1.webp",
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/1.2.webp",
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/1.3.webp",
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/1.4.webp",
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/1.webp"
     ],
     "fabricWeights": [
       {
@@ -3846,20 +2687,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-9",
-    "name": "Ery9033",
-    "sku": "ANT-FUL-036",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-promo-collar-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-CUS-025",
+    "category": "CUSTOMIZED PROMO COLLAR T-SHIRT",
+    "description": "Premium customized promo collar t-shirt apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY9033.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9034.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9036.webp"
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/2.webp"
     ],
     "fabricWeights": [
       {
@@ -3956,20 +2794,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
       "Premium Quality"
     ]
   },
   {
-    "id": "full-sublimation-10",
-    "name": "Ery9054",
-    "sku": "ANT-FUL-037",
-    "category": "FULL SUBLIMATION",
-    "description": "Full sublimation printed t-shirts with vibrant colors and intricate designs. Perfect for sports teams and promotional events.",
+    "id": "customized-promo-collar-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-CUS-026",
+    "category": "CUSTOMIZED PROMO COLLAR T-SHIRT",
+    "description": "Premium customized promo collar t-shirt apparel.",
     "images": [
-      "/product-images/FULL SUBLIMATION/_ERY9054.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9057.webp",
-      "/product-images/FULL SUBLIMATION/_ERY9058.webp"
+      "/product-images/CUSTOMIZED PROMO COLLAR T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -4066,18 +2901,1534 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "SUBLIMATION",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-round-neck-t-shirt-0",
+    "name": "1",
+    "sku": "ANT-CUS-027",
+    "category": "CUSTOMIZED ROUND NECK T-SHIRT",
+    "description": "Premium customized round neck t-shirt apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED ROUND NECK T-SHIRT/1.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-round-neck-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-CUS-028",
+    "category": "CUSTOMIZED ROUND NECK T-SHIRT",
+    "description": "Premium customized round neck t-shirt apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED ROUND NECK T-SHIRT/2.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-round-neck-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-CUS-029",
+    "category": "CUSTOMIZED ROUND NECK T-SHIRT",
+    "description": "Premium customized round neck t-shirt apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED ROUND NECK T-SHIRT/3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-round-neck-t-shirt-3",
+    "name": "4",
+    "sku": "ANT-CUS-030",
+    "category": "CUSTOMIZED ROUND NECK T-SHIRT",
+    "description": "Premium customized round neck t-shirt apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED ROUND NECK T-SHIRT/4.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-tipping-collar-0",
+    "name": "1.1",
+    "sku": "ANT-CUS-031",
+    "category": "CUSTOMIZED TIPPING COLLAR",
+    "description": "Premium customized tipping collar apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED TIPPING COLLAR/1.1.webp",
+      "/product-images/CUSTOMIZED TIPPING COLLAR/1.2.webp",
+      "/product-images/CUSTOMIZED TIPPING COLLAR/1.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-tipping-collar-1",
+    "name": "2.1",
+    "sku": "ANT-CUS-032",
+    "category": "CUSTOMIZED TIPPING COLLAR",
+    "description": "Premium customized tipping collar apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED TIPPING COLLAR/2.1.webp",
+      "/product-images/CUSTOMIZED TIPPING COLLAR/2.2.webp",
+      "/product-images/CUSTOMIZED TIPPING COLLAR/2.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "customized-tipping-collar-2",
+    "name": "3.1",
+    "sku": "ANT-CUS-033",
+    "category": "CUSTOMIZED TIPPING COLLAR",
+    "description": "Premium customized tipping collar apparel.",
+    "images": [
+      "/product-images/CUSTOMIZED TIPPING COLLAR/3.1.webp",
+      "/product-images/CUSTOMIZED TIPPING COLLAR/3.2.webp",
+      "/product-images/CUSTOMIZED TIPPING COLLAR/3.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "event-t-shirt-0",
+    "name": "1.1",
+    "sku": "ANT-EVE-034",
+    "category": "EVENT T-SHIRT",
+    "description": "Premium event t-shirt apparel.",
+    "images": [
+      "/product-images/EVENT T-SHIRT/1.1.webp",
+      "/product-images/EVENT T-SHIRT/1.2.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "event-t-shirt-1",
+    "name": " 1.3",
+    "sku": "ANT-EVE-035",
+    "category": "EVENT T-SHIRT",
+    "description": "Premium event t-shirt apparel.",
+    "images": [
+      "/product-images/EVENT T-SHIRT/ 1.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "event-t-shirt-2",
+    "name": "2.1",
+    "sku": "ANT-EVE-036",
+    "category": "EVENT T-SHIRT",
+    "description": "Premium event t-shirt apparel.",
+    "images": [
+      "/product-images/EVENT T-SHIRT/2.1.webp",
+      "/product-images/EVENT T-SHIRT/2.2.webp",
+      "/product-images/EVENT T-SHIRT/2.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "export-customized-promo-t-shirt-0",
+    "name": "1.1",
+    "sku": "ANT-EXP-037",
+    "category": "EXPORT CUSTOMIZED  PROMO T-SHIRT",
+    "description": "Premium export customized  promo t-shirt apparel.",
+    "images": [
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/1.1.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/1.2.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/1.3.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/1.4.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "export-customized-promo-t-shirt-1",
+    "name": "2.1",
+    "sku": "ANT-EXP-038",
+    "category": "EXPORT CUSTOMIZED  PROMO T-SHIRT",
+    "description": "Premium export customized  promo t-shirt apparel.",
+    "images": [
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/2.1.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/2.2.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/2.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "export-customized-promo-t-shirt-2",
+    "name": "3.1",
+    "sku": "ANT-EXP-039",
+    "category": "EXPORT CUSTOMIZED  PROMO T-SHIRT",
+    "description": "Premium export customized  promo t-shirt apparel.",
+    "images": [
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/3.1.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/3.2.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/3.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "export-customized-promo-t-shirt-3",
+    "name": "4.1",
+    "sku": "ANT-EXP-040",
+    "category": "EXPORT CUSTOMIZED  PROMO T-SHIRT",
+    "description": "Premium export customized  promo t-shirt apparel.",
+    "images": [
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/4.1.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/4.2.webp",
+      "/product-images/EXPORT CUSTOMIZED  PROMO T-SHIRT/4.3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
       "Premium Quality"
     ]
   },
   {
     "id": "ganesha-t-shirt-0",
-    "name": "Ery9015",
-    "sku": "ANT-GAN-038",
+    "name": "1.1",
+    "sku": "ANT-GAN-041",
     "category": "GANESHA T-SHIRT",
     "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
     "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9015.webp"
+      "/product-images/GANESHA T-SHIRT/1.1.webp",
+      "/product-images/GANESHA T-SHIRT/1.2.webp"
     ],
     "fabricWeights": [
       {
@@ -4180,12 +4531,16 @@ export const products: Product[] = [
   },
   {
     "id": "ganesha-t-shirt-1",
-    "name": "Ery9018",
-    "sku": "ANT-GAN-039",
+    "name": "2.1",
+    "sku": "ANT-GAN-042",
     "category": "GANESHA T-SHIRT",
     "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
     "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9018.webp"
+      "/product-images/GANESHA T-SHIRT/2.1.webp",
+      "/product-images/GANESHA T-SHIRT/2.2.webp",
+      "/product-images/GANESHA T-SHIRT/2.3.webp",
+      "/product-images/GANESHA T-SHIRT/2.4.webp",
+      "/product-images/GANESHA T-SHIRT/2.5.webp"
     ],
     "fabricWeights": [
       {
@@ -4288,12 +4643,12 @@ export const products: Product[] = [
   },
   {
     "id": "ganesha-t-shirt-2",
-    "name": "Ery9020",
-    "sku": "ANT-GAN-040",
+    "name": "3",
+    "sku": "ANT-GAN-043",
     "category": "GANESHA T-SHIRT",
     "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
     "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9020.webp"
+      "/product-images/GANESHA T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -4396,1524 +4751,12 @@ export const products: Product[] = [
   },
   {
     "id": "ganesha-t-shirt-3",
-    "name": "Ery9021",
-    "sku": "ANT-GAN-041",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9021.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-4",
-    "name": "Ery9022",
-    "sku": "ANT-GAN-042",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9022.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-5",
-    "name": "Ery9024",
-    "sku": "ANT-GAN-043",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_ERY9024.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-6",
-    "name": "Gans001",
+    "name": "4",
     "sku": "ANT-GAN-044",
     "category": "GANESHA T-SHIRT",
     "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
     "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS001.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-7",
-    "name": "Gans002",
-    "sku": "ANT-GAN-045",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS002.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-8",
-    "name": "Gans003",
-    "sku": "ANT-GAN-046",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS003.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-9",
-    "name": "Gans004",
-    "sku": "ANT-GAN-047",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS004.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-10",
-    "name": "Gans005",
-    "sku": "ANT-GAN-048",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS005.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-11",
-    "name": "Gans006",
-    "sku": "ANT-GAN-049",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS006.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-12",
-    "name": "Gans007",
-    "sku": "ANT-GAN-050",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS007.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-13",
-    "name": "Gans008",
-    "sku": "ANT-GAN-051",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS008.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-14",
-    "name": "Gans009",
-    "sku": "ANT-GAN-052",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS009.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-15",
-    "name": "Gans010",
-    "sku": "ANT-GAN-053",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS010.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-16",
-    "name": "Gans011",
-    "sku": "ANT-GAN-054",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS011.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "ganesha-t-shirt-17",
-    "name": "Gans012",
-    "sku": "ANT-GAN-055",
-    "category": "GANESHA T-SHIRT",
-    "description": "Traditional Ganesha-themed t-shirts with beautiful designs. Perfect for festive occasions and devotees.",
-    "images": [
-      "/product-images/GANESHA T-SHIRT/_GANS012.webp"
+      "/product-images/GANESHA T-SHIRT/4.webp"
     ],
     "fabricWeights": [
       {
@@ -6016,12 +4859,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-0",
-    "name": "Indy001",
-    "sku": "ANT-IND-056",
+    "name": "1",
+    "sku": "ANT-IND-045",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY001.webp"
+      "/product-images/INDEPENDENCE DAY/1.webp"
     ],
     "fabricWeights": [
       {
@@ -6125,12 +4968,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-1",
-    "name": "Indy002",
-    "sku": "ANT-IND-057",
+    "name": "2",
+    "sku": "ANT-IND-046",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY002.webp"
+      "/product-images/INDEPENDENCE DAY/2.webp"
     ],
     "fabricWeights": [
       {
@@ -6234,12 +5077,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-2",
-    "name": "Indy003",
-    "sku": "ANT-IND-058",
+    "name": "3",
+    "sku": "ANT-IND-047",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY003.webp"
+      "/product-images/INDEPENDENCE DAY/3.webp"
     ],
     "fabricWeights": [
       {
@@ -6343,12 +5186,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-3",
-    "name": "Indy004",
-    "sku": "ANT-IND-059",
+    "name": "4",
+    "sku": "ANT-IND-048",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY004.webp"
+      "/product-images/INDEPENDENCE DAY/4.webp"
     ],
     "fabricWeights": [
       {
@@ -6452,12 +5295,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-4",
-    "name": "Indy005",
-    "sku": "ANT-IND-060",
+    "name": "5",
+    "sku": "ANT-IND-049",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY005.webp"
+      "/product-images/INDEPENDENCE DAY/5.webp"
     ],
     "fabricWeights": [
       {
@@ -6561,12 +5404,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-5",
-    "name": "Indy006",
-    "sku": "ANT-IND-061",
+    "name": "6",
+    "sku": "ANT-IND-050",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY006.webp"
+      "/product-images/INDEPENDENCE DAY/6.webp"
     ],
     "fabricWeights": [
       {
@@ -6670,12 +5513,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-6",
-    "name": "Indy007",
-    "sku": "ANT-IND-062",
+    "name": "7",
+    "sku": "ANT-IND-051",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY007.webp"
+      "/product-images/INDEPENDENCE DAY/7.webp"
     ],
     "fabricWeights": [
       {
@@ -6779,12 +5622,12 @@ export const products: Product[] = [
   },
   {
     "id": "independence-day-7",
-    "name": "Indy008",
-    "sku": "ANT-IND-063",
+    "name": "8",
+    "sku": "ANT-IND-052",
     "category": "INDEPENDENCE DAY",
     "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY008.webp"
+      "/product-images/INDEPENDENCE DAY/8.webp"
     ],
     "fabricWeights": [
       {
@@ -6887,13 +5730,13 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "independence-day-8",
-    "name": "Indy009",
-    "sku": "ANT-IND-064",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-0",
+    "name": "1",
+    "sku": "ANT-KID-053",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY009.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/1.webp"
     ],
     "fabricWeights": [
       {
@@ -6990,19 +5833,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-9",
-    "name": "Indy010",
-    "sku": "ANT-IND-065",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-KID-054",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY010.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/2.webp"
     ],
     "fabricWeights": [
       {
@@ -7099,19 +5940,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-10",
-    "name": "Indy011",
-    "sku": "ANT-IND-066",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-KID-055",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY011.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -7208,19 +6047,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-11",
-    "name": "Indy012",
-    "sku": "ANT-IND-067",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-3",
+    "name": "4",
+    "sku": "ANT-KID-056",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY012.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/4.webp"
     ],
     "fabricWeights": [
       {
@@ -7317,19 +6154,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-12",
-    "name": "Indy013",
-    "sku": "ANT-IND-068",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-4",
+    "name": "5",
+    "sku": "ANT-KID-057",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY013.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/5.webp"
     ],
     "fabricWeights": [
       {
@@ -7426,19 +6261,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-13",
-    "name": "Indy014",
-    "sku": "ANT-IND-069",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-5",
+    "name": "6",
+    "sku": "ANT-KID-058",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY014.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/6.webp"
     ],
     "fabricWeights": [
       {
@@ -7535,19 +6368,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-14",
-    "name": "Indy015",
-    "sku": "ANT-IND-070",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-6",
+    "name": "7",
+    "sku": "ANT-KID-059",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY015.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/7.webp"
     ],
     "fabricWeights": [
       {
@@ -7644,19 +6475,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-15",
-    "name": "Indy016",
-    "sku": "ANT-IND-071",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-collar-t-shirt-7",
+    "name": "8",
+    "sku": "ANT-KID-060",
+    "category": "KIDS COLLAR T-SHIRT",
+    "description": "Premium kids collar t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY016.webp"
+      "/product-images/KIDS COLLAR T-SHIRT/8.webp"
     ],
     "fabricWeights": [
       {
@@ -7753,19 +6582,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-16",
-    "name": "Indy017",
-    "sku": "ANT-IND-072",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-printed-rn-t-shirt-0",
+    "name": "1",
+    "sku": "ANT-KID-061",
+    "category": "KIDS PRINTED R:N  T-SHIRT",
+    "description": "Premium kids printed r:n  t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY017.webp"
+      "/product-images/KIDS PRINTED R:N  T-SHIRT/1.webp"
     ],
     "fabricWeights": [
       {
@@ -7862,19 +6689,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-17",
-    "name": "Indy018",
-    "sku": "ANT-IND-073",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-printed-rn-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-KID-062",
+    "category": "KIDS PRINTED R:N  T-SHIRT",
+    "description": "Premium kids printed r:n  t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY018.webp"
+      "/product-images/KIDS PRINTED R:N  T-SHIRT/2.webp"
     ],
     "fabricWeights": [
       {
@@ -7971,19 +6796,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "independence-day-18",
-    "name": "Indy019",
-    "sku": "ANT-IND-074",
-    "category": "INDEPENDENCE DAY",
-    "description": "Celebrate Independence Day with our exclusive collection of themed t-shirts. High quality prints with patriotic designs.",
+    "id": "kids-printed-rn-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-KID-063",
+    "category": "KIDS PRINTED R:N  T-SHIRT",
+    "description": "Premium kids printed r:n  t-shirt apparel.",
     "images": [
-      "/product-images/INDEPENDENCE DAY/_INDY019.webp"
+      "/product-images/KIDS PRINTED R:N  T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -8080,21 +6903,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "INDEPENDENCE DAY",
       "Premium Quality"
     ]
   },
   {
-    "id": "kids-printed-t-shirt-0",
-    "name": "Ery0220",
-    "sku": "ANT-KID-075",
-    "category": "KIDS PRINTED T-SHIRT",
-    "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
+    "id": "kids-printed-rn-t-shirt-3",
+    "name": "4",
+    "sku": "ANT-KID-064",
+    "category": "KIDS PRINTED R:N  T-SHIRT",
+    "description": "Premium kids printed r:n  t-shirt apparel.",
     "images": [
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0220.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0227.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0230.webp"
+      "/product-images/KIDS PRINTED R:N  T-SHIRT/4.webp"
     ],
     "fabricWeights": [
       {
@@ -8191,20 +7010,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "KIDS",
-      "PRINTED"
+      "Premium Quality"
     ]
   },
   {
-    "id": "kids-printed-t-shirt-1",
-    "name": "Ery0232",
-    "sku": "ANT-KID-076",
-    "category": "KIDS PRINTED T-SHIRT",
-    "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
+    "id": "kids-printed-rn-t-shirt-4",
+    "name": "5",
+    "sku": "ANT-KID-065",
+    "category": "KIDS PRINTED R:N  T-SHIRT",
+    "description": "Premium kids printed r:n  t-shirt apparel.",
     "images": [
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0232.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0233.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0235.webp"
+      "/product-images/KIDS PRINTED R:N  T-SHIRT/5.webp"
     ],
     "fabricWeights": [
       {
@@ -8301,348 +7117,19 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "KIDS",
-      "PRINTED"
-    ]
-  },
-  {
-    "id": "kids-printed-t-shirt-2",
-    "name": "Ery0236",
-    "sku": "ANT-KID-077",
-    "category": "KIDS PRINTED T-SHIRT",
-    "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
-    "images": [
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0236.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0240.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0244.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "KIDS",
-      "PRINTED"
-    ]
-  },
-  {
-    "id": "kids-printed-t-shirt-3",
-    "name": "Ery0247",
-    "sku": "ANT-KID-078",
-    "category": "KIDS PRINTED T-SHIRT",
-    "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
-    "images": [
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0247.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0251.webp",
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0252.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "KIDS",
-      "PRINTED"
-    ]
-  },
-  {
-    "id": "kids-printed-t-shirt-4",
-    "name": "Ery0256",
-    "sku": "ANT-KID-079",
-    "category": "KIDS PRINTED T-SHIRT",
-    "description": "Fun and colorful printed t-shirts for kids. Soft, comfortable fabric safe for children.",
-    "images": [
-      "/product-images/KIDS PRINTED T-SHIRT/_ERY0256.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "KIDS",
-      "PRINTED"
+      "Premium Quality"
     ]
   },
   {
     "id": "ls-printed-0",
-    "name": "Ery0387",
-    "sku": "ANT-LS -080",
+    "name": "1.1",
+    "sku": "ANT-LS -066",
     "category": "LS PRINTED",
     "description": "Long sleeve printed t-shirts with premium quality prints. Perfect for cooler weather and outdoor activities.",
     "images": [
-      "/product-images/LS PRINTED/_ERY0387.webp",
-      "/product-images/LS PRINTED/_ERY0388.webp",
-      "/product-images/LS PRINTED/_ERY0391.webp"
+      "/product-images/LS PRINTED/1.1.webp",
+      "/product-images/LS PRINTED/1.2.webp",
+      "/product-images/LS PRINTED/1.3.webp"
     ],
     "fabricWeights": [
       {
@@ -8745,14 +7232,14 @@ export const products: Product[] = [
   },
   {
     "id": "ls-printed-1",
-    "name": "Ery0506",
-    "sku": "ANT-LS -081",
+    "name": "2.1",
+    "sku": "ANT-LS -067",
     "category": "LS PRINTED",
     "description": "Long sleeve printed t-shirts with premium quality prints. Perfect for cooler weather and outdoor activities.",
     "images": [
-      "/product-images/LS PRINTED/_ERY0506.webp",
-      "/product-images/LS PRINTED/_ERY0507.webp",
-      "/product-images/LS PRINTED/_ERY0510.webp"
+      "/product-images/LS PRINTED/2.1.webp",
+      "/product-images/LS PRINTED/2.2.webp",
+      "/product-images/LS PRINTED/2.3.webp"
     ],
     "fabricWeights": [
       {
@@ -8855,14 +7342,14 @@ export const products: Product[] = [
   },
   {
     "id": "ls-printed-2",
-    "name": "Ery0521",
-    "sku": "ANT-LS -082",
+    "name": "3.1",
+    "sku": "ANT-LS -068",
     "category": "LS PRINTED",
     "description": "Long sleeve printed t-shirts with premium quality prints. Perfect for cooler weather and outdoor activities.",
     "images": [
-      "/product-images/LS PRINTED/_ERY0521.webp",
-      "/product-images/LS PRINTED/_ERY0523.webp",
-      "/product-images/LS PRINTED/_ERY0525.webp"
+      "/product-images/LS PRINTED/3.1.webp",
+      "/product-images/LS PRINTED/3.2.webp",
+      "/product-images/LS PRINTED/3.3.webp"
     ],
     "fabricWeights": [
       {
@@ -8964,15 +7451,13 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "nirmalknit-round-neck-0",
-    "name": "Ery0431",
-    "sku": "ANT-NIR-083",
-    "category": "NIRMALKNIT ROUND NECK",
-    "description": "Premium Nirmalknit round neck t-shirts with superior fabric quality. Comfortable and durable for daily wear.",
+    "id": "marathon-t-shirt-0",
+    "name": "1",
+    "sku": "ANT-MAR-069",
+    "category": "MARATHON T-SHIRT",
+    "description": "Premium marathon t-shirt apparel.",
     "images": [
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0431.webp",
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0432.webp",
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0436.webp"
+      "/product-images/MARATHON T-SHIRT/1.webp"
     ],
     "fabricWeights": [
       {
@@ -9069,20 +7554,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "ROUND NECK",
       "Premium Quality"
     ]
   },
   {
-    "id": "nirmalknit-round-neck-1",
-    "name": "Ery0442",
-    "sku": "ANT-NIR-084",
-    "category": "NIRMALKNIT ROUND NECK",
-    "description": "Premium Nirmalknit round neck t-shirts with superior fabric quality. Comfortable and durable for daily wear.",
+    "id": "marathon-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-MAR-070",
+    "category": "MARATHON T-SHIRT",
+    "description": "Premium marathon t-shirt apparel.",
     "images": [
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0442.webp",
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0444.webp",
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0446.webp"
+      "/product-images/MARATHON T-SHIRT/2.webp"
     ],
     "fabricWeights": [
       {
@@ -9179,20 +7661,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "ROUND NECK",
       "Premium Quality"
     ]
   },
   {
-    "id": "nirmalknit-round-neck-2",
-    "name": "Ery0495",
-    "sku": "ANT-NIR-085",
-    "category": "NIRMALKNIT ROUND NECK",
-    "description": "Premium Nirmalknit round neck t-shirts with superior fabric quality. Comfortable and durable for daily wear.",
+    "id": "marathon-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-MAR-071",
+    "category": "MARATHON T-SHIRT",
+    "description": "Premium marathon t-shirt apparel.",
     "images": [
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0495.webp",
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0497.webp",
-      "/product-images/NIRMALKNIT ROUND NECK/_ERY0499.webp"
+      "/product-images/MARATHON T-SHIRT/3.webp"
     ],
     "fabricWeights": [
       {
@@ -9289,20 +7768,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "ROUND NECK",
       "Premium Quality"
     ]
   },
   {
     "id": "nirmalknit-v-neck-0",
-    "name": "Ery0511",
-    "sku": "ANT-NIR-086",
+    "name": "1",
+    "sku": "ANT-NIR-072",
     "category": "NIRMALKNIT V NECK",
     "description": "Elegant Nirmalknit V-neck t-shirts with premium finish. Stylish design for modern fashion.",
     "images": [
-      "/product-images/NIRMALKNIT V NECK/_ERY0511.webp",
-      "/product-images/NIRMALKNIT V NECK/_ERY0512.webp",
-      "/product-images/NIRMALKNIT V NECK/_ERY0516.webp"
+      "/product-images/NIRMALKNIT V NECK/1.webp"
     ],
     "fabricWeights": [
       {
@@ -9405,14 +7881,12 @@ export const products: Product[] = [
   },
   {
     "id": "nirmalknit-v-neck-1",
-    "name": "Ery0512",
-    "sku": "ANT-NIR-087",
+    "name": "2",
+    "sku": "ANT-NIR-073",
     "category": "NIRMALKNIT V NECK",
     "description": "Elegant Nirmalknit V-neck t-shirts with premium finish. Stylish design for modern fashion.",
     "images": [
-      "/product-images/NIRMALKNIT V NECK/_ERY0511.webp",
-      "/product-images/NIRMALKNIT V NECK/_ERY0512.webp",
-      "/product-images/NIRMALKNIT V NECK/_ERY0516.webp"
+      "/product-images/NIRMALKNIT V NECK/2.webp"
     ],
     "fabricWeights": [
       {
@@ -9515,14 +7989,12 @@ export const products: Product[] = [
   },
   {
     "id": "nirmalknit-v-neck-2",
-    "name": "Ery0516",
-    "sku": "ANT-NIR-088",
+    "name": "3",
+    "sku": "ANT-NIR-074",
     "category": "NIRMALKNIT V NECK",
     "description": "Elegant Nirmalknit V-neck t-shirts with premium finish. Stylish design for modern fashion.",
     "images": [
-      "/product-images/NIRMALKNIT V NECK/_ERY0511.webp",
-      "/product-images/NIRMALKNIT V NECK/_ERY0512.webp",
-      "/product-images/NIRMALKNIT V NECK/_ERY0516.webp"
+      "/product-images/NIRMALKNIT V NECK/3.webp"
     ],
     "fabricWeights": [
       {
@@ -9624,26 +8096,559 @@ export const products: Product[] = [
     ]
   },
   {
-    "id": "plain-polyster-0",
+    "id": "political-pink-t-shirt-0",
+    "name": "1",
+    "sku": "ANT-POL-075",
+    "category": "POLITICAL PINK T-SHIRT",
+    "description": "Premium political pink t-shirt apparel.",
+    "images": [
+      "/product-images/POLITICAL PINK T-SHIRT/1.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "political-pink-t-shirt-1",
+    "name": "2",
+    "sku": "ANT-POL-076",
+    "category": "POLITICAL PINK T-SHIRT",
+    "description": "Premium political pink t-shirt apparel.",
+    "images": [
+      "/product-images/POLITICAL PINK T-SHIRT/2.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "political-pink-t-shirt-2",
+    "name": "3",
+    "sku": "ANT-POL-077",
+    "category": "POLITICAL PINK T-SHIRT",
+    "description": "Premium political pink t-shirt apparel.",
+    "images": [
+      "/product-images/POLITICAL PINK T-SHIRT/3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "polyester-110-gsm-rn-0",
+    "name": "1",
+    "sku": "ANT-POL-078",
+    "category": "POLYESTER 110 GSM R:N",
+    "description": "Premium polyester 110 gsm r:n apparel.",
+    "images": [
+      "/product-images/POLYESTER 110 GSM R:N/1.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "polyester-110-gsm-rn-1",
+    "name": "2",
+    "sku": "ANT-POL-079",
+    "category": "POLYESTER 110 GSM R:N",
+    "description": "Premium polyester 110 gsm r:n apparel.",
+    "images": [
+      "/product-images/POLYESTER 110 GSM R:N/2.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "polyester-110-gsm-rn-2",
     "name": "Ery0358",
-    "sku": "ANT-PLA-089",
-    "category": "PLAIN POLYSTER",
-    "description": "Premium plain polyester apparel. High quality 110 GSM and 140 GSM options. Customizable for your needs.",
+    "sku": "ANT-POL-080",
+    "category": "POLYESTER 110 GSM R:N",
+    "description": "Premium polyester 110 gsm r:n apparel.",
     "images": [
-      "/product-images/PLAIN POLYSTER/_ERY0358.webp",
-      "/product-images/PLAIN POLYSTER/_ERY0359.webp",
-      "/product-images/PLAIN POLYSTER/_ERY0360.webp"
+      "/product-images/POLYESTER 110 GSM R:N/_ERY0358.webp"
     ],
     "fabricWeights": [
       {
-        "value": "110",
-        "label": "110 GSM",
-        "description": "Light weight"
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
       },
       {
-        "value": "140",
-        "label": "140 GSM",
-        "description": "Medium weight"
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
       },
       {
         "value": "custom",
@@ -9729,21 +8734,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PLAIN",
-      "POLYESTER",
       "Premium Quality"
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-0",
-    "name": "Ery0268",
-    "sku": "ANT-PRI-090",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "id": "polyester-140-gsm-rn-0",
+    "name": "1",
+    "sku": "ANT-POL-081",
+    "category": "POLYESTER 140 GSM R:N",
+    "description": "Premium polyester 140 gsm r:n apparel.",
     "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0268.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0269.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0271.webp"
+      "/product-images/POLYESTER 140 GSM R:N/1.webp"
     ],
     "fabricWeights": [
       {
@@ -9840,20 +8841,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
       "Premium Quality"
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-1",
-    "name": "Ery0272",
-    "sku": "ANT-PRI-091",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "id": "polyester-140-gsm-rn-1",
+    "name": "2",
+    "sku": "ANT-POL-082",
+    "category": "POLYESTER 140 GSM R:N",
+    "description": "Premium polyester 140 gsm r:n apparel.",
     "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0272.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0274.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0281.webp"
+      "/product-images/POLYESTER 140 GSM R:N/2.webp"
     ],
     "fabricWeights": [
       {
@@ -9950,20 +8948,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
       "Premium Quality"
     ]
   },
   {
-    "id": "printed-fabric-t-shirt-2",
-    "name": "Ery0284",
-    "sku": "ANT-PRI-092",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
+    "id": "polyester-140-gsm-rn-2",
+    "name": "3",
+    "sku": "ANT-POL-083",
+    "category": "POLYESTER 140 GSM R:N",
+    "description": "Premium polyester 140 gsm r:n apparel.",
     "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0284.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0286.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0292.webp"
+      "/product-images/POLYESTER 140 GSM R:N/3.webp"
     ],
     "fabricWeights": [
       {
@@ -10060,4305 +9055,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-3",
-    "name": "Ery0293",
-    "sku": "ANT-PRI-093",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0293.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0295.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0296.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-4",
-    "name": "Ery0300",
-    "sku": "ANT-PRI-094",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0300.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0303.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0304.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-5",
-    "name": "Ery0305",
-    "sku": "ANT-PRI-095",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0305.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0306.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0307.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-6",
-    "name": "Ery0318",
-    "sku": "ANT-PRI-096",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0318.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0321.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0323.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-7",
-    "name": "Ery0369",
-    "sku": "ANT-PRI-097",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0369.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0370.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0371.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-8",
-    "name": "Ery0372",
-    "sku": "ANT-PRI-098",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0372.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0424.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0425.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-9",
-    "name": "Ery0428",
-    "sku": "ANT-PRI-099",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0428.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0438.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0439.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-10",
-    "name": "Ery0441",
-    "sku": "ANT-PRI-100",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0441.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0467.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0468.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-11",
-    "name": "Ery0471",
-    "sku": "ANT-PRI-101",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0471.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0482.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0483.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-12",
-    "name": "Ery0485",
-    "sku": "ANT-PRI-102",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0485.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0500.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0501.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-13",
-    "name": "Ery0504",
-    "sku": "ANT-PRI-103",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0504.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0517.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0518.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-14",
-    "name": "Ery0520",
-    "sku": "ANT-PRI-104",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0520.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0531.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0532.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-15",
-    "name": "Ery0534",
-    "sku": "ANT-PRI-105",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0534.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0542.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0543.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-16",
-    "name": "Ery0545",
-    "sku": "ANT-PRI-106",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0545.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0549.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0550.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-17",
-    "name": "Ery0552",
-    "sku": "ANT-PRI-107",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0552.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0567.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0568.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-18",
-    "name": "Ery0570",
-    "sku": "ANT-PRI-108",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0570.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0571.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0572.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-19",
-    "name": "Ery0574",
-    "sku": "ANT-PRI-109",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0574.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0582.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0583.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-20",
-    "name": "Ery0585",
-    "sku": "ANT-PRI-110",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0585.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0598.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0599.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-21",
-    "name": "Ery0602",
-    "sku": "ANT-PRI-111",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0602.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0614.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0615.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-22",
-    "name": "Ery0617",
-    "sku": "ANT-PRI-112",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0617.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0618.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0619.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-23",
-    "name": "Ery0621",
-    "sku": "ANT-PRI-113",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0621.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0628.webp",
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0629.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "printed-fabric-t-shirt-24",
-    "name": "Ery0631",
-    "sku": "ANT-PRI-114",
-    "category": "PRINTED FABRIC T-SHIRT",
-    "description": "Printed fabric t-shirts with unique patterns and designs. High quality prints that last wash after wash.",
-    "images": [
-      "/product-images/PRINTED FABRIC T-SHIRT/_ERY0631.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "PRINTED",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "promotional-collar-0",
-    "name": "Ery0330",
-    "sku": "ANT-PRO-115",
-    "category": "PROMOTIONAL COLLAR",
-    "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
-    "images": [
-      "/product-images/PROMOTIONAL COLLAR/_ERY0330.webp",
-      "/product-images/PROMOTIONAL COLLAR/_ERY0332.webp",
-      "/product-images/PROMOTIONAL COLLAR/_ERY0333.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-collar-1",
-    "name": "Ery0334",
-    "sku": "ANT-PRO-116",
-    "category": "PROMOTIONAL COLLAR",
-    "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
-    "images": [
-      "/product-images/PROMOTIONAL COLLAR/_ERY0334.webp",
-      "/product-images/PROMOTIONAL COLLAR/_ERY0654.webp",
-      "/product-images/PROMOTIONAL COLLAR/_ERY0655.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-collar-2",
-    "name": "Ery0658",
-    "sku": "ANT-PRO-117",
-    "category": "PROMOTIONAL COLLAR",
-    "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
-    "images": [
-      "/product-images/PROMOTIONAL COLLAR/_ERY0658.webp",
-      "/product-images/PROMOTIONAL COLLAR/_ERY9048.webp",
-      "/product-images/PROMOTIONAL COLLAR/_ERY9049.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-collar-3",
-    "name": "Ery9051",
-    "sku": "ANT-PRO-118",
-    "category": "PROMOTIONAL COLLAR",
-    "description": "Collar t-shirts designed for promotional campaigns. Cost-effective with great quality for bulk orders.",
-    "images": [
-      "/product-images/PROMOTIONAL COLLAR/_ERY9051.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "COLLAR",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-0",
-    "name": "Ery0350",
-    "sku": "ANT-PRO-119",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0350.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0351.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0352.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-1",
-    "name": "Ery0353",
-    "sku": "ANT-PRO-120",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0353.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0354.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0356.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-2",
-    "name": "Ery0357",
-    "sku": "ANT-PRO-121",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0357.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0374.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0375.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-3",
-    "name": "Ery0376",
-    "sku": "ANT-PRO-122",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0376.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0378.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0382.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-4",
-    "name": "Ery0384",
-    "sku": "ANT-PRO-123",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0384.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0386.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0408.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-5",
-    "name": "Ery0409",
-    "sku": "ANT-PRO-124",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0409.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0415.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0557.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-6",
-    "name": "Ery0558",
-    "sku": "ANT-PRO-125",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0558.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0560.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0577.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-7",
-    "name": "Ery0578",
-    "sku": "ANT-PRO-126",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0578.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0581.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0592.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-8",
-    "name": "Ery0594",
-    "sku": "ANT-PRO-127",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0594.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY0596.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY9025.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "promotional-round-t-shirt-9",
-    "name": "Ery9026",
-    "sku": "ANT-PRO-128",
-    "category": "PROMOTIONAL ROUND T-SHIRT",
-    "description": "Round neck t-shirts perfect for promotional events and campaigns. Affordable bulk pricing with quality assurance.",
-    "images": [
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY9026.webp",
-      "/product-images/PROMOTIONAL ROUND T-SHIRT/_ERY9028.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
-      "PROMOTIONAL"
-    ]
-  },
-  {
-    "id": "round-cut-and-sew-0",
-    "name": "Ery0399",
-    "sku": "ANT-ROU-129",
-    "category": "ROUND CUT AND SEW",
-    "description": "Premium round cut and sew t-shirts with precision tailoring. Comfortable fit and durable stitching.",
-    "images": [
-      "/product-images/ROUND CUT AND SEW/_ERY0399.webp",
-      "/product-images/ROUND CUT AND SEW/_ERY0400.webp",
-      "/product-images/ROUND CUT AND SEW/_ERY0402.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "round-cut-and-sew-1",
-    "name": "Ery0400",
-    "sku": "ANT-ROU-130",
-    "category": "ROUND CUT AND SEW",
-    "description": "Premium round cut and sew t-shirts with precision tailoring. Comfortable fit and durable stitching.",
-    "images": [
-      "/product-images/ROUND CUT AND SEW/_ERY0399.webp",
-      "/product-images/ROUND CUT AND SEW/_ERY0400.webp",
-      "/product-images/ROUND CUT AND SEW/_ERY0402.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "round-cut-and-sew-2",
-    "name": "Ery0402",
-    "sku": "ANT-ROU-131",
-    "category": "ROUND CUT AND SEW",
-    "description": "Premium round cut and sew t-shirts with precision tailoring. Comfortable fit and durable stitching.",
-    "images": [
-      "/product-images/ROUND CUT AND SEW/_ERY0399.webp",
-      "/product-images/ROUND CUT AND SEW/_ERY0400.webp",
-      "/product-images/ROUND CUT AND SEW/_ERY0402.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND",
       "Premium Quality"
     ]
   },
   {
     "id": "salina-round-neck-0",
-    "name": "Ery0404",
-    "sku": "ANT-SAL-132",
+    "name": "1",
+    "sku": "ANT-SAL-084",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0404.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0405.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0407.webp"
+      "/product-images/SALINA ROUND NECK/1.webp"
     ],
     "fabricWeights": [
       {
@@ -14461,14 +9168,12 @@ export const products: Product[] = [
   },
   {
     "id": "salina-round-neck-1",
-    "name": "Ery0420",
-    "sku": "ANT-SAL-133",
+    "name": "2",
+    "sku": "ANT-SAL-085",
     "category": "SALINA ROUND NECK",
     "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
     "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0420.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0421.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0423.webp"
+      "/product-images/SALINA ROUND NECK/2.webp"
     ],
     "fabricWeights": [
       {
@@ -14571,14 +9276,441 @@ export const products: Product[] = [
   },
   {
     "id": "salina-round-neck-2",
+    "name": "3",
+    "sku": "ANT-SAL-086",
+    "category": "SALINA ROUND NECK",
+    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
+    "images": [
+      "/product-images/SALINA ROUND NECK/3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "ROUND NECK",
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "sarina-170-gsm-rn-0",
+    "name": "1",
+    "sku": "ANT-SAR-087",
+    "category": "SARINA 170 GSM R:N",
+    "description": "Premium sarina 170 gsm r:n apparel.",
+    "images": [
+      "/product-images/SARINA 170 GSM R:N/1.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "sarina-170-gsm-rn-1",
+    "name": "2",
+    "sku": "ANT-SAR-088",
+    "category": "SARINA 170 GSM R:N",
+    "description": "Premium sarina 170 gsm r:n apparel.",
+    "images": [
+      "/product-images/SARINA 170 GSM R:N/2.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "sarina-170-gsm-rn-2",
+    "name": "3",
+    "sku": "ANT-SAR-089",
+    "category": "SARINA 170 GSM R:N",
+    "description": "Premium sarina 170 gsm r:n apparel.",
+    "images": [
+      "/product-images/SARINA 170 GSM R:N/3.webp"
+    ],
+    "fabricWeights": [
+      {
+        "value": "160",
+        "label": "160 GSM",
+        "description": "Standard weight"
+      },
+      {
+        "value": "180",
+        "label": "180 GSM",
+        "description": "Premium heavy"
+      },
+      {
+        "value": "custom",
+        "label": "Custom GSM",
+        "description": "Specify your preferred GSM"
+      }
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Fluorescent Green",
+        "hex": "#39FF14"
+      },
+      {
+        "name": "Gold Yellow",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1"
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2"
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#87CEEB"
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3"
+      },
+      {
+        "name": "Black",
+        "hex": "#000000"
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF6600"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Lemon Yellow",
+        "hex": "#FFF44F"
+      },
+      {
+        "name": "Flag Green",
+        "hex": "#138808"
+      },
+      {
+        "name": "Fluorescent Orange",
+        "hex": "#FF5F1F"
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#000080"
+      }
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "customizationOptions": [
+      {
+        "name": "Sublimation"
+      },
+      {
+        "name": "Table Print"
+      },
+      {
+        "name": "Embroidery"
+      }
+    ],
+    "minOrder": 100,
+    "tags": [
+      "Premium Quality"
+    ]
+  },
+  {
+    "id": "sarina-170-gsm-rn-3",
     "name": "Ery0526",
-    "sku": "ANT-SAL-134",
-    "category": "SALINA ROUND NECK",
-    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
+    "sku": "ANT-SAR-090",
+    "category": "SARINA 170 GSM R:N",
+    "description": "Premium sarina 170 gsm r:n apparel.",
     "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0526.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0527.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0530.webp"
+      "/product-images/SARINA 170 GSM R:N/_ERY0526.webp"
     ],
     "fabricWeights": [
       {
@@ -14675,20 +9807,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "ROUND NECK",
       "Premium Quality"
     ]
   },
   {
-    "id": "salina-round-neck-3",
-    "name": "Ery0537",
-    "sku": "ANT-SAL-135",
-    "category": "SALINA ROUND NECK",
-    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
+    "id": "sarina-170-gsm-rn-4",
+    "name": "Ery0527",
+    "sku": "ANT-SAR-091",
+    "category": "SARINA 170 GSM R:N",
+    "description": "Premium sarina 170 gsm r:n apparel.",
     "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0537.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0538.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0541.webp"
+      "/product-images/SARINA 170 GSM R:N/_ERY0527.webp"
     ],
     "fabricWeights": [
       {
@@ -14785,20 +9914,17 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "ROUND NECK",
       "Premium Quality"
     ]
   },
   {
-    "id": "salina-round-neck-4",
-    "name": "Ery0587",
-    "sku": "ANT-SAL-136",
-    "category": "SALINA ROUND NECK",
-    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
+    "id": "sarina-170-gsm-rn-5",
+    "name": "Ery0530",
+    "sku": "ANT-SAR-092",
+    "category": "SARINA 170 GSM R:N",
+    "description": "Premium sarina 170 gsm r:n apparel.",
     "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0587.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0588.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0590.webp"
+      "/product-images/SARINA 170 GSM R:N/_ERY0530.webp"
     ],
     "fabricWeights": [
       {
@@ -14895,130 +10021,19 @@ export const products: Product[] = [
     ],
     "minOrder": 100,
     "tags": [
-      "ROUND NECK",
-      "Premium Quality"
-    ]
-  },
-  {
-    "id": "salina-round-neck-5",
-    "name": "Ery0660",
-    "sku": "ANT-SAL-137",
-    "category": "SALINA ROUND NECK",
-    "description": "Salina round neck t-shirts with premium fabric quality. Soft touch and comfortable wear.",
-    "images": [
-      "/product-images/SALINA ROUND NECK/_ERY0660.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0661.webp",
-      "/product-images/SALINA ROUND NECK/_ERY0663.webp"
-    ],
-    "fabricWeights": [
-      {
-        "value": "160",
-        "label": "160 GSM",
-        "description": "Standard weight"
-      },
-      {
-        "value": "180",
-        "label": "180 GSM",
-        "description": "Premium heavy"
-      },
-      {
-        "value": "custom",
-        "label": "Custom GSM",
-        "description": "Specify your preferred GSM"
-      }
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF"
-      },
-      {
-        "name": "Fluorescent Green",
-        "hex": "#39FF14"
-      },
-      {
-        "name": "Gold Yellow",
-        "hex": "#FFD700"
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1"
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2"
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#87CEEB"
-      },
-      {
-        "name": "Light Gray",
-        "hex": "#D3D3D3"
-      },
-      {
-        "name": "Black",
-        "hex": "#000000"
-      },
-      {
-        "name": "Orange",
-        "hex": "#FF6600"
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000"
-      },
-      {
-        "name": "Lemon Yellow",
-        "hex": "#FFF44F"
-      },
-      {
-        "name": "Flag Green",
-        "hex": "#138808"
-      },
-      {
-        "name": "Fluorescent Orange",
-        "hex": "#FF5F1F"
-      },
-      {
-        "name": "Navy Blue",
-        "hex": "#000080"
-      }
-    ],
-    "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL"
-    ],
-    "customizationOptions": [
-      {
-        "name": "Sublimation"
-      },
-      {
-        "name": "Table Print"
-      },
-      {
-        "name": "Embroidery"
-      }
-    ],
-    "minOrder": 100,
-    "tags": [
-      "ROUND NECK",
       "Premium Quality"
     ]
   },
   {
     "id": "slub-t-shirt-0",
-    "name": "Ery0416",
-    "sku": "ANT-SLU-138",
+    "name": "1.1",
+    "sku": "ANT-SLU-093",
     "category": "SLUB T-SHIRT",
     "description": "Slub t-shirts with unique textured fabric. Modern look with comfortable fit.",
     "images": [
-      "/product-images/SLUB T-SHIRT/_ERY0416.webp",
-      "/product-images/SLUB T-SHIRT/_ERY0417.webp",
-      "/product-images/SLUB T-SHIRT/_ERY0419.webp"
+      "/product-images/SLUB T-SHIRT/1.1.webp",
+      "/product-images/SLUB T-SHIRT/1.2.webp",
+      "/product-images/SLUB T-SHIRT/1.3.webp"
     ],
     "fabricWeights": [
       {
@@ -15121,14 +10136,14 @@ export const products: Product[] = [
   },
   {
     "id": "slub-t-shirt-1",
-    "name": "Ery0448",
-    "sku": "ANT-SLU-139",
+    "name": "2.1",
+    "sku": "ANT-SLU-094",
     "category": "SLUB T-SHIRT",
     "description": "Slub t-shirts with unique textured fabric. Modern look with comfortable fit.",
     "images": [
-      "/product-images/SLUB T-SHIRT/_ERY0448.webp",
-      "/product-images/SLUB T-SHIRT/_ERY0449.webp",
-      "/product-images/SLUB T-SHIRT/_ERY0453.webp"
+      "/product-images/SLUB T-SHIRT/2.1.webp",
+      "/product-images/SLUB T-SHIRT/2.2.webp",
+      "/product-images/SLUB T-SHIRT/2.3.webp"
     ],
     "fabricWeights": [
       {
@@ -15231,14 +10246,14 @@ export const products: Product[] = [
   },
   {
     "id": "slub-t-shirt-2",
-    "name": "Ery0454",
-    "sku": "ANT-SLU-140",
+    "name": "3.1",
+    "sku": "ANT-SLU-095",
     "category": "SLUB T-SHIRT",
     "description": "Slub t-shirts with unique textured fabric. Modern look with comfortable fit.",
     "images": [
-      "/product-images/SLUB T-SHIRT/_ERY0454.webp",
-      "/product-images/SLUB T-SHIRT/_ERY0455.webp",
-      "/product-images/SLUB T-SHIRT/_ERY0457.webp"
+      "/product-images/SLUB T-SHIRT/3.1.webp",
+      "/product-images/SLUB T-SHIRT/3.2.webp",
+      "/product-images/SLUB T-SHIRT/3.3.webp"
     ],
     "fabricWeights": [
       {
@@ -15341,7 +10356,7 @@ export const products: Product[] = [
   }
 ];
 
-export const categories = ["All", "COLLAR CUT AND SEW", "COLLAR PRINT POCK", "COLLAR SHOW PATTI", "COLLAR T-SHIRT", "COLLAR WITH POCK", "CREW COLLAR T-SHIRT", "FULL SUBLIMATION", "GANESHA T-SHIRT", "INDEPENDENCE DAY", "KIDS PRINTED T-SHIRT", "LS PRINTED", "NIRMALKNIT ROUND NECK", "NIRMALKNIT V NECK", "PLAIN POLYSTER", "PRINTED FABRIC T-SHIRT", "PROMOTIONAL COLLAR", "PROMOTIONAL ROUND T-SHIRT", "ROUND CUT AND SEW", "SALINA ROUND NECK", "SLUB T-SHIRT"];
+export const categories = ["All", "COLLAR 240 GSM", "COLLAR BUDGETED", "COLLAR PRINT POCK", "COLLAR WITH POCK", "CONTRAST COLLAR T-SHIRT", "CREW COLLAR T-SHIRT", "CUSTOMIZED COLLAR CUT AND SEW", "CUSTOMIZED CUT AND SEW T-SHIRT", "CUSTOMIZED GANESHA", "CUSTOMIZED PROMO COLLAR T-SHIRT", "CUSTOMIZED ROUND NECK T-SHIRT", "CUSTOMIZED TIPPING COLLAR", "EVENT T-SHIRT", "EXPORT CUSTOMIZED  PROMO T-SHIRT", "GANESHA T-SHIRT", "INDEPENDENCE DAY", "KIDS COLLAR T-SHIRT", "KIDS PRINTED R:N  T-SHIRT", "LS PRINTED", "MARATHON T-SHIRT", "NIRMALKNIT V NECK", "POLITICAL PINK T-SHIRT", "POLYESTER 110 GSM R:N", "POLYESTER 140 GSM R:N", "SALINA ROUND NECK", "SARINA 170 GSM R:N", "SLUB T-SHIRT"];
 
 export const getProductById = (id: string): Product | undefined => {
   return products.find((p) => p.id === id);

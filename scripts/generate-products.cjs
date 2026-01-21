@@ -253,30 +253,52 @@ function generateProducts() {
 
     for (const category of categories) {
         const categoryPath = path.join(productImagesDir, category);
-        const config = categoryConfigs[category] || { groupSize: 3 };
+        const config = categoryConfigs[category] || {};
 
         const files = fs.readdirSync(categoryPath)
             .filter(f => f.endsWith('.webp') && !f.includes('-Recovered'))
-            .sort();
+            .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 
         if (files.length === 0) continue;
 
-        const groupSize = config.groupSize;
+        // Group files by prefix (e.g., "1" from "1.1.webp", "1.2.webp", "_ERY0358" from "_ERY0358.webp")
+        const groups = {};
 
-        // All images for this category (used when allImages flag is set)
-        const allCategoryImages = files.map(f => `/product-images/${category}/${f}`);
+        files.forEach(file => {
+            const basename = file.replace('.webp', '');
+            // Extract prefix: "1.1" -> "1", "1.2" -> "1", "5" -> "5", "_ERY0358" -> "_ERY0358"
+            const match = basename.match(/^(\d+)(?:\.|$)|^([^.]+)$/);
+            const prefix = match ? (match[1] || match[2]) : basename;
 
-        // Group files into products based on groupSize
-        let productIndex = 0;
-        for (let i = 0; i < files.length; i += groupSize) {
-            const groupFiles = files.slice(i, i + groupSize);
+            if (!groups[prefix]) {
+                groups[prefix] = [];
+            }
+            groups[prefix].push(file);
+        });
+
+        // Sort group keys: numbers first (numerically), then others (alphabetically)
+        const sortedGroupKeys = Object.keys(groups).sort((a, b) => {
+            const aNum = parseInt(a);
+            const bNum = parseInt(b);
+            if (!isNaN(aNum) && !isNaN(bNum)) {
+                return aNum - bNum;
+            }
+            if (!isNaN(aNum)) return -1;
+            if (!isNaN(bNum)) return 1;
+            return a.localeCompare(b);
+        });
+
+        // Create one product per group
+        sortedGroupKeys.forEach((groupKey, productIndex) => {
+            const groupFiles = groups[groupKey];
             const firstFile = groupFiles[0];
-            const productName = extractNameFromFile(firstFile);
 
-            // If allImages flag is set, use all images; otherwise use grouped images
-            const images = config.allImages
-                ? allCategoryImages
-                : groupFiles.map(f => `/product-images/${category}/${f}`);
+            let productName = extractNameFromFile(firstFile);
+            if (/^\d+$/.test(productName)) {
+                productName = String(productIndex + 1);
+            }
+
+            const images = groupFiles.map(f => `/product-images/${category}/${f}`);
 
             const product = {
                 id: generateSlug(category, productIndex),
@@ -294,9 +316,8 @@ function generateProducts() {
             };
 
             products.push(product);
-            productIndex++;
             globalIndex++;
-        }
+        });
     }
 
     return products;

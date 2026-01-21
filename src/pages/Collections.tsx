@@ -237,7 +237,9 @@ const Collections = () => {
                               </span>
                             ))}
                           </div>
-                          <h3 className="font-display text-2xl text-white mb-1 leading-tight">{product.name}</h3>
+                          <h3 className="font-display text-2xl text-white mb-1 leading-tight">
+                            {/^\d+(\.\d+)?$/.test(product.name) ? "" : product.name}
+                          </h3>
                           <p className="text-white/60 text-[10px] uppercase tracking-widest font-bold">{product.sku}</p>
                         </div>
                       </div>
@@ -249,7 +251,7 @@ const Collections = () => {
                             {product.category}
                           </p>
                           <h3 className="font-display text-lg text-foreground group-hover:text-primary transition-all">
-                            {product.name}
+                            {/^\d+(\.\d+)?$/.test(product.name) ? <span className="opacity-0">.</span> : product.name}
                           </h3>
                         </div>
                       </div>
